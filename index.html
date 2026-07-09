@@ -1,0 +1,663 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCB / ISSUE Dashboard - Greatech</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0f1117;
+      --bg2:      #1a1d27;
+      --bg3:      #161924;
+      --bg-hover: #1f2235;
+      --border:   #2a2d3e;
+      --text:     #e0e0e0;
+      --text2:    #aaa;
+      --text3:    #666;
+      --text4:    #555;
+      --text5:    #333;
+    }
+    body.light {
+      --bg:       #f0f2f5;
+      --bg2:      #ffffff;
+      --bg3:      #f8f9fa;
+      --bg-hover: #e8eaed;
+      --border:   #dee2e6;
+      --text:     #212529;
+      --text2:    #495057;
+      --text3:    #6c757d;
+      --text4:    #868e96;
+      --text5:    #ccc;
+    }
+
+    body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.2s, color 0.2s; }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #dee2e6;
+      padding: 14px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .header-left { display: flex; align-items: center; gap: 14px; }
+    .logo-icon {
+      width: 40px; height: 40px; border-radius: 10px; flex-shrink: 0;
+      background: linear-gradient(135deg, #0078d4 0%, #00bcf2 100%);
+      color: #fff; font-weight: 900; font-size: 1.3rem;
+      display: flex; align-items: center; justify-content: center;
+      letter-spacing: -1px;
+    }
+    .logo-company { font-size: 0.65rem; font-weight: 700; color: #4a9fd4; letter-spacing: 2px; text-transform: uppercase; }
+    .logo-title   { font-size: 1.1rem; font-weight: 600; color: #1a1d27; margin-top: 1px; }
+    .header-right { display: flex; align-items: center; gap: 16px; }
+    .header-right span { font-size: 0.75rem; color: #555; }
+
+    .theme-btn {
+      border: 1px solid #c0cfe0; border-radius: 6px;
+      background: #e8f0f8; color: #1a5a8a;
+      padding: 5px 14px; font-size: 0.78rem; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .theme-btn:hover { background: #d0e2f0; }
+    .export-btn {
+      border: 1px solid #1a4d2e; border-radius: 6px;
+      background: #1a3d2a; color: #4caf7d;
+      padding: 5px 14px; font-size: 0.78rem; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .export-btn:hover { background: #1e5235; }
+
+    .status-bar { padding: 7px 32px; font-size: 0.76rem; color: var(--text3); border-bottom: 1px solid var(--border); }
+    .status-bar.loading { color: #0078d4; }
+    .status-bar.error   { color: #e05252; }
+    .status-bar.done    { color: #4caf7d; }
+
+    main { padding: 24px 32px; }
+
+    .kpi-row { display: grid; grid-template-columns: repeat(5,1fr); gap: 16px; margin-bottom: 24px; }
+    .kpi { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+    .kpi .label { font-size: 0.73rem; color: var(--text3); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .kpi .value { font-size: 2rem; font-weight: 700; }
+    .kpi .sub   { font-size: 0.72rem; color: var(--text4); margin-top: 4px; }
+    .kpi.total    .value { color: #0078d4; }
+    .kpi.open     .value { color: #e05252; }
+    .kpi.closed   .value { color: #4caf7d; }
+    .kpi.rate     .value { color: #f5c842; }
+    .kpi.newissue .value { color: #00bcf2; }
+
+    .chart-row { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+    .chart-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+    .chart-card h3 { font-size: 0.82rem; color: var(--text2); margin-bottom: 16px; font-weight: 500; }
+    .chart-card canvas { max-height: 240px; }
+
+    .overdue-section { margin-bottom: 24px; }
+    .overdue-section h2 { font-size: 0.82rem; color: var(--text3); font-weight: 600; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .accordion { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; overflow: hidden; }
+    .accordion-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 15px 20px; background: var(--bg2); cursor: pointer; user-select: none;
+      transition: background 0.15s;
+    }
+    .accordion-header:hover { background: var(--bg-hover); }
+    .acc-title { font-size: 0.92rem; font-weight: 600; color: var(--text); }
+    .acc-badge { display: inline-flex; gap: 10px; align-items: center; }
+    .acc-count { font-size: 0.75rem; color: #e05252; background: rgba(224,82,82,0.15); padding: 2px 10px; border-radius: 20px; }
+    .acc-arrow { color: var(--text3); font-size: 0.75rem; transition: transform 0.2s; }
+    .accordion.open .acc-arrow { transform: rotate(180deg); }
+    .accordion-body { display: none; }
+    .accordion.open .accordion-body { display: block; }
+
+    .machine-group { border-top: 1px solid var(--border); }
+    .machine-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 11px 20px; background: var(--bg3); cursor: pointer;
+      font-size: 0.8rem; color: var(--text3); user-select: none;
+    }
+    .machine-header:hover { background: var(--bg-hover); }
+    .machine-tag { font-weight: 700; font-size: 0.7rem; padding: 2px 8px; border-radius: 4px; }
+    .machine-tag.TEM { background: rgba(91,155,213,0.15); color: #5b9bd5; }
+    .machine-tag.WDB { background: rgba(76,175,125,0.15); color: #4caf7d; }
+    .machine-tag.SDB { background: rgba(169,143,213,0.15); color: #a98fd5; }
+    .machine-count { color: var(--text4); font-size: 0.73rem; }
+    .machine-arrow { margin-left: auto; color: var(--text4); font-size: 0.7rem; transition: transform 0.2s; }
+    .machine-group.open .machine-arrow { transform: rotate(180deg); }
+    .machine-body { display: none; }
+    .machine-group.open .machine-body { display: block; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    th {
+      text-align: left; padding: 9px 16px; color: var(--text4); font-weight: 600;
+      border-bottom: 1px solid var(--border); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4px;
+    }
+    td { padding: 9px 16px; border-bottom: 1px solid var(--border); vertical-align: top; color: var(--text); }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--bg-hover); }
+
+    .badge { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
+    .badge.High     { background: rgba(224,82,82,0.18);  color: #e05252; }
+    .badge.Critical { background: rgba(224,82,82,0.18);  color: #e05252; }
+    .badge.Urgent   { background: rgba(224,82,82,0.18);  color: #e05252; }
+    .badge.Important{ background: rgba(230,150,60,0.18); color: #e6963c; }
+    .badge.Medium   { background: rgba(245,200,66,0.18); color: #d4a800; }
+    .badge.Low      { background: rgba(76,175,125,0.18); color: #4caf7d; }
+    .badge.Unknown  { background: rgba(150,150,150,0.15); color: var(--text4); }
+
+    body.light .badge.Medium { color: #b88a00; }
+
+    .ccb-tag { font-weight: 700; color: #5b9bd5; white-space: nowrap; }
+    .desc { max-width: 320px; word-break: break-word; line-height: 1.4; }
+    .due-overdue { color: #e05252; font-weight: 600; }
+    .empty-msg { padding: 24px 16px; color: var(--text4); font-size: 0.8rem; text-align: center; }
+
+    .kpi.clickable { cursor: pointer; transition: border-color 0.15s; }
+    .kpi.clickable:hover { border-color: #555; background: var(--bg-hover); }
+    .kpi.clickable.active { border-color: #0078d4; }
+    .kpi-panel { display:none; background:var(--bg2); border:1px solid var(--border); border-radius:10px; margin-bottom:24px; overflow:hidden; }
+    .kpi-panel.open { display:block; }
+    .kpi-panel-hdr { padding:12px 20px; font-size:0.82rem; font-weight:600; color:var(--text2); border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; }
+    .kpi-panel-hdr span { font-size:0.73rem; color:var(--text4); font-weight:400; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="logo.png" style="height:38px;width:auto;border-radius:6px;" alt="Greatech">
+    <div>
+      
+      <div class="logo-title">CCB / ISSUE Dashboard</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <span id="last-updated"></span>
+    <button class="export-btn" onclick="exportExcel()">&#8595; Export Excel</button>
+    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">&#9788; Light</button>
+  </div>
+</header>
+
+<div class="status-bar loading" id="status">Loading data...</div>
+
+<main id="main" style="display:none">
+
+  <div class="kpi-row">
+    <div class="kpi newissue clickable" onclick="toggleKpiPanel('new')" title="Click to view new issues">
+      <div class="label">New Issue</div>
+      <div class="value" id="kpi-new">--</div>
+      <div class="sub" id="kpi-new-week">this week</div>
+    </div>
+    <div class="kpi total">
+      <div class="label">Total Issues</div>
+      <div class="value" id="kpi-total">--</div>
+      <div class="sub">across all machines</div>
+    </div>
+    <div class="kpi open clickable" onclick="toggleKpiPanel('open')" title="Click to view open issues">
+      <div class="label">Open</div>
+      <div class="value" id="kpi-open">--</div>
+      <div class="sub">needs attention</div>
+    </div>
+    <div class="kpi closed">
+      <div class="label">Closed</div>
+      <div class="value" id="kpi-closed">--</div>
+      <div class="sub">resolved</div>
+    </div>
+    <div class="kpi rate">
+      <div class="label">Resolution Rate</div>
+      <div class="value" id="kpi-rate">--%</div>
+      <div class="sub">closed / total</div>
+    </div>
+  </div>
+
+  <div class="kpi-panel" id="kpi-panel">
+    <div class="kpi-panel-hdr"><div id="kpi-panel-title">Issues</div><span id="kpi-panel-count"></span></div>
+    <div id="kpi-panel-body"></div>
+  </div>
+
+  <div class="chart-row">
+    <div class="chart-card">
+      <h3>Issues by Status per Machine</h3>
+      <canvas id="chart-status"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Issues by Priority</h3>
+      <canvas id="chart-priority"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Weekly Closure Rate <span id="closure-week" style="color:var(--text4);font-weight:400;font-size:0.72rem"></span></h3>
+      <div id="closure-body"></div>
+    </div>
+  </div>
+
+  <div class="overdue-section">
+    <h2>Overdue Issues</h2>
+
+    <div class="accordion" id="acc-1w">
+      <div class="accordion-header" onclick="toggleAcc('acc-1w')">
+        <span class="acc-title">Overdue 1 Week <small style="font-weight:400;font-size:0.75rem;opacity:0.5">&nbsp;1-7 days past due</small></span>
+        <span class="acc-badge">
+          <span class="acc-count" id="count-1w">0 items</span>
+          <span class="acc-arrow">&#9660;</span>
+        </span>
+      </div>
+      <div class="accordion-body" id="body-1w"></div>
+    </div>
+
+    <div class="accordion" id="acc-2w">
+      <div class="accordion-header" onclick="toggleAcc('acc-2w')">
+        <span class="acc-title">Overdue 2 Weeks <small style="font-weight:400;font-size:0.75rem;opacity:0.5">&nbsp;8+ days past due</small></span>
+        <span class="acc-badge">
+          <span class="acc-count" id="count-2w">0 items</span>
+          <span class="acc-arrow">&#9660;</span>
+        </span>
+      </div>
+      <div class="accordion-body" id="body-2w"></div>
+    </div>
+  </div>
+
+  <div style="padding:6px 0;font-size:0.7rem;color:var(--text4);text-align:right">
+    Generated: <span id="gen-time"></span> &nbsp;&middot;&nbsp; Auto-refreshes every 30s
+  </div>
+
+</main>
+
+<script>
+if (typeof Chart !== 'undefined') Chart.defaults.animation = false; // charts redraw every 30s refresh - skip replaying animation
+const MACHINES = ['TEM','WDB','SDB'];
+const MLABEL = {'TEM':'TEM','WDB':'WDB','SDB':'SDB'};
+
+// Normalise priority to title case
+function normPri(raw) {
+  if (!raw || !raw.trim()) return 'Low';
+  const s = raw.trim();
+  const p = s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+  return p === 'Unknown' ? 'Low' : p;
+}
+
+// Chart grouping: High + high + Urgent + Critical all -> 'High'
+function chartPri(raw) {
+  const p = normPri(raw);
+  if (['Critical','Urgent','High','Important'].includes(p)) return 'High';
+  return p;
+}
+
+// Status helpers
+function isMonitoring(status) {
+  return (status||'').toLowerCase().includes('monitoring');
+}
+function barStatus(item) {
+  if (item.is_closed) return 'Closed';
+  if (!item.status || item.status === 'Not Started') return 'Not Started';
+  if (isMonitoring(item.status)) return 'Monitoring';
+  return 'Open';
+}
+
+const PRI_ORDER = {high:0,critical:0,urgent:0,important:1,medium:2,low:3,unknown:9};
+function priKey(p) { return PRI_ORDER[(p||'').toLowerCase()] ?? 5; }
+
+const today = new Date(); today.setHours(0,0,0,0);
+const oneWeekAgo = new Date(today); oneWeekAgo.setDate(today.getDate()-7);
+
+// Current ISO week: Monday to Sunday
+function currWeekRange() {
+  const d = new Date(today);
+  const day = d.getDay(); // 0=Sun
+  const mon = new Date(d); mon.setDate(d.getDate() - (day===0 ? 6 : day-1));
+  const sun = new Date(mon); sun.setDate(mon.getDate()+6); sun.setHours(23,59,59,999);
+  return {mon, sun};
+}
+const {mon: weekStart, sun: weekEnd} = currWeekRange();
+
+function parseDate(s) {
+  if (!s || typeof s!=='string' || s.startsWith('#') || s==='00:00:00') return null;
+  const d = new Date(s);
+  return isNaN(d.getTime()) ? null : d;
+}
+
+function overdueCategory(item) {
+  if (item.is_closed) return null;
+  const d = parseDate(item.due_date);
+  if (!d) return null;
+  if (d < oneWeekAgo) return '2w';
+  if (d < today)      return '1w';
+  return null;
+}
+
+function toggleAcc(id) { document.getElementById(id).classList.toggle('open'); }
+function toggleMachine(el) { el.parentElement.classList.toggle('open'); }
+
+let isDark = true;
+function toggleTheme() {
+  isDark = !isDark;
+  document.body.classList.toggle('light', !isDark);
+  document.getElementById('theme-btn').textContent = isDark ? '☀ Light' : '☽ Dark';
+  if (currentData) renderDashboard(currentData);
+}
+
+function priBadge(raw) {
+  const p = normPri(raw);
+  return '<span class="badge ' + p + '">' + p + '</span>';
+}
+
+function buildTable(items) {
+  if (!items.length) return '<div class="empty-msg">No items.</div>';
+  const sorted = [...items].sort((a,b) => priKey(a.priority)-priKey(b.priority));
+  const rows = sorted.map(r => {
+    const d = parseDate(r.due_date);
+    const daysOver = d ? Math.floor((today-d)/86400000) : 0;
+    const dueStr = d ? '<span class="due-overdue">' + r.due_date + ' <small>(' + daysOver + 'd)</small></span>' : '-';
+    const desc = (r.description||'').replace(/\n/g,' ').substring(0,120) + ((r.description||'').length>120?'...':'');
+    return '<tr><td><span class="ccb-tag">' + (r.ccb||'-') + '</span></td>' +
+      '<td class="desc">' + desc + '</td>' +
+      '<td>' + dueStr + '</td>' +
+      '<td>' + priBadge(r.priority) + '</td>' +
+      '<td>' + (r.pic||'-') + '</td>' +
+      '<td>' + (r.role||'-') + '</td></tr>';
+  }).join('');
+  return '<table><thead><tr><th>CCB#</th><th>Description</th><th>Due Date</th><th>Priority</th><th>PIC</th><th>Role</th></tr></thead><tbody>' + rows + '</tbody></table>';
+}
+
+function buildMachineGroups(items, containerId) {
+  const body = document.getElementById(containerId);
+  body.innerHTML = '';
+  let total = 0;
+  MACHINES.forEach(mt => {
+    const sub = items.filter(r => r.machine_type===mt);
+    total += sub.length;
+    const div = document.createElement('div');
+    div.className = 'machine-group';
+    div.innerHTML =
+      '<div class="machine-header" onclick="toggleMachine(this)">' +
+        '<span class="machine-tag ' + mt + '">' + MLABEL[mt] + '</span>' +
+        '<span class="machine-count">' + sub.length + ' item' + (sub.length!==1?'s':'') + '</span>' +
+        '<span class="machine-arrow">&#9660;</span>' +
+      '</div>' +
+      '<div class="machine-body">' + buildTable(sub) + '</div>';
+    body.appendChild(div);
+  });
+  return total;
+}
+
+let chartStatus   = null;
+let chartPriority = null;
+let currentData   = null;
+let currentGenerated = null;
+
+function getChartTextColor() { return isDark ? '#888' : '#6c757d'; }
+function getGridColor()      { return isDark ? '#2a2d3e' : '#e0e0e0'; }
+
+function renderDashboard(data) {
+  currentData = data;
+  const items = data.items || [];
+
+  document.getElementById('gen-time').textContent = data.generated || '';
+  document.getElementById('last-updated').textContent = 'Updated: ' + (data.generated||'');
+  document.getElementById('main').style.display = '';
+
+  const total  = items.length;
+  const open   = items.filter(r => !r.is_closed).length;
+  const closed = total - open;
+  document.getElementById('kpi-total').textContent  = total;
+  document.getElementById('kpi-open').textContent   = open;
+  document.getElementById('kpi-closed').textContent = closed;
+  document.getElementById('kpi-rate').textContent   = total ? Math.round(closed/total*100)+'%' : '--';
+
+  // New Issue this week
+  const newCount = items.filter(r => {
+    const d = parseDate(r.created_date);
+    return d && d >= weekStart && d <= weekEnd;
+  }).length;
+  document.getElementById('kpi-new').textContent = newCount;
+  const wkLabel = weekStart.toLocaleDateString('en-GB',{day:'2-digit',month:'short'}) +
+    ' - ' + weekEnd.toLocaleDateString('en-GB',{day:'2-digit',month:'short'});
+  document.getElementById('kpi-new-week').textContent = wkLabel;
+
+  if (chartStatus)   { chartStatus.destroy();   chartStatus   = null; }
+  if (chartPriority) { chartPriority.destroy(); chartPriority = null; }
+
+  const tc = getChartTextColor();
+  const gc = getGridColor();
+
+  // Bar chart: Open / Monitoring / Unknown / Closed per machine
+  chartStatus = new Chart(document.getElementById('chart-status'), {
+    type: 'bar',
+    data: {
+      labels: MACHINES.map(m=>MLABEL[m]),
+      datasets: [
+        { label:'Open',       data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Open').length),       backgroundColor:'#e05252' },
+        { label:'Monitoring', data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Monitoring').length), backgroundColor:'#f5c842' },
+        { label:'Not Started', data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Not Started').length), backgroundColor:'#6c8ebf' },
+        { label:'Closed',     data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Closed').length),     backgroundColor:'#4caf7d' }
+      ]
+    },
+    options: {
+      responsive:true,
+      plugins:{legend:{labels:{color:tc}}},
+      scales:{
+        x:{stacked:true, ticks:{color:tc}, grid:{color:gc}},
+        y:{stacked:true, ticks:{color:tc}, grid:{color:gc}}
+      }
+    }
+  });
+
+  // Priority chart: High+high+Urgent+Critical -> High (red), Medium -> yellow, Low -> green
+  const priGroups = {};
+  items.forEach(r => {
+    const p = chartPri(r.priority);
+    priGroups[p] = (priGroups[p]||0)+1;
+  });
+  const PRI_COLORS = { High:'#e05252', Medium:'#f5c842', Low:'#4caf7d', Unknown:'#888888' };
+  const ORDER = ['High','Medium','Low','Unknown'];
+  const priLabels = ORDER.filter(p => priGroups[p]);
+
+  chartPriority = new Chart(document.getElementById('chart-priority'), {
+    type: 'doughnut',
+    data: {
+      labels: priLabels,
+      datasets: [{ data: priLabels.map(p=>priGroups[p]), backgroundColor: priLabels.map(p=>PRI_COLORS[p]||'#555'), borderColor: isDark?'#0f1117':'#f0f2f5', borderWidth:2 }]
+    },
+    options: { responsive:true, plugins:{legend:{position:'right', labels:{color:tc, boxWidth:14}}} }
+  });
+
+  renderClosureRate(items);
+
+  const o1 = items.filter(r=>overdueCategory(r)==='1w');
+  const o2 = items.filter(r=>overdueCategory(r)==='2w');
+  const c1 = buildMachineGroups(o1,'body-1w');
+  const c2 = buildMachineGroups(o2,'body-2w');
+  document.getElementById('count-1w').textContent = c1 + ' item' + (c1!==1?'s':'');
+  document.getElementById('count-2w').textContent = c2 + ' item' + (c2!==1?'s':'');
+  if (c1>0) document.getElementById('acc-1w').classList.add('open');
+  if (c2>0) document.getElementById('acc-2w').classList.add('open');
+}
+
+// Closure rate = closed this week / open at end of last week.
+// Denominator reconstructed as (currently open) + (closed since Monday) -- exact,
+// no historical snapshot needed. Last-week column adds closures of that week back in.
+function closureStats(items, mt) {
+  const sub = mt ? items.filter(r => r.machine_type === mt) : items;
+  const openNow = sub.filter(r => !r.is_closed).length;
+  const lastWeekStart = new Date(weekStart); lastWeekStart.setDate(weekStart.getDate() - 7);
+  let closedThis = 0, closedLast = 0, closedTotal = 0, closedDated = 0;
+  sub.forEach(r => {
+    if (!r.is_closed) return;
+    closedTotal++;
+    const d = parseDate(r.closed_date);
+    if (!d) return;
+    closedDated++;
+    if (d >= weekStart) closedThis++;
+    else if (d >= lastWeekStart) closedLast++;
+  });
+  const denThis = openNow + closedThis;               // open at end of last week
+  const denLast = openNow + closedThis + closedLast;  // open at end of week before
+  return {openNow, closedThis, closedLast, denThis, denLast, closedTotal, closedDated};
+}
+
+function rateStr(closed, den) {
+  if (!den) return '<span style="color:var(--text4)">n/a</span>';
+  const pct = (closed / den * 100).toFixed(1);
+  const col = closed > 0 ? '#4caf7d' : 'var(--text4)';
+  return '<b>' + closed + '</b> / ' + den + ' &rarr; <b style="color:' + col + '">' + pct + '%</b>';
+}
+
+function renderClosureRate(items) {
+  document.getElementById('closure-week').textContent =
+    weekStart.toLocaleDateString('en-GB', {day:'2-digit', month:'short'}) + ' - ' +
+    weekEnd.toLocaleDateString('en-GB', {day:'2-digit', month:'short'});
+
+  let rows = '';
+  MACHINES.concat([null]).forEach(mt => {
+    const s = closureStats(items, mt);
+    const name = mt
+      ? '<span class="machine-tag ' + mt + '">' + MLABEL[mt] + '</span>'
+      : '<b>Total</b>';
+    rows += '<tr' + (mt ? '' : ' style="border-top:2px solid var(--border)"') + '>' +
+      '<td>' + name + '</td>' +
+      '<td>' + rateStr(s.closedThis, s.denThis) + '</td>' +
+      '<td style="color:var(--text3)">' + rateStr(s.closedLast, s.denLast) + '</td></tr>';
+  });
+  document.getElementById('closure-body').innerHTML =
+    '<table><thead><tr><th>Machine</th><th>This Week</th><th>Last Week</th></tr></thead><tbody>' +
+    rows + '</tbody></table>';
+}
+
+let kpiPanelMode = null;
+function toggleKpiPanel(mode) {
+  const panel = document.getElementById('kpi-panel');
+  const body  = document.getElementById('kpi-panel-body');
+  const title = document.getElementById('kpi-panel-title');
+  const count = document.getElementById('kpi-panel-count');
+  document.querySelectorAll('.kpi.clickable').forEach(el => el.classList.remove('active'));
+
+  if (kpiPanelMode === mode && panel.classList.contains('open')) {
+    panel.classList.remove('open');
+    kpiPanelMode = null;
+    return;
+  }
+  kpiPanelMode = mode;
+  panel.classList.add('open');
+
+  const items = currentData ? currentData.items || [] : [];
+  let subset, label;
+  if (mode === 'new') {
+    subset = items.filter(r => { const d=parseDate(r.created_date); return d && d>=weekStart && d<=weekEnd; });
+    label  = 'New Issues This Week';
+    document.querySelector('.kpi.newissue').classList.add('active');
+  } else {
+    subset = items.filter(r => !r.is_closed);
+    label  = 'All Open Issues';
+    document.querySelector('.kpi.open').classList.add('active');
+  }
+
+  title.textContent = label;
+  count.textContent = subset.length + ' item' + (subset.length !== 1 ? 's' : '');
+
+  let html = '';
+  MACHINES.forEach(mt => {
+    const sub = subset.filter(r => r.machine_type === mt);
+    if (!sub.length) return;
+    const sorted = [...sub].sort((a,b) => priKey(normPri(a.priority)) - priKey(normPri(b.priority)));
+    html += '<div class="machine-group open">' +
+      '<div class="machine-header" onclick="toggleMachine(this)">' +
+        '<span class="machine-tag ' + mt + '">' + MLABEL[mt] + '</span>' +
+        '<span class="machine-count">' + sub.length + ' item' + (sub.length!==1?'s':'') + '</span>' +
+        '<span class="machine-arrow">&#9660;</span>' +
+      '</div>' +
+      '<div class="machine-body">' + buildTable(sorted) + '</div>' +
+    '</div>';
+  });
+  body.innerHTML = html || '<div class="empty-msg">No items.</div>';
+}
+
+async function loadData(silent=false) {
+  const status = document.getElementById('status');
+  if (!silent) { status.className='status-bar loading'; status.textContent='Loading data...'; }
+  try {
+    const res = await fetch('data.json?t='+Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    if (data.generated===currentGenerated && silent) return;
+    currentGenerated = data.generated;
+    renderDashboard(data);
+    status.className='status-bar done';
+    status.textContent = silent
+      ? 'Auto-updated at ' + new Date().toLocaleTimeString() + ' - ' + (data.items||[]).length + ' items'
+      : 'Loaded ' + (data.items||[]).length + ' items - auto-refreshing every 30s';
+  } catch(e) {
+    if (!silent) {
+      status.className='status-bar error';
+      status.textContent='Error: ' + e.message + '. Run via http.server and ensure data.json exists.';
+    }
+  }
+}
+
+
+function exportExcel() {
+  if (!currentData) return;
+  const items = currentData.items || [];
+  const wb = XLSX.utils.book_new();
+  const dateStr = new Date().toISOString().slice(0,10);
+
+  // Sheet 1: KPI Summary
+  const total     = items.length;
+  const openCnt   = items.filter(r => !r.is_closed).length;
+  const closedCnt = total - openCnt;
+  const rate      = total ? Math.round(closedCnt/total*100) : 0;
+  const newCnt    = items.filter(r => { const d=parseDate(r.created_date); return d && d>=weekStart && d<=weekEnd; }).length;
+  const wkLbl     = weekStart.toLocaleDateString('en-GB',{day:'2-digit',month:'short'}) + ' - ' + weekEnd.toLocaleDateString('en-GB',{day:'2-digit',month:'short'});
+  const kpiAoa = [
+    ['KPI Card','Value','Note'],
+    ['New Issue', newCnt, wkLbl],
+    ['Total Issues', total, 'across all machines'],
+    ['Open', openCnt, 'needs attention'],
+    ['Closed', closedCnt, 'resolved'],
+    ['Resolution Rate', rate + '%', 'closed / total'],
+    [],
+    ['Weekly Closure Rate','','closed this week / open end of last week']
+  ];
+  MACHINES.concat([null]).forEach(function(mt) {
+    const s = closureStats(items, mt);
+    const pct = s.denThis ? (s.closedThis / s.denThis * 100).toFixed(1) + '%' : 'n/a';
+    kpiAoa.push([(mt ? MLABEL[mt] : 'Total'), pct, s.closedThis + ' closed / ' + s.denThis + ' open']);
+  });
+  const wsKPI = XLSX.utils.aoa_to_sheet(kpiAoa);
+  wsKPI['!cols'] = [{wch:20},{wch:12},{wch:30}];
+  XLSX.utils.book_append_sheet(wb, wsKPI, 'KPI Summary');
+
+  // Sheets 2+3: Overdue grouped by machine
+  const COL_H = ['Machine','CCB#','Description','Due Date','Days Overdue','Priority','PIC','Role'];
+  const COL_W = [{wch:10},{wch:14},{wch:60},{wch:14},{wch:14},{wch:10},{wch:22},{wch:22}];
+  function buildSheet(ov, title) {
+    const aoa = [[title], ['Generated: ' + dateStr], []];
+    let any = false;
+    MACHINES.forEach(function(mt) {
+      const sub = ov.filter(function(r){ return r.machine_type===mt; });
+      if (!sub.length) return;
+      any = true;
+      aoa.push([MLABEL[mt] + ' - ' + sub.length + ' item' + (sub.length!==1?'s':'')]);
+      aoa.push(COL_H);
+      sub.slice().sort(function(a,b){ return priKey(a.priority)-priKey(b.priority); }).forEach(function(r) {
+        const d = parseDate(r.due_date);
+        const days = d ? Math.floor((today-d)/86400000) : '';
+        aoa.push([r.machine_type||'', r.ccb||'', (r.description||'').replace(/\n/g,' '), r.due_date||'', days, normPri(r.priority), r.pic||'', r.role||'']);
+      });
+      aoa.push([]);
+    });
+    if (!any) aoa.push(['No items.']);
+    const ws = XLSX.utils.aoa_to_sheet(aoa);
+    ws['!cols'] = COL_W;
+    return ws;
+  }
+  const o1 = items.filter(function(r){ return overdueCategory(r)==='1w'; });
+  const o2 = items.filter(function(r){ return overdueCategory(r)==='2w'; });
+  XLSX.utils.book_append_sheet(wb, buildSheet(o1, 'Overdue 1 Week (1-7 days past due)'),  'Overdue 1 Week');
+  XLSX.utils.book_append_sheet(wb, buildSheet(o2, 'Overdue 2 Weeks (8+ days past due)'), 'Overdue 2 Weeks');
+  XLSX.writeFile(wb, 'TFS-Dashboard-' + dateStr + '.xlsx');
+}
+
+setInterval(()=>loadData(true), 30000);
+</script>
+</body>
+</html>
