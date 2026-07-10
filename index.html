@@ -37,10 +37,12 @@
     body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.2s, color 0.2s; }
 
     header {
-      background: #ffffff;
-      border-bottom: 1px solid #dee2e6;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
       padding: 14px 32px;
       display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 10px;
+      transition: background 0.25s ease, border-color 0.25s ease;
     }
     .header-left { display: flex; align-items: center; gap: 14px; }
     .logo-icon {
@@ -51,24 +53,39 @@
       letter-spacing: -1px;
     }
     .logo-company { font-size: 0.65rem; font-weight: 700; color: #4a9fd4; letter-spacing: 2px; text-transform: uppercase; }
-    .logo-title   { font-size: 1.1rem; font-weight: 600; color: #1a1d27; margin-top: 1px; }
-    .header-right { display: flex; align-items: center; gap: 16px; }
-    .header-right span { font-size: 0.75rem; color: #555; }
+    .logo-title   { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-top: 1px; }
+    .header-right { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .header-right span { font-size: 0.75rem; color: var(--text3); }
 
-    .theme-btn {
-      border: 1px solid #c0cfe0; border-radius: 6px;
-      background: #e8f0f8; color: #1a5a8a;
+    .theme-switch { position: relative; display: inline-flex; align-items: center; cursor: pointer; }
+    .theme-switch input { display: none; }
+    .switch-track {
+      width: 44px; height: 24px; border-radius: 999px;
+      background: var(--bg3); border: 1px solid var(--border);
+      position: relative; transition: background 0.25s ease, border-color 0.25s ease;
+    }
+    .switch-thumb {
+      position: absolute; top: 1px; left: 1px; width: 20px; height: 20px; border-radius: 50%;
+      background: #2c3e50; color: #fff; font-size: 11px;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+    }
+    .theme-switch input:checked + .switch-track .switch-thumb { transform: translateX(20px); background: #f5c842; color: #7a5c00; }
+
+    .manual-btn {
+      border: 1px solid rgba(106,90,205,0.5); border-radius: 6px;
+      background: rgba(106,90,205,0.12); color: #8577d6;
       padding: 5px 14px; font-size: 0.78rem; cursor: pointer;
       transition: background 0.15s;
     }
-    .theme-btn:hover { background: #d0e2f0; }
+    .manual-btn:hover { background: rgba(106,90,205,0.22); }
     .export-btn {
-      border: 1px solid #1a4d2e; border-radius: 6px;
-      background: #1a3d2a; color: #4caf7d;
+      border: 1px solid rgba(76,175,125,0.5); border-radius: 6px;
+      background: rgba(76,175,125,0.12); color: #4caf7d;
       padding: 5px 14px; font-size: 0.78rem; cursor: pointer;
       transition: background 0.15s;
     }
-    .export-btn:hover { background: #1e5235; }
+    .export-btn:hover { background: rgba(76,175,125,0.22); }
 
     .status-bar { padding: 7px 32px; font-size: 0.76rem; color: var(--text3); border-bottom: 1px solid var(--border); }
     .status-bar.loading { color: #0078d4; }
@@ -162,8 +179,6 @@
     .kpi-panel-hdr span { font-size:0.73rem; color:var(--text4); font-weight:400; }
 
     /* ---- User Manual ---- */
-    .manual-btn { border:1px solid #6a5acd; border-radius:6px; background:#efeaff; color:#5b4bc4; padding:5px 14px; font-size:0.78rem; cursor:pointer; transition:background 0.15s; }
-    .manual-btn:hover { background:#e0d8fa; }
     #app-blur { transition:filter 0.15s; }
     #app-blur.blurred { filter:blur(6px); pointer-events:none; user-select:none; }
     .manual-overlay {
@@ -199,6 +214,31 @@
     .m-legend b.num { display:inline-flex; width:20px; height:20px; border-radius:50%; background:#0078d4; color:#fff; align-items:center; justify-content:center; font-size:0.68rem; margin-right:8px; flex-shrink:0; }
     .mini-legend-row { display:flex; justify-content:center; gap:18px; margin-bottom:14px; font-size:0.72rem; color:var(--text3); flex-wrap:wrap; }
     .mini-legend-row span.sw { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:middle; }
+
+    .machine-body { overflow-x: auto; }
+
+    /* ---- Mobile ---- */
+    @media (max-width: 900px) {
+      header { padding: 10px 16px; }
+      #last-updated { display: none; }
+      main { padding: 16px; }
+      .kpi-row { grid-template-columns: repeat(2,1fr); }
+      .chart-row { grid-template-columns: 1fr; }
+      .kpi-row .mbadge { display: none; }
+      .manual-overlay { padding: 0; }
+      .manual-panel { width: 100%; height: 100%; border-radius: 0; flex-direction: column; }
+      .manual-toc { width: 100%; display: flex; overflow-x: auto; padding: 8px; border-right: none; border-bottom: 1px solid var(--border); white-space: nowrap; }
+      .toc-link { border-left: none; border-bottom: 3px solid transparent; padding: 8px 14px; }
+      .toc-link.active { border-left: none; border-bottom-color: #0078d4; }
+      table { font-size: 0.73rem; }
+      th, td { padding: 7px 10px; }
+      .desc { max-width: 160px; }
+    }
+    @media (max-width: 480px) {
+      .kpi-row { grid-template-columns: 1fr 1fr; }
+      .logo-title { font-size: 0.95rem; }
+      .chart-row, .header-right { gap: 8px; }
+    }
   </style>
 </head>
 <body>
@@ -215,8 +255,11 @@
   <div class="header-right">
     <span id="last-updated"></span>
     <button class="export-btn" onclick="exportExcel()">&#8595; Export Excel</button>
-    <button class="manual-btn" id="manual-btn" onclick="toggleManual()">&#128214; Manual</button>
-    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">&#9788; Light</button>
+    <button class="manual-btn" id="manual-btn" onclick="toggleManual()">User Manual</button>
+    <label class="theme-switch" title="Toggle dark / light theme">
+      <input type="checkbox" id="theme-toggle" onchange="toggleTheme()">
+      <span class="switch-track"><span class="switch-thumb" id="switch-thumb">&#9789;</span></span>
+    </label>
   </div>
 </header>
 
@@ -559,9 +602,10 @@ function toggleMachine(el) { el.parentElement.classList.toggle('open'); }
 
 let isDark = true;
 function toggleTheme() {
-  isDark = !isDark;
-  document.body.classList.toggle('light', !isDark);
-  document.getElementById('theme-btn').textContent = isDark ? '☀ Light' : '☽ Dark';
+  const light = document.getElementById('theme-toggle').checked;
+  isDark = !light;
+  document.body.classList.toggle('light', light);
+  document.getElementById('switch-thumb').textContent = light ? '☀' : '☽';
   if (currentData) renderDashboard(currentData);
 }
 
@@ -892,9 +936,11 @@ function toggleManual() {
   manualOpen = !manualOpen;
   document.getElementById('app-blur').classList.toggle('blurred', manualOpen);
   document.getElementById('manual-overlay').classList.toggle('open', manualOpen);
-  document.getElementById('manual-btn').textContent = manualOpen ? '✕ Close Manual' : '\u{1F4D6} Manual';
+  document.getElementById('manual-btn').textContent = manualOpen ? 'Close Manual' : 'User Manual';
 }
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && manualOpen) toggleManual(); });
+if (location.hash === '#lighttest') { document.getElementById('theme-toggle').checked = true; toggleTheme(); }
+if (location.hash === '#manualtest') { toggleManual(); }
 function gotoSec(id) {
   document.querySelectorAll('.toc-link').forEach(el => el.classList.toggle('active', el.dataset.sec === id));
   document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});
