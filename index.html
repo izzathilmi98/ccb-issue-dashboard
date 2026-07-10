@@ -168,6 +168,7 @@
     .ccb-tag { font-weight: 700; color: #5b9bd5; white-space: nowrap; }
     .desc { max-width: 320px; word-break: break-word; line-height: 1.4; }
     .due-overdue { color: #e05252; font-weight: 600; }
+    .due-future { color: var(--text3); font-weight: 600; }
     .empty-msg { padding: 24px 16px; color: var(--text4); font-size: 0.8rem; text-align: center; }
 
     .kpi.clickable { cursor: pointer; transition: border-color 0.15s; }
@@ -479,7 +480,7 @@
                 <div class="machine-header"><span class="machine-tag TEM">TEM</span><span class="machine-count">2 items</span><span class="machine-arrow">&#9660;</span></div>
                 <div class="machine-body" style="display:block">
                   <table><thead><tr><th>CCB#</th><th>Description</th><th>Due Date</th><th>Priority</th><th>PIC</th><th>Role</th></tr></thead>
-                  <tbody><tr><td><span class="ccb-tag">C-101</span></td><td class="desc">Sample issue description</td><td><span class="due-overdue">2026-07-02 <small>(3d)</small></span></td><td><span class="badge High">High</span></td><td>Sample PIC</td><td>Engineer</td></tr></tbody></table>
+                  <tbody><tr><td><span class="ccb-tag">C-101</span></td><td class="desc">Sample issue description</td><td><span class="due-overdue">2026-07-02 <small>(3d overdue)</small></span></td><td><span class="badge High">High</span></td><td>Sample PIC</td><td>Engineer</td></tr></tbody></table>
                 </div>
               </div>
             </div>
@@ -634,7 +635,9 @@ function buildTable(items) {
   const rows = sorted.map(r => {
     const d = parseDate(r.due_date);
     const daysOver = d ? Math.floor((today-d)/86400000) : 0;
-    const dueStr = d ? '<span class="due-overdue">' + r.due_date + ' <small>(' + daysOver + 'd)</small></span>' : '-';
+    const dueStr = !d ? '-' : daysOver >= 0
+      ? '<span class="due-overdue">' + r.due_date + ' <small>(' + daysOver + 'd overdue)</small></span>'
+      : '<span class="due-future">' + r.due_date + ' <small>(' + Math.abs(daysOver) + 'd left)</small></span>';
     const desc = (r.description||'').replace(/\n/g,' ').substring(0,120) + ((r.description||'').length>120?'...':'');
     return '<tr><td><span class="ccb-tag">' + (r.ccb||'-') + '</span></td>' +
       '<td class="desc">' + desc + '</td>' +
