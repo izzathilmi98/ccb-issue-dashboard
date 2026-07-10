@@ -360,33 +360,34 @@
         <div class="m-demo">
           <span class="mbadge" style="top:14px;left:14px;">1</span>
           <div class="mini-legend-row">
+            <span><span class="sw" style="background:#6c8ebf"></span>TBA</span>
             <span><span class="sw" style="background:#e05252"></span>Open</span>
             <span><span class="sw" style="background:#f5c842"></span>Monitoring</span>
-            <span><span class="sw" style="background:#6c8ebf"></span>Not Started</span>
+            <span><span class="sw" style="background:#e6963c"></span>On-Hold</span>
             <span><span class="sw" style="background:#4caf7d"></span>Closed</span>
           </div>
           <div style="display:flex;justify-content:center;gap:36px;align-items:flex-end;height:130px;">
             <div style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;">
               <div style="width:36px;height:100%;display:flex;flex-direction:column-reverse;border-radius:3px;overflow:hidden;">
-                <div style="height:30%;background:#e05252"></div><div style="height:10%;background:#f5c842"></div><div style="height:20%;background:#6c8ebf"></div><div style="height:40%;background:#4caf7d"></div>
+                <div style="height:10%;background:#6c8ebf"></div><div style="height:25%;background:#e05252"></div><div style="height:10%;background:#f5c842"></div><div style="height:15%;background:#e6963c"></div><div style="height:40%;background:#4caf7d"></div>
               </div>
               <span class="machine-tag TEM" style="margin-top:6px">TEM</span>
             </div>
             <div style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;">
               <div style="width:36px;height:65%;display:flex;flex-direction:column-reverse;border-radius:3px;overflow:hidden;">
-                <div style="height:35%;background:#e05252"></div><div style="height:5%;background:#f5c842"></div><div style="height:0%;background:#6c8ebf"></div><div style="height:60%;background:#4caf7d"></div>
+                <div style="height:5%;background:#6c8ebf"></div><div style="height:30%;background:#e05252"></div><div style="height:5%;background:#f5c842"></div><div style="height:0%;background:#e6963c"></div><div style="height:60%;background:#4caf7d"></div>
               </div>
               <span class="machine-tag WDB" style="margin-top:6px">WDB</span>
             </div>
             <div style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;">
               <div style="width:36px;height:78%;display:flex;flex-direction:column-reverse;border-radius:3px;overflow:hidden;">
-                <div style="height:70%;background:#e05252"></div><div style="height:5%;background:#f5c842"></div><div style="height:0%;background:#6c8ebf"></div><div style="height:25%;background:#4caf7d"></div>
+                <div style="height:0%;background:#6c8ebf"></div><div style="height:60%;background:#e05252"></div><div style="height:5%;background:#f5c842"></div><div style="height:10%;background:#e6963c"></div><div style="height:25%;background:#4caf7d"></div>
               </div>
               <span class="machine-tag SDB" style="margin-top:6px">SDB</span>
             </div>
           </div>
         </div>
-        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine. <b>Closed</b> = <code>is_closed</code> true. <b>Not Started</b> = no status text (or literally "Not Started"). <b>Monitoring</b> = status contains the word "monitoring". Everything else open = <b>Open</b>.</p>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine, 5 buckets from WDB/SDB's real Issue Status list: <b>TBA</b> (Logging, TFS - Ownership, or blank), <b>Open</b> (any active workflow step — Assignment/RCA/CA&amp;PA/PO/Invoice stages), <b>Monitoring</b> (Testing by TFS, Monitoring solution), <b>On-Hold</b> (On-hold, Blocked), <b>Closed</b> (Rollout, Closed, Rejected, Bundled, Duplicated). TEM uses its own separate status system (not this 5-bucket table) — shown here using the closest equivalent grouping.</p>
 
         <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">Issues by Priority</h3>
         <div class="m-demo">
@@ -487,9 +488,15 @@ function chartPri(raw) {
 function isMonitoring(status) {
   return (status||'').toLowerCase().includes('monitoring');
 }
+// WDB/SDB carry an explicit status_bucket (TBA/Open/Monitoring/On-Hold/Closed) computed
+// server-side from the real Issue Status dropdown list (confirmed w/ Izzat 10/07) --
+// replaces the old fuzzy substring matching. TEM has no status_bucket (different status
+// vocabulary, untouched) -- keep its prior 4-way classification, just renamed to fit
+// the shared 5-series chart (Not Started -> TBA).
 function barStatus(item) {
+  if (item.status_bucket) return item.status_bucket;
   if (item.is_closed) return 'Closed';
-  if (!item.status || item.status === 'Not Started') return 'Not Started';
+  if (!item.status || item.status === 'Not Started') return 'TBA';
   if (isMonitoring(item.status)) return 'Monitoring';
   return 'Open';
 }
@@ -620,15 +627,16 @@ function renderDashboard(data) {
   const tc = getChartTextColor();
   const gc = getGridColor();
 
-  // Bar chart: Open / Monitoring / Unknown / Closed per machine
+  // Bar chart: TBA / Open / Monitoring / On-Hold / Closed per machine
   chartStatus = new Chart(document.getElementById('chart-status'), {
     type: 'bar',
     data: {
       labels: MACHINES.map(m=>MLABEL[m]),
       datasets: [
+        { label:'TBA',        data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='TBA').length),        backgroundColor:'#6c8ebf' },
         { label:'Open',       data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Open').length),       backgroundColor:'#e05252' },
         { label:'Monitoring', data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Monitoring').length), backgroundColor:'#f5c842' },
-        { label:'Not Started', data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Not Started').length), backgroundColor:'#6c8ebf' },
+        { label:'On-Hold',    data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='On-Hold').length),    backgroundColor:'#e6963c' },
         { label:'Closed',     data: MACHINES.map(m=>items.filter(r=>r.machine_type===m&&barStatus(r)==='Closed').length),     backgroundColor:'#4caf7d' }
       ]
     },
