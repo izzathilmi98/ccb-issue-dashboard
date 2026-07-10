@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-10 11:54:36",
+  "generated": "2026-07-10 12:00:02",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10027,7 +10027,7 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "2026-08-07",
+      "due_date": "2026-07-14",
       "created_date": "23/6/2026",
       "closed_date": ""
     },
@@ -14180,7 +14180,7 @@
       "status": "Assignment by TFS",
       "is_closed": false,
       "priority": "High",
-      "pic": "David Pozdisek - TFS System Engineer",
+      "pic": "Vincy - GT PM",
       "role": "",
       "due_date": "",
       "created_date": "2026-06-02",
