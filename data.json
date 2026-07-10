@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-10 10:08:55",
+  "generated": "2026-07-10 10:31:20",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10102,7 +10102,7 @@
       "priority": "High",
       "pic": "XX Lee - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10117,7 +10117,7 @@
       "priority": "High",
       "pic": "Vincy - GT PM",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-07",
       "created_date": "",
       "closed_date": ""
     },
@@ -10132,7 +10132,7 @@
       "priority": "Urgent",
       "pic": "David Tlustos - TFS OE",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-03-06",
       "created_date": "",
       "closed_date": ""
     },
@@ -10147,7 +10147,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10177,7 +10177,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-19",
       "created_date": "",
       "closed_date": ""
     },
@@ -10192,7 +10192,7 @@
       "priority": "Low",
       "pic": "HT Teoh - GT Mechanical",
       "role": "Mechanical - Electrical",
-      "due_date": "",
+      "due_date": "2026-07-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -10222,7 +10222,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Electrical",
-      "due_date": "",
+      "due_date": "2026-03-20",
       "created_date": "",
       "closed_date": "2026-04-08"
     },
@@ -10237,7 +10237,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10252,7 +10252,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Electrical - SW",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10267,7 +10267,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-19",
       "created_date": "",
       "closed_date": ""
     },
@@ -10282,7 +10282,7 @@
       "priority": "Medium",
       "pic": "Vincy - GT PM",
       "role": "Assembly",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-22",
       "created_date": "",
       "closed_date": ""
     },
@@ -10297,7 +10297,7 @@
       "priority": "Medium",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -10312,7 +10312,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-03-27",
       "created_date": "",
       "closed_date": "2026-05-07"
     },
@@ -10327,7 +10327,7 @@
       "priority": "High",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-24",
       "created_date": "",
       "closed_date": "2026-07-06"
     },
@@ -10342,7 +10342,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
     },
@@ -10357,7 +10357,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10372,7 +10372,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-01",
       "created_date": "",
       "closed_date": ""
     },
@@ -10387,7 +10387,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-01",
       "created_date": "",
       "closed_date": ""
     },
@@ -10402,7 +10402,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10417,7 +10417,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-19",
       "created_date": "",
       "closed_date": ""
     },
@@ -10432,7 +10432,7 @@
       "priority": "",
       "pic": "XX Lee - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10447,7 +10447,7 @@
       "priority": "",
       "pic": "XX Lee - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10462,7 +10462,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-22",
       "created_date": "",
       "closed_date": "2026-01-27"
     },
@@ -10492,7 +10492,7 @@
       "priority": "Low",
       "pic": "Vincy - GT PM",
       "role": "Manufacturing",
-      "due_date": "",
+      "due_date": "2026-04-17",
       "created_date": "",
       "closed_date": ""
     },
@@ -10507,7 +10507,7 @@
       "priority": "High",
       "pic": "HT Teoh - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -10522,7 +10522,7 @@
       "priority": "High",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10537,7 +10537,7 @@
       "priority": "",
       "pic": "",
       "role": "SW - Vision",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2026-02-02"
     },
@@ -10552,7 +10552,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10567,7 +10567,7 @@
       "priority": "High",
       "pic": "TFS-GT",
       "role": "TFS",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10582,7 +10582,7 @@
       "priority": "High",
       "pic": "Vincy - GT PM",
       "role": "Manufacturing",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -10597,7 +10597,7 @@
       "priority": "",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10612,7 +10612,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Electrical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-26",
       "created_date": "",
       "closed_date": ""
     },
@@ -10627,7 +10627,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "QA",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "",
       "closed_date": ""
     },
@@ -10642,7 +10642,7 @@
       "priority": "High",
       "pic": "HT Teoh - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-10",
       "created_date": "",
       "closed_date": ""
     },
@@ -10657,7 +10657,7 @@
       "priority": "Medium",
       "pic": "HT Teoh - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-13",
       "created_date": "",
       "closed_date": ""
     },
@@ -10672,7 +10672,7 @@
       "priority": "Medium",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Assembly - Mechanical - QA",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-03",
       "created_date": "",
       "closed_date": ""
     },
@@ -10687,7 +10687,7 @@
       "priority": "",
       "pic": "",
       "role": "Mechanical - Electrical",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2026-02-02"
     },
@@ -10702,7 +10702,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2025-10-22",
+      "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
     },
@@ -10717,7 +10717,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-30",
       "created_date": "",
       "closed_date": ""
     },
@@ -10732,7 +10732,7 @@
       "priority": "Low",
       "pic": "Roland Heuvelmans - TFS PM",
       "role": "QA",
-      "due_date": "2026-08-28",
+      "due_date": "2026-03-06",
       "created_date": "",
       "closed_date": ""
     },
@@ -10747,7 +10747,7 @@
       "priority": "",
       "pic": "Vincy - GT PM",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -10762,7 +10762,7 @@
       "priority": "Low",
       "pic": "TFS-GT",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10777,7 +10777,7 @@
       "priority": "Medium",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical - Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-19",
       "created_date": "",
       "closed_date": ""
     },
@@ -10792,7 +10792,7 @@
       "priority": "Low",
       "pic": "TFS-GT",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -10807,7 +10807,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -10822,7 +10822,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
     },
@@ -10837,7 +10837,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
     },
@@ -10852,7 +10852,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
     },
@@ -10867,7 +10867,7 @@
       "priority": "High",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-03",
       "created_date": "",
       "closed_date": ""
     },
@@ -10882,7 +10882,7 @@
       "priority": "Medium",
       "pic": "JF Tsong - GT Electrical",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-26",
       "created_date": "",
       "closed_date": ""
     },
@@ -10897,7 +10897,7 @@
       "priority": "High",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "",
       "closed_date": "2026-05-11"
     },
@@ -10912,7 +10912,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Electrical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-15",
       "created_date": "",
       "closed_date": "2026-05-18"
     },
@@ -10927,7 +10927,7 @@
       "priority": "High",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2025-11-25",
       "created_date": "",
       "closed_date": "2025-02-19"
     },
@@ -10942,7 +10942,7 @@
       "priority": "High",
       "pic": "LL Kok - GT Mechanical",
       "role": "Mechanical - Electrical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-28",
       "created_date": "",
       "closed_date": ""
     },
@@ -10957,7 +10957,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-24",
       "created_date": "",
       "closed_date": "2026-07-06"
     },
@@ -10972,7 +10972,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2026-01-22"
     },
@@ -10987,7 +10987,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-03-11",
       "created_date": "",
       "closed_date": ""
     },
@@ -11002,7 +11002,7 @@
       "priority": "High",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-03-27",
       "created_date": "",
       "closed_date": ""
     },
@@ -11017,7 +11017,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-16",
       "created_date": "",
       "closed_date": "2026-01-22"
     },
@@ -11032,7 +11032,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "SW - Vision",
-      "due_date": "",
+      "due_date": "2026-07-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -11047,7 +11047,7 @@
       "priority": "High",
       "pic": "Vincy - GT PM",
       "role": "All",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -11062,7 +11062,7 @@
       "priority": "Medium",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-10-16",
+      "due_date": "2026-05-22",
       "created_date": "",
       "closed_date": ""
     },
@@ -11077,7 +11077,7 @@
       "priority": "Low",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-10",
       "created_date": "",
       "closed_date": "2026-04-24"
     },
@@ -11092,7 +11092,7 @@
       "priority": "Medium",
       "pic": "XX Lee - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -11107,7 +11107,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-26",
       "created_date": "",
       "closed_date": ""
     },
@@ -11122,7 +11122,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "Mechanical - Electrical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-09",
       "created_date": "",
       "closed_date": ""
     },
@@ -11137,7 +11137,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW - Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-07",
       "created_date": "",
       "closed_date": ""
     },
@@ -11152,7 +11152,7 @@
       "priority": "Urgent",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Electrical - SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-07",
       "created_date": "",
       "closed_date": "2026-04-24"
     },
@@ -11182,7 +11182,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2026-01-30"
     },
@@ -11197,7 +11197,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2027-01-31",
+      "due_date": "2026-06-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -11212,7 +11212,7 @@
       "priority": "Low",
       "pic": "David Tlustos - TFS OE",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -11227,7 +11227,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-15",
       "created_date": "",
       "closed_date": ""
     },
@@ -11242,7 +11242,7 @@
       "priority": "High",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11257,7 +11257,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-03-06",
       "created_date": "",
       "closed_date": ""
     },
@@ -11272,7 +11272,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-07",
       "created_date": "",
       "closed_date": ""
     },
@@ -11287,7 +11287,7 @@
       "priority": "Low",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-01",
       "created_date": "",
       "closed_date": "2026-04-09"
     },
@@ -11302,7 +11302,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-17",
       "created_date": "",
       "closed_date": ""
     },
@@ -11317,7 +11317,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-18",
       "created_date": "",
       "closed_date": ""
     },
@@ -11332,7 +11332,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-10",
       "created_date": "",
       "closed_date": ""
     },
@@ -11347,7 +11347,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "Monitoring",
       "created_date": "",
       "closed_date": ""
     },
@@ -11362,7 +11362,7 @@
       "priority": "Low",
       "pic": "TFS-GT",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11377,7 +11377,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-11",
       "created_date": "",
       "closed_date": ""
     },
@@ -11392,7 +11392,7 @@
       "priority": "High",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11407,7 +11407,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-23",
       "created_date": "",
       "closed_date": ""
     },
@@ -11422,7 +11422,7 @@
       "priority": "High",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2026-01-22"
     },
@@ -11437,7 +11437,7 @@
       "priority": "",
       "pic": "",
       "role": "Electrical - SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11467,7 +11467,7 @@
       "priority": "Critical",
       "pic": "Merih Buyukseymen - TFS PQA",
       "role": "Electrical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "",
       "closed_date": ""
     },
@@ -11482,7 +11482,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11497,7 +11497,7 @@
       "priority": "Medium",
       "pic": "Roland Heuvelmans - TFS PM",
       "role": "TFS",
-      "due_date": "2027-01-31",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11512,7 +11512,7 @@
       "priority": "Urgent",
       "pic": "HT Teoh - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-10",
       "created_date": "",
       "closed_date": ""
     },
@@ -11527,7 +11527,7 @@
       "priority": "Medium",
       "pic": "YX Tan - GT Vision",
       "role": "Mechanical - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-07",
       "created_date": "",
       "closed_date": ""
     },
@@ -11542,7 +11542,7 @@
       "priority": "Medium",
       "pic": "JF Tsong - GT Electrical",
       "role": "Electrical - SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "",
       "closed_date": ""
     },
@@ -11557,7 +11557,7 @@
       "priority": "Low",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-19",
       "created_date": "",
       "closed_date": ""
     },
@@ -11572,7 +11572,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-22",
       "created_date": "",
       "closed_date": "2026-05-22"
     },
@@ -11587,7 +11587,7 @@
       "priority": "",
       "pic": "",
       "role": "All",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "1",
       "closed_date": ""
     },
@@ -11602,7 +11602,7 @@
       "priority": "Urgent",
       "pic": "HT Teoh - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "",
+      "due_date": "2026-07-10",
       "created_date": "2",
       "closed_date": ""
     },
@@ -11617,7 +11617,7 @@
       "priority": "Urgent",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -11632,7 +11632,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-29",
       "created_date": "",
       "closed_date": "2026-05-22"
     },
@@ -11647,7 +11647,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11662,7 +11662,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "",
+      "due_date": "2026-05-29",
       "created_date": "",
       "closed_date": ""
     },
@@ -11677,7 +11677,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11707,7 +11707,7 @@
       "priority": "",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2025-12-20"
     },
@@ -11737,7 +11737,7 @@
       "priority": "",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11767,7 +11767,7 @@
       "priority": "Urgent",
       "pic": "Vincy - GT PM",
       "role": "Electrical - SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-31",
       "created_date": "",
       "closed_date": ""
     },
@@ -11782,7 +11782,7 @@
       "priority": "Urgent",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-08-13",
       "created_date": "",
       "closed_date": ""
     },
@@ -11797,7 +11797,7 @@
       "priority": "High",
       "pic": "LL Kok - GT Mechanical",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-17",
       "created_date": "",
       "closed_date": ""
     },
@@ -11812,7 +11812,7 @@
       "priority": "High",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": "2026-04-16"
     },
@@ -11827,7 +11827,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-10",
       "created_date": "",
       "closed_date": ""
     },
@@ -11842,7 +11842,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11857,7 +11857,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -11872,7 +11872,7 @@
       "priority": "Urgent",
       "pic": "Vincy - GT PM",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-28",
       "created_date": "",
       "closed_date": ""
     },
@@ -11902,7 +11902,7 @@
       "priority": "Medium",
       "pic": "John Lim - GT Software",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-01",
       "created_date": "",
       "closed_date": ""
     },
@@ -11917,7 +11917,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW - Vision",
-      "due_date": "",
+      "due_date": "2026-07-09",
       "created_date": "",
       "closed_date": ""
     },
@@ -11932,7 +11932,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-21",
       "created_date": "2026-01-27",
       "closed_date": ""
     },
@@ -11947,7 +11947,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-07",
       "created_date": "",
       "closed_date": ""
     },
@@ -11962,7 +11962,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-21",
       "created_date": "",
       "closed_date": ""
     },
@@ -11977,7 +11977,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-02-10",
       "created_date": "",
       "closed_date": "2026-04-29"
     },
@@ -11992,7 +11992,7 @@
       "priority": "High",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
@@ -12007,7 +12007,7 @@
       "priority": "High",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-01-23",
       "created_date": "2025-11-28",
       "closed_date": ""
     },
@@ -12022,7 +12022,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2025-12-05",
       "created_date": "2025-11-28",
       "closed_date": "2026-02-03"
     },
@@ -12037,7 +12037,7 @@
       "priority": "High",
       "pic": "YX Tan - GT Vision",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-03",
       "created_date": "2025-11-28",
       "closed_date": ""
     },
@@ -12052,7 +12052,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-21",
       "created_date": "2025-11-28",
       "closed_date": ""
     },
@@ -12067,7 +12067,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-02",
       "created_date": "2025-11-28",
       "closed_date": ""
     },
@@ -12082,7 +12082,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2025-12-08",
       "created_date": "2025-12-01",
       "closed_date": "2026-01-27"
     },
@@ -12097,7 +12097,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "SW - Vision",
-      "due_date": "",
+      "due_date": "2026-08-17",
       "created_date": "",
       "closed_date": ""
     },
@@ -12112,7 +12112,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-03-13",
       "created_date": "",
       "closed_date": "2026-04-29"
     },
@@ -12127,7 +12127,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "",
       "closed_date": "2026-01-26"
     },
@@ -12157,7 +12157,7 @@
       "priority": "",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Vision",
-      "due_date": "",
+      "due_date": "2026-04-21",
       "created_date": "2025-12-08",
       "closed_date": ""
     },
@@ -12172,7 +12172,7 @@
       "priority": "",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-26",
       "created_date": "2025-12-08",
       "closed_date": "2026-07-06"
     },
@@ -12187,7 +12187,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-08",
       "closed_date": ""
     },
@@ -12202,7 +12202,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-08",
       "closed_date": ""
     },
@@ -12217,7 +12217,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-02-11",
       "created_date": "2025-12-08",
       "closed_date": ""
     },
@@ -12232,7 +12232,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-25",
       "created_date": "2025-12-08",
       "closed_date": ""
     },
@@ -12247,7 +12247,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-07",
       "created_date": "2025-12-08",
       "closed_date": ""
     },
@@ -12262,7 +12262,7 @@
       "priority": "High",
       "pic": "JF Tsong - GT Electrical",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-21",
       "created_date": "2025-12-10",
       "closed_date": ""
     },
@@ -12277,7 +12277,7 @@
       "priority": "Urgent",
       "pic": "JF Tsong - GT Electrical",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-21",
       "created_date": "2025-12-10",
       "closed_date": ""
     },
@@ -12292,7 +12292,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-21",
       "created_date": "2025-12-10",
       "closed_date": ""
     },
@@ -12307,7 +12307,7 @@
       "priority": "",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12322,7 +12322,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12337,7 +12337,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12367,7 +12367,7 @@
       "priority": "Low",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12382,7 +12382,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12397,7 +12397,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "TBA",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12412,7 +12412,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-08",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12427,7 +12427,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-10",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12442,7 +12442,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Electrical",
-      "due_date": "2025-10-22",
+      "due_date": "2026-03-23",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12457,7 +12457,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-10",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12472,7 +12472,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12487,7 +12487,7 @@
       "priority": "Medium",
       "pic": "Vincy - GT PM",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-22",
       "created_date": "2025-12-19",
       "closed_date": "2026-05-12"
     },
@@ -12502,7 +12502,7 @@
       "priority": "High",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-19",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12517,7 +12517,7 @@
       "priority": "Medium",
       "pic": "HX Ong - GT Vision",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-01",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12532,7 +12532,7 @@
       "priority": "Medium",
       "pic": "HX Ong - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-01",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12547,7 +12547,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-08-03",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12562,7 +12562,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12577,7 +12577,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12607,7 +12607,7 @@
       "priority": "High",
       "pic": "",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-07",
       "created_date": "2025-12-19",
       "closed_date": "2026-05-07"
     },
@@ -12622,7 +12622,7 @@
       "priority": "Medium",
       "pic": "Vincy - GT PM",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-07",
       "created_date": "2025-12-19",
       "closed_date": "2026-05-05"
     },
@@ -12637,7 +12637,7 @@
       "priority": "Medium",
       "pic": "HX Ong - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-08",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12652,7 +12652,7 @@
       "priority": "Medium",
       "pic": "HX Ong - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-08",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12667,7 +12667,7 @@
       "priority": "High",
       "pic": "Mahmoud Abdelhady - TFS Architect",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12682,7 +12682,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-21",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12697,7 +12697,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-21",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12712,7 +12712,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
     },
@@ -12742,7 +12742,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-01-14",
       "closed_date": ""
     },
@@ -12757,7 +12757,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-01-14",
       "closed_date": ""
     },
@@ -12772,7 +12772,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-01-14",
       "closed_date": ""
     },
@@ -12787,7 +12787,7 @@
       "priority": "Urgent",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "2026-01-15",
       "closed_date": ""
     },
@@ -12802,7 +12802,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-21",
       "created_date": "2026-01-15",
       "closed_date": ""
     },
@@ -12817,7 +12817,7 @@
       "priority": "High",
       "pic": "SS Lim - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-06",
       "created_date": "2026-01-15",
       "closed_date": ""
     },
@@ -12832,7 +12832,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-29",
       "created_date": "2026-01-22",
       "closed_date": ""
     },
@@ -12847,7 +12847,7 @@
       "priority": "Urgent",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-21",
       "created_date": "2026-01-28",
       "closed_date": ""
     },
@@ -12862,7 +12862,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-01",
       "created_date": "2026-01-07",
       "closed_date": ""
     },
@@ -12877,7 +12877,7 @@
       "priority": "Low",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Vision",
-      "due_date": "",
+      "due_date": "2026-05-21",
       "created_date": "2026-01-14",
       "closed_date": ""
     },
@@ -12892,7 +12892,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-21",
       "created_date": "2026-01-22",
       "closed_date": ""
     },
@@ -12907,7 +12907,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Mechanical - Vision",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-13",
       "created_date": "2026-01-07",
       "closed_date": ""
     },
@@ -12922,7 +12922,7 @@
       "priority": "High",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-03-13",
       "created_date": "2026-02-04",
       "closed_date": "2026-05-07"
     },
@@ -12937,7 +12937,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-24",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -12952,7 +12952,7 @@
       "priority": "Low",
       "pic": "Vincy - GT PM",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-06-05",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -12967,7 +12967,7 @@
       "priority": "Low",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-03-25",
       "created_date": "2026-02-04",
       "closed_date": "2026-05-12"
     },
@@ -12982,7 +12982,7 @@
       "priority": "Low",
       "pic": "",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-08",
       "created_date": "2026-02-04",
       "closed_date": "2026-05-22"
     },
@@ -12997,7 +12997,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-25",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -13012,7 +13012,7 @@
       "priority": "Low",
       "pic": "Mahmoud Abdelhady - TFS Architect",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-05-15",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -13027,7 +13027,7 @@
       "priority": "Low",
       "pic": "Vincy - GT PM",
       "role": "Manufacturing",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-19",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -13042,7 +13042,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-04-21",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -13057,7 +13057,7 @@
       "priority": "Low",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-09-01",
       "created_date": "2026-02-04",
       "closed_date": ""
     },
@@ -13072,7 +13072,7 @@
       "priority": "High",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "2026-02-05",
       "closed_date": ""
     },
@@ -13087,7 +13087,7 @@
       "priority": "Critical",
       "pic": "Vincy - GT PM",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-05",
       "created_date": "2026-02-05",
       "closed_date": ""
     },
@@ -13132,7 +13132,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "",
+      "due_date": "2026-06-15",
       "created_date": "2026-02-09",
       "closed_date": ""
     },
@@ -13147,7 +13147,7 @@
       "priority": "High",
       "pic": "Lucas - GT Mechanical",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-02-09",
       "closed_date": ""
     },
@@ -13162,7 +13162,7 @@
       "priority": "Urgent",
       "pic": "JF Tsong - GT Electrical",
       "role": "Electrical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "2025-02-09",
       "closed_date": ""
     },
@@ -13177,7 +13177,7 @@
       "priority": "High",
       "pic": "",
       "role": "Mechanical - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-04-07",
       "created_date": "2026-02-09",
       "closed_date": "2026-07-06"
     },
@@ -13192,7 +13192,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-29",
       "created_date": "2026-02-10",
       "closed_date": ""
     },
@@ -13207,7 +13207,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-22",
       "created_date": "2026-02-10",
       "closed_date": ""
     },
@@ -13222,7 +13222,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-15",
       "created_date": "2026-02-10",
       "closed_date": ""
     },
@@ -13252,7 +13252,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-29",
       "created_date": "2026-02-16",
       "closed_date": ""
     },
@@ -13282,7 +13282,7 @@
       "priority": "High",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-07-08",
       "created_date": "2026-02-19",
       "closed_date": ""
     },
@@ -13297,7 +13297,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-22",
       "created_date": "2026-02-19",
       "closed_date": ""
     },
@@ -13312,7 +13312,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-05-21",
       "created_date": "2026-02-19",
       "closed_date": ""
     },
@@ -13327,7 +13327,7 @@
       "priority": "Medium",
       "pic": "",
       "role": "Mechanical",
-      "due_date": "2026-08-28",
+      "due_date": "2026-05-22",
       "created_date": "2026-02-17",
       "closed_date": ""
     },
@@ -13342,7 +13342,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-07",
       "created_date": "2026-02-19",
       "closed_date": ""
     },
@@ -13357,7 +13357,7 @@
       "priority": "Low",
       "pic": "",
       "role": "Mechanical - Software",
-      "due_date": "2026-10-16",
+      "due_date": "",
       "created_date": "2026-02-19",
       "closed_date": "2026-04-09"
     },
@@ -13372,7 +13372,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-09-01",
       "created_date": "2026-02-20",
       "closed_date": ""
     },
@@ -13387,7 +13387,7 @@
       "priority": "",
       "pic": "",
       "role": "Mechanical - Electrical",
-      "due_date": "",
+      "due_date": "2026-04-07",
       "created_date": "2026-02-26",
       "closed_date": ""
     },
@@ -13402,7 +13402,7 @@
       "priority": "",
       "pic": "",
       "role": "SW",
-      "due_date": "",
+      "due_date": "2026-05-21",
       "created_date": "2026-02-26",
       "closed_date": ""
     },
@@ -13417,7 +13417,7 @@
       "priority": "Medium",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Vision",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "2026-03-04",
       "closed_date": ""
     },
@@ -13432,7 +13432,7 @@
       "priority": "Low",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "TBA",
       "created_date": "2026-03-05",
       "closed_date": ""
     },
@@ -13447,7 +13447,7 @@
       "priority": "",
       "pic": "",
       "role": "TFS",
-      "due_date": "",
+      "due_date": "2026-05-21",
       "created_date": "2026-03-03",
       "closed_date": ""
     },
@@ -13462,7 +13462,7 @@
       "priority": "Low",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-10-16",
+      "due_date": "2026-07-09",
       "created_date": "2026-03-11",
       "closed_date": ""
     },
@@ -13477,7 +13477,7 @@
       "priority": "Low",
       "pic": "XX Lee - GT Mechanical",
       "role": "Mechanical - Electrical",
-      "due_date": "",
+      "due_date": "2026-08-03",
       "created_date": "2026-03-23",
       "closed_date": ""
     },
@@ -13507,7 +13507,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "Vision",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-03",
       "created_date": "2026-03-23",
       "closed_date": ""
     },
@@ -13522,7 +13522,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "2026-03-23",
       "closed_date": ""
     },
@@ -13552,7 +13552,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Manufacturing",
-      "due_date": "2026-10-19",
+      "due_date": "2026-06-05",
       "created_date": "2026-03-30",
       "closed_date": ""
     },
@@ -13567,7 +13567,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-12",
       "created_date": "2026-03-30",
       "closed_date": ""
     },
@@ -13582,7 +13582,7 @@
       "priority": "High",
       "pic": "PP Tan - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-08",
       "created_date": "2026-03-30",
       "closed_date": ""
     },
@@ -13612,7 +13612,7 @@
       "priority": "Medium",
       "pic": "Merih Buyukseymen - TFS PQA",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-06",
       "created_date": "2026-04-02",
       "closed_date": ""
     },
@@ -13657,7 +13657,7 @@
       "priority": "High",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical - Vision",
-      "due_date": "2027-01-31",
+      "due_date": "TBA",
       "created_date": "2026-04-16",
       "closed_date": ""
     },
@@ -13687,7 +13687,7 @@
       "priority": "High",
       "pic": "",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-04-21",
       "closed_date": ""
     },
@@ -13702,7 +13702,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical - Vision",
-      "due_date": "2026-10-16",
+      "due_date": "2026-06-19",
       "created_date": "2026-04-28",
       "closed_date": ""
     },
@@ -13717,7 +13717,7 @@
       "priority": "",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-05-06",
       "closed_date": ""
     },
@@ -13732,7 +13732,7 @@
       "priority": "Medium",
       "pic": "JF Tsong - GT Electrical",
       "role": "Mechanical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-17",
       "created_date": "2026-05-07",
       "closed_date": ""
     },
@@ -13747,7 +13747,7 @@
       "priority": "High",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Assembly - Mechanical - QA",
-      "due_date": "",
+      "due_date": "2026-06-26",
       "created_date": "2026-05-07",
       "closed_date": ""
     },
@@ -13762,7 +13762,7 @@
       "priority": "Low",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "Manufacturing",
-      "due_date": "2026-10-19",
+      "due_date": "2026-08-03",
       "created_date": "2026-05-11",
       "closed_date": ""
     },
@@ -13777,7 +13777,7 @@
       "priority": "Low",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "Mechanical",
-      "due_date": "2025-10-22",
+      "due_date": "2026-06-15",
       "created_date": "2026-05-12",
       "closed_date": ""
     },
@@ -13792,7 +13792,7 @@
       "priority": "Medium",
       "pic": "Adam Semancik - TFS System Design Engineer",
       "role": "TFS",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-19",
       "created_date": "2026-05-13",
       "closed_date": ""
     },
@@ -13807,7 +13807,7 @@
       "priority": "High",
       "pic": "WQ Koh - GT Vision",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "2026-05-13",
       "closed_date": ""
     },
@@ -13822,7 +13822,7 @@
       "priority": "Low",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-08-17",
       "created_date": "2026-05-13",
       "closed_date": ""
     },
@@ -13837,7 +13837,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-08-18",
       "created_date": "2026-05-14",
       "closed_date": ""
     },
@@ -13852,7 +13852,7 @@
       "priority": "Critical",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "2026-05-14",
       "closed_date": ""
     },
@@ -13867,7 +13867,7 @@
       "priority": "Critical",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-06-05",
       "created_date": "2026-05-15",
       "closed_date": ""
     },
@@ -13882,7 +13882,7 @@
       "priority": "Critical",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-08-14",
       "created_date": "2026-05-15",
       "closed_date": ""
     },
@@ -13897,7 +13897,7 @@
       "priority": "High",
       "pic": "",
       "role": "Vision",
-      "due_date": "2025-10-22",
+      "due_date": "2026-07-13",
       "created_date": "2026-05-18",
       "closed_date": ""
     },
@@ -13912,7 +13912,7 @@
       "priority": "Low",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-21",
       "created_date": "2026-05-21",
       "closed_date": ""
     },
@@ -13942,7 +13942,7 @@
       "priority": "High",
       "pic": "JF Tsong - GT Electrical",
       "role": "Mechanical - Electrical",
-      "due_date": "2026-10-16",
+      "due_date": "2026-07-17",
       "created_date": "2026-05-26",
       "closed_date": ""
     },
@@ -13957,7 +13957,7 @@
       "priority": "Medium",
       "pic": "Farhana - GT PQE",
       "role": "QA - Mechanical",
-      "due_date": "",
+      "due_date": "2026-07-10",
       "created_date": "2026-05-26",
       "closed_date": ""
     },
@@ -13972,7 +13972,7 @@
       "priority": "High",
       "pic": "Lucas - GT Mechanical",
       "role": "Mechanical - Software",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-03",
       "created_date": "2026-05-27",
       "closed_date": ""
     },
@@ -13987,7 +13987,7 @@
       "priority": "Low",
       "pic": "JF Tsong - GT Electrical",
       "role": "Electrical",
-      "due_date": "2026-10-19",
+      "due_date": "2026-07-07",
       "created_date": "2026-05-27",
       "closed_date": ""
     },
@@ -14032,7 +14032,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-30",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14047,7 +14047,7 @@
       "priority": "Medium",
       "pic": "WQ Koh - GT Vision",
       "role": "SW - Vision",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14062,7 +14062,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14092,7 +14092,7 @@
       "priority": "Urgent",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-03",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14107,7 +14107,7 @@
       "priority": "Medium",
       "pic": "JF Tsong - GT Electrical",
       "role": "Electrical",
-      "due_date": "",
+      "due_date": "2026-08-13",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14122,7 +14122,7 @@
       "priority": "High",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-07-30",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14137,7 +14137,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-08-24",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14152,7 +14152,7 @@
       "priority": "Urgent",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-08-28",
+      "due_date": "2026-08-24",
       "created_date": "2026-06-01",
       "closed_date": ""
     },
@@ -14182,7 +14182,7 @@
       "priority": "High",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-06-02",
       "closed_date": ""
     },
@@ -14212,7 +14212,7 @@
       "priority": "High",
       "pic": "SW Teoh - GT Mechanical",
       "role": "Mechanical",
-      "due_date": "",
+      "due_date": "2026-07-03",
       "created_date": "2026-06-03",
       "closed_date": ""
     },
@@ -14242,7 +14242,7 @@
       "priority": "Low",
       "pic": "KY Ooi - GT Software",
       "role": "SW - Vision",
-      "due_date": "2026-10-16",
+      "due_date": "2026-08-11",
       "created_date": "2026-06-08",
       "closed_date": ""
     },
@@ -14257,7 +14257,7 @@
       "priority": "Low",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-09-09",
       "created_date": "2026-06-09",
       "closed_date": ""
     },
@@ -14272,7 +14272,7 @@
       "priority": "Low",
       "pic": "KY Ooi - GT Software",
       "role": "SW",
-      "due_date": "2026-10-16",
+      "due_date": "2026-09-09",
       "created_date": "2026-06-09",
       "closed_date": ""
     },
@@ -14302,7 +14302,7 @@
       "priority": "Medium",
       "pic": "KY Ooi - GT Software",
       "role": "",
-      "due_date": "2026-08-28",
+      "due_date": "",
       "created_date": "2026-06-12",
       "closed_date": ""
     },
@@ -14392,7 +14392,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek - TFS System Engineer",
       "role": "",
-      "due_date": "2026-10-19",
+      "due_date": "",
       "created_date": "2026-07-08",
       "closed_date": ""
     }
