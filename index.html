@@ -160,10 +160,50 @@
     .kpi-panel.open { display:block; }
     .kpi-panel-hdr { padding:12px 20px; font-size:0.82rem; font-weight:600; color:var(--text2); border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; }
     .kpi-panel-hdr span { font-size:0.73rem; color:var(--text4); font-weight:400; }
+
+    /* ---- User Manual ---- */
+    .manual-btn { border:1px solid #6a5acd; border-radius:6px; background:#efeaff; color:#5b4bc4; padding:5px 14px; font-size:0.78rem; cursor:pointer; transition:background 0.15s; }
+    .manual-btn:hover { background:#e0d8fa; }
+    #app-blur { transition:filter 0.15s; }
+    #app-blur.blurred { filter:blur(6px); pointer-events:none; user-select:none; }
+    .manual-overlay {
+      position:fixed; inset:0; z-index:100; display:none;
+      background:rgba(0,0,0,0.45);
+      align-items:center; justify-content:center; padding:32px;
+    }
+    .manual-overlay.open { display:flex; }
+    .manual-panel {
+      background:var(--bg2); border:1px solid var(--border); border-radius:14px;
+      width:min(1160px, 100%); height:min(860px, 100%);
+      display:flex; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.35);
+    }
+    .manual-close {
+      position:absolute; top:10px; right:14px; background:none; border:none; font-size:1.3rem;
+      color:var(--text3); cursor:pointer; line-height:1; padding:6px; z-index:2;
+    }
+    .manual-close:hover { color:var(--text); }
+    .manual-toc { width:210px; flex-shrink:0; background:var(--bg3); border-right:1px solid var(--border); padding:16px 0; overflow-y:auto; }
+    .toc-title { font-size:0.65rem; color:var(--text4); letter-spacing:1px; padding:0 20px 10px; text-transform:uppercase; }
+    .toc-link { display:block; padding:9px 20px; font-size:0.83rem; color:var(--text2); text-decoration:none; border-left:3px solid transparent; cursor:pointer; }
+    .toc-link:hover { background:var(--bg-hover); }
+    .toc-link.active { border-left-color:#0078d4; background:var(--bg-hover); color:var(--text); font-weight:600; }
+    .manual-content { flex:1; min-width:0; overflow-y:auto; padding:20px 0; position:relative; }
+    .manual-section { max-width:720px; margin:0 auto 48px; padding:0 40px; scroll-margin-top:16px; }
+    .manual-section h1 { font-size:1.25rem; margin-bottom:10px; color:var(--text); }
+    .manual-section p.intro { color:var(--text2); margin-bottom:14px; line-height:1.6; font-size:0.9rem; }
+    .m-callout { border-left:4px solid #0078d4; background:rgba(0,120,212,0.08); border-radius:0 8px 8px 0; padding:12px 16px; margin:16px 0; font-size:0.83rem; color:var(--text2); }
+    .m-demo { position:relative; background:var(--bg3); border:1px solid var(--border); border-radius:10px; padding:24px; margin:18px 0; }
+    .mbadge { position:absolute; width:22px; height:22px; border-radius:50%; background:#0078d4; color:#fff; font-size:0.7rem; font-weight:700; display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 3px var(--bg3); z-index:2; transform:translate(-50%,-50%); }
+    .m-legend { margin-top:16px; list-style:none; }
+    .m-legend li { margin-bottom:10px; font-size:0.83rem; color:var(--text2); line-height:1.5; }
+    .m-legend b.num { display:inline-flex; width:20px; height:20px; border-radius:50%; background:#0078d4; color:#fff; align-items:center; justify-content:center; font-size:0.68rem; margin-right:8px; flex-shrink:0; }
+    .mini-legend-row { display:flex; justify-content:center; gap:18px; margin-bottom:14px; font-size:0.72rem; color:var(--text3); flex-wrap:wrap; }
+    .mini-legend-row span.sw { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:middle; }
   </style>
 </head>
 <body>
 
+<div id="app-blur">
 <header>
   <div class="header-left">
     <img src="logo.png" style="height:38px;width:auto;border-radius:6px;" alt="Greatech">
@@ -175,6 +215,7 @@
   <div class="header-right">
     <span id="last-updated"></span>
     <button class="export-btn" onclick="exportExcel()">&#8595; Export Excel</button>
+    <button class="manual-btn" id="manual-btn" onclick="toggleManual()">&#128214; Manual</button>
     <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">&#9788; Light</button>
   </div>
 </header>
@@ -262,6 +303,165 @@
   </div>
 
 </main>
+</div>
+
+<div class="manual-overlay" id="manual-overlay" onclick="if(event.target===this) toggleManual()">
+  <div class="manual-panel">
+    <button class="manual-close" onclick="toggleManual()" title="Close">&#10005;</button>
+    <nav class="manual-toc">
+      <div class="toc-title">User Manual</div>
+      <a class="toc-link active" data-sec="m-overview" onclick="gotoSec('m-overview')">Overview</a>
+      <a class="toc-link" data-sec="m-kpi" onclick="gotoSec('m-kpi')">KPI Cards</a>
+      <a class="toc-link" data-sec="m-charts" onclick="gotoSec('m-charts')">Charts</a>
+      <a class="toc-link" data-sec="m-overdue" onclick="gotoSec('m-overdue')">Overdue Issues</a>
+      <a class="toc-link" data-sec="m-export" onclick="gotoSec('m-export')">Export Excel</a>
+    </nav>
+
+    <div class="manual-content" id="manual-content">
+
+      <section id="m-overview" class="manual-section">
+        <h1>Overview</h1>
+        <p class="intro">This dashboard shows one live view of all open and closed machine issues across <b>TEM</b>, <b>WDB</b>, and <b>SDB</b>. Data is read straight from each machine's issue tracker Excel file — nothing is typed here.</p>
+        <div class="m-callout">The dashboard is <b>read-only</b>. Use it for a daily health check before opening the source trackers. It auto-refreshes every 30 seconds — no need to reload the page manually.</div>
+        <p class="intro">Use the menu on the left to jump to any section, or scroll this page.</p>
+      </section>
+
+      <section id="m-kpi" class="manual-section">
+        <h1>KPI Cards</h1>
+        <p class="intro">Five summary numbers across the top of the dashboard. Two of them (<b>New Issue</b>, <b>Open</b>) are clickable — they open a drill-down list below the cards.</p>
+        <div class="m-demo">
+          <div class="kpi-row" style="position:relative;">
+            <span class="mbadge" style="top:0;left:0;">1</span>
+            <div class="kpi newissue"><div class="label">New Issue</div><div class="value">7</div><div class="sub">29 Jun - 05 Jul</div></div>
+            <span class="mbadge" style="top:0;left:20%;">2</span>
+            <div class="kpi total"><div class="label">Total Issues</div><div class="value">922</div><div class="sub">across all machines</div></div>
+            <span class="mbadge" style="top:0;left:40%;">3</span>
+            <div class="kpi open"><div class="label">Open</div><div class="value">428</div><div class="sub">needs attention</div></div>
+            <span class="mbadge" style="top:0;left:60%;">4</span>
+            <div class="kpi closed"><div class="label">Closed</div><div class="value">494</div><div class="sub">resolved</div></div>
+            <span class="mbadge" style="top:0;left:80%;">5</span>
+            <div class="kpi rate"><div class="label">Resolution Rate</div><div class="value">54%</div><div class="sub">closed / total</div></div>
+          </div>
+        </div>
+        <ol class="m-legend">
+          <li><b class="num">1</b><b>New Issue</b> — issues whose <code>created_date</code> falls inside the current week (Monday–Sunday). The sub-label shows that week's date range. <b>Click to expand</b> the full list, grouped by machine.</li>
+          <li><b class="num">2</b><b>Total Issues</b> — every issue across all three machines, open or closed. Not clickable.</li>
+          <li><b class="num">3</b><b>Open</b> — issues not yet marked closed. <b>Click to expand</b> the full open list, grouped by machine and sorted by priority (High first).</li>
+          <li><b class="num">4</b><b>Closed</b> — Total minus Open. Not clickable.</li>
+          <li><b class="num">5</b><b>Resolution Rate</b> — Closed ÷ Total, as a percentage. This is a <b>lifetime</b> ratio (all issues ever logged) — it is NOT the same as Weekly Closure Rate below. A high Resolution Rate just means most historical issues eventually got closed; it says nothing about this week's pace.</li>
+        </ol>
+      </section>
+
+      <section id="m-charts" class="manual-section">
+        <h1>Charts</h1>
+        <p class="intro">Three charts break down the same issue set by status, priority, and weekly closing pace.</p>
+
+        <h3 style="font-size:0.85rem;margin:20px 0 8px;color:var(--text2)">Issues by Status per Machine</h3>
+        <div class="m-demo">
+          <span class="mbadge" style="top:14px;left:14px;">1</span>
+          <div class="mini-legend-row">
+            <span><span class="sw" style="background:#e05252"></span>Open</span>
+            <span><span class="sw" style="background:#f5c842"></span>Monitoring</span>
+            <span><span class="sw" style="background:#6c8ebf"></span>Not Started</span>
+            <span><span class="sw" style="background:#4caf7d"></span>Closed</span>
+          </div>
+          <div style="display:flex;justify-content:center;gap:36px;align-items:flex-end;height:130px;">
+            <div style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;">
+              <div style="width:36px;height:100%;display:flex;flex-direction:column-reverse;border-radius:3px;overflow:hidden;">
+                <div style="height:30%;background:#e05252"></div><div style="height:10%;background:#f5c842"></div><div style="height:20%;background:#6c8ebf"></div><div style="height:40%;background:#4caf7d"></div>
+              </div>
+              <span class="machine-tag TEM" style="margin-top:6px">TEM</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;">
+              <div style="width:36px;height:65%;display:flex;flex-direction:column-reverse;border-radius:3px;overflow:hidden;">
+                <div style="height:35%;background:#e05252"></div><div style="height:5%;background:#f5c842"></div><div style="height:0%;background:#6c8ebf"></div><div style="height:60%;background:#4caf7d"></div>
+              </div>
+              <span class="machine-tag WDB" style="margin-top:6px">WDB</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;">
+              <div style="width:36px;height:78%;display:flex;flex-direction:column-reverse;border-radius:3px;overflow:hidden;">
+                <div style="height:70%;background:#e05252"></div><div style="height:5%;background:#f5c842"></div><div style="height:0%;background:#6c8ebf"></div><div style="height:25%;background:#4caf7d"></div>
+              </div>
+              <span class="machine-tag SDB" style="margin-top:6px">SDB</span>
+            </div>
+          </div>
+        </div>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine. <b>Closed</b> = <code>is_closed</code> true. <b>Not Started</b> = no status text (or literally "Not Started"). <b>Monitoring</b> = status contains the word "monitoring". Everything else open = <b>Open</b>.</p>
+
+        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">Issues by Priority</h3>
+        <div class="m-demo">
+          <span class="mbadge" style="top:14px;left:14px;">2</span>
+          <div style="display:flex;justify-content:center;align-items:center;gap:24px;">
+            <div style="width:110px;height:110px;border-radius:50%;background:conic-gradient(#e05252 0% 40%, #f5c842 40% 75%, #4caf7d 75% 100%);"></div>
+            <div style="font-size:0.8rem;color:var(--text2)">
+              <div><span class="sw" style="background:#e05252;display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;"></span>High <span style="color:var(--text4)">(incl. Critical / Urgent / Important)</span></div>
+              <div style="margin-top:6px"><span class="sw" style="background:#f5c842;display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;"></span>Medium</div>
+              <div style="margin-top:6px"><span class="sw" style="background:#4caf7d;display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;"></span>Low</div>
+            </div>
+          </div>
+        </div>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">2</b> Donut of every issue's priority field. Critical / Urgent / High / Important are all folded into one "High" slice so the chart stays readable.</p>
+
+        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">Weekly Closure Rate</h3>
+        <div class="m-demo">
+          <span class="mbadge" style="top:14px;left:14px;">3</span>
+          <table style="margin-top:10px">
+            <thead><tr><th>Machine</th><th>This Week</th><th>Last Week</th></tr></thead>
+            <tbody>
+              <tr><td><span class="machine-tag TEM">TEM</span></td><td>12 / 96 &rarr; <b style="color:#4caf7d">12.5%</b></td><td style="color:var(--text3)">9 / 90 &rarr; 10.0%</td></tr>
+              <tr><td><span class="machine-tag WDB">WDB</span></td><td>3 / 48 &rarr; <b style="color:#4caf7d">6.3%</b></td><td style="color:var(--text3)">5 / 50 &rarr; 10.0%</td></tr>
+              <tr style="border-top:2px solid var(--border)"><td><b>Total</b></td><td>15 / 144 &rarr; <b style="color:#4caf7d">10.4%</b></td><td style="color:var(--text3)">14 / 140 &rarr; 10.0%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">3</b> <b>Closed this week &divide; (currently open + closed this week)</b> — the denominator is the backlog as it stood at the <i>end of last week</i>, reconstructed from today's open count. This measures this week's closing pace, not lifetime performance — a machine can have low Resolution Rate but a healthy Weekly Closure Rate if it's actively burning down a backlog.</p>
+      </section>
+
+      <section id="m-overdue" class="manual-section">
+        <h1>Overdue Issues</h1>
+        <p class="intro">Open issues past their due date, split into two urgency bands. Click a band's header to expand it; click a machine row inside to see its issue table.</p>
+        <div class="m-demo">
+          <span class="mbadge" style="top:14px;left:14px;">1</span>
+          <div class="accordion open" style="margin-top:6px">
+            <div class="accordion-header">
+              <span class="acc-title">Overdue 1 Week <small style="font-weight:400;font-size:0.75rem;opacity:0.5">&nbsp;1-7 days past due</small></span>
+              <span class="acc-badge"><span class="acc-count">4 items</span><span class="acc-arrow">&#9660;</span></span>
+            </div>
+            <div class="accordion-body" style="display:block">
+              <div class="machine-group open">
+                <div class="machine-header"><span class="machine-tag TEM">TEM</span><span class="machine-count">2 items</span><span class="machine-arrow">&#9660;</span></div>
+                <div class="machine-body" style="display:block">
+                  <table><thead><tr><th>CCB#</th><th>Description</th><th>Due Date</th><th>Priority</th><th>PIC</th><th>Role</th></tr></thead>
+                  <tbody><tr><td><span class="ccb-tag">C-101</span></td><td class="desc">Sample issue description</td><td><span class="due-overdue">2026-07-02 <small>(3d)</small></span></td><td><span class="badge High">High</span></td><td>Sample PIC</td><td>Engineer</td></tr></tbody></table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="m-legend">
+          <li><b class="num">1</b><b>Overdue 1 Week</b> band — not-closed issues whose due date is 1–7 days in the past. <b>Overdue 2 Weeks</b> (below it, same layout) is 8+ days past due. A band auto-expands on load only if it has items.</li>
+          <li>Inside each band, issues are grouped by machine, then sorted by priority (High first). The table columns match the source tracker: CCB#, Description, Due Date (with days-overdue count), Priority, PIC, Role.</li>
+        </ol>
+      </section>
+
+      <section id="m-export" class="manual-section">
+        <h1>Export Excel</h1>
+        <p class="intro">The <b>&#8595; Export Excel</b> button (top right, next to this Manual button) downloads a 3-sheet workbook built from what's currently on screen — useful for sending a snapshot to someone without dashboard access.</p>
+        <div class="m-demo">
+          <span class="mbadge" style="top:14px;left:14px;">1</span>
+          <button class="export-btn" style="cursor:default">&#8595; Export Excel</button>
+        </div>
+        <ol class="m-legend">
+          <li><b class="num">1</b><b>KPI Summary</b> — all 5 KPI values plus the Weekly Closure Rate table, as plain numbers.</li>
+          <li><b class="num">2</b><b>Overdue 1 Week</b> — full table of 1-7 day overdue issues, grouped by machine.</li>
+          <li><b class="num">3</b><b>Overdue 2 Weeks</b> — full table of 8+ day overdue issues, grouped by machine.</li>
+        </ol>
+        <div class="m-callout">The export reflects whatever data is loaded right now (last auto-refresh) — it is a snapshot, not a live link.</div>
+      </section>
+
+    </div>
+  </div>
+</div>
 
 <script>
 if (typeof Chart !== 'undefined') Chart.defaults.animation = false; // charts redraw every 30s refresh - skip replaying animation
@@ -655,6 +855,19 @@ function exportExcel() {
   XLSX.utils.book_append_sheet(wb, buildSheet(o1, 'Overdue 1 Week (1-7 days past due)'),  'Overdue 1 Week');
   XLSX.utils.book_append_sheet(wb, buildSheet(o2, 'Overdue 2 Weeks (8+ days past due)'), 'Overdue 2 Weeks');
   XLSX.writeFile(wb, 'TFS-Dashboard-' + dateStr + '.xlsx');
+}
+
+let manualOpen = false;
+function toggleManual() {
+  manualOpen = !manualOpen;
+  document.getElementById('app-blur').classList.toggle('blurred', manualOpen);
+  document.getElementById('manual-overlay').classList.toggle('open', manualOpen);
+  document.getElementById('manual-btn').textContent = manualOpen ? '✕ Close Manual' : '\u{1F4D6} Manual';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && manualOpen) toggleManual(); });
+function gotoSec(id) {
+  document.querySelectorAll('.toc-link').forEach(el => el.classList.toggle('active', el.dataset.sec === id));
+  document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});
 }
 
 setInterval(()=>loadData(true), 30000);
