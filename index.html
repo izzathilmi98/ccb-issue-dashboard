@@ -314,6 +314,7 @@
       <a class="toc-link" data-sec="m-kpi" onclick="gotoSec('m-kpi')">KPI Cards</a>
       <a class="toc-link" data-sec="m-charts" onclick="gotoSec('m-charts')">Charts</a>
       <a class="toc-link" data-sec="m-overdue" onclick="gotoSec('m-overdue')">Overdue Issues</a>
+      <a class="toc-link" data-sec="m-status" onclick="gotoSec('m-status')">Status Definitions</a>
       <a class="toc-link" data-sec="m-export" onclick="gotoSec('m-export')">Export Excel</a>
     </nav>
 
@@ -443,6 +444,27 @@
           <li><b class="num">1</b><b>Overdue 1 Week</b> band — not-closed issues whose due date is 1–7 days in the past. <b>Overdue 2 Weeks</b> (below it, same layout) is 8+ days past due. A band auto-expands on load only if it has items.</li>
           <li>Inside each band, issues are grouped by machine, then sorted by priority (High first). The table columns match the source tracker: CCB#, Description, Due Date (with days-overdue count), Priority, PIC, Role.</li>
         </ol>
+      </section>
+
+      <section id="m-status" class="manual-section">
+        <h1>Status Definitions</h1>
+        <p class="intro">WDB and SDB share one Issue Status dropdown list, grouped into 5 dashboard buckets (confirmed with Izzat 10/07/2026). TEM uses a separate, simpler system.</p>
+
+        <h3 style="font-size:0.85rem;margin:20px 0 8px;color:var(--text2)">WDB / SDB</h3>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
+          <tbody>
+            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#6c8ebf"></span><b>TBA</b></td><td>Logging, TFS - Ownership</td></tr>
+            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#e05252"></span><b>Open</b></td><td>Assignment by TFS, Closure target setting, Assignment acceptance by supplier, RCA by supplier, CA &amp; PA Definition by Supplier (assessment of options), CA &amp; PA Acceptance by TFS (assessment of options), Cost Impact assessment by supplier, PO released by TFS, CA &amp; PA Execution &amp; Evidence by Supplier, CA &amp; PA Evidence Acceptance by TFS, Invoice Approval by TFS, Approved for release, Open</td></tr>
+            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#f5c842"></span><b>Monitoring</b></td><td>Testing by TFS, Monitoring solution, Testing / Monitoring</td></tr>
+            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#e6963c"></span><b>On-Hold</b></td><td>On-hold, Blocked</td></tr>
+            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#4caf7d"></span><b>Closed</b></td><td>Rollout, Closed, Rejected, Bundled, Duplicated</td></tr>
+          </tbody>
+        </table>
+        <p class="intro" style="margin-top:10px">A blank Issue Status cell is also treated as <b>TBA</b> (issue logged but not yet moved past the initial state). Any status text that doesn't match this list falls back to <b>Open</b> so it stays visible rather than silently disappearing.</p>
+
+        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">TEM</h3>
+        <p class="intro">TEM's status comes straight from the Power Automate export flow, not this phase-based system — just <b>Open</b> or <b>Closed</b>, set directly by the flow's own completion tracking (bucket/progress fields in Planner). No TBA, Monitoring, or On-Hold concept for TEM today.</p>
       </section>
 
       <section id="m-export" class="manual-section">
