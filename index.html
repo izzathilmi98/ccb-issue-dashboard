@@ -214,6 +214,8 @@
     .m-legend b.num { display:inline-flex; width:20px; height:20px; border-radius:50%; background:#0078d4; color:#fff; align-items:center; justify-content:center; font-size:0.68rem; margin-right:8px; flex-shrink:0; }
     .mini-legend-row { display:flex; justify-content:center; gap:18px; margin-bottom:14px; font-size:0.72rem; color:var(--text3); flex-wrap:wrap; }
     .mini-legend-row span.sw { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:middle; }
+    .status-row-label { display:inline-flex; align-items:center; gap:6px; }
+    .status-sw { width:10px; height:10px; border-radius:2px; flex-shrink:0; }
 
     .machine-body { overflow-x: auto; }
 
@@ -491,17 +493,29 @@
 
       <section id="m-status" class="manual-section">
         <h1>Status Definitions</h1>
-        <p class="intro">WDB and SDB share one Issue Status dropdown list, grouped into 5 dashboard buckets (confirmed with Izzat 10/07/2026). TEM uses a separate, simpler system.</p>
+        <p class="intro">WDB and SDB draw from the same 5-bucket classification (confirmed with Izzat 10/07/2026), but each machine's tracker only actually uses a subset of the status text values below. TEM uses a separate, simpler system.</p>
 
-        <h3 style="font-size:0.85rem;margin:20px 0 8px;color:var(--text2)">WDB / SDB</h3>
+        <h3 style="font-size:0.85rem;margin:20px 0 8px;color:var(--text2)">WDB</h3>
         <table>
           <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
           <tbody>
-            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#6c8ebf"></span><b>TBA</b></td><td>Logging, TFS - Ownership</td></tr>
-            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#e05252"></span><b>Open</b></td><td>Assignment by TFS, Closure target setting, Assignment acceptance by supplier, RCA by supplier, CA &amp; PA Definition by Supplier (assessment of options), CA &amp; PA Acceptance by TFS (assessment of options), Cost Impact assessment by supplier, PO released by TFS, CA &amp; PA Execution &amp; Evidence by Supplier, CA &amp; PA Evidence Acceptance by TFS, Invoice Approval by TFS, Approved for release, Open</td></tr>
-            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#f5c842"></span><b>Monitoring</b></td><td>Testing by TFS, Monitoring solution, Testing / Monitoring</td></tr>
-            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#e6963c"></span><b>On-Hold</b></td><td>On-hold, Blocked</td></tr>
-            <tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#4caf7d"></span><b>Closed</b></td><td>Rollout, Closed, Rejected, Bundled, Duplicated</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td style="color:var(--text4)">(not currently used for WDB)</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Assignment acceptance by supplier<br>CA &amp; PA Definition by Supplier (assessment of options)<br>CA &amp; PA Acceptance by TFS (assessment of options)<br>CA &amp; PA Execution &amp; Evidence by Supplier<br>CA &amp; PA Evidence Acceptance by TFS</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Testing / Monitoring</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>Blocked</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Closed<br>Bundled<br>Duplicated</td></tr>
+          </tbody>
+        </table>
+
+        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">SDB</h3>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td>Logging<br>TFS - Ownership</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Assignment by TFS<br>Assignment acceptance by supplier<br>RCA by supplier<br>CA &amp; PA Definition by Supplier (assessment of options)<br>CA &amp; PA Acceptance by TFS (assessment of options)<br>Cost Impact assessment by supplier<br>CA &amp; PA Execution &amp; Evidence by Supplier<br>CA &amp; PA Evidence Acceptance by TFS<br>Approved for release</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Testing by TFS<br>Monitoring solution</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>On-hold</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Rollout<br>Closed<br>Rejected<br>Bundled<br>Duplicated</td></tr>
           </tbody>
         </table>
         <p class="intro" style="margin-top:10px">A blank Issue Status cell is also treated as <b>TBA</b> (issue logged but not yet moved past the initial state). Any status text that doesn't match this list falls back to <b>Open</b> so it stays visible rather than silently disappearing.</p>
