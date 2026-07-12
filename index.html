@@ -360,7 +360,6 @@
       <a class="toc-link" data-sec="m-kpi" onclick="gotoSec('m-kpi')">KPI Cards</a>
       <a class="toc-link" data-sec="m-charts" onclick="gotoSec('m-charts')">Charts</a>
       <a class="toc-link" data-sec="m-overdue" onclick="gotoSec('m-overdue')">Overdue Issues</a>
-      <a class="toc-link" data-sec="m-status" onclick="gotoSec('m-status')">Status Definitions</a>
       <a class="toc-link" data-sec="m-export" onclick="gotoSec('m-export')">Export Excel</a>
     </nav>
 
@@ -434,7 +433,47 @@
             </div>
           </div>
         </div>
-        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine, 5 buckets: <b>TBA</b>, <b>Open</b>, <b>Monitoring</b>, <b>On-Hold</b>, <b>Closed</b>. WDB and SDB each map their own Issue Status text into these buckets; TEM uses its own separate simpler system shown here using the closest equivalent grouping. Exactly which status values fall into which bucket, per machine, is listed in <a onclick="gotoSec('m-status')" style="color:#0078d4;cursor:pointer;text-decoration:underline">Status Definitions</a>.</p>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine, 5 buckets: <b>TBA</b>, <b>Open</b>, <b>Monitoring</b>, <b>On-Hold</b>, <b>Closed</b>. WDB and SDB map their Issue Status text into these buckets; TEM maps its Planner bucket. Exactly which source value falls into which bucket, per machine, below.</p>
+
+        <div style="margin:14px 0 4px">
+        <h4 style="font-size:0.8rem;margin:0 0 8px;color:var(--text2)">WDB</h4>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td style="color:var(--text4)">(not currently used for WDB)</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Assignment acceptance by supplier<br>CA &amp; PA Definition by Supplier (assessment of options)<br>CA &amp; PA Acceptance by TFS (assessment of options)<br>CA &amp; PA Execution &amp; Evidence by Supplier<br>CA &amp; PA Evidence Acceptance by TFS</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Testing / Monitoring</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>Blocked</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Closed<br>Bundled<br>Duplicated</td></tr>
+          </tbody>
+        </table>
+
+        <h4 style="font-size:0.8rem;margin:20px 0 8px;color:var(--text2)">SDB</h4>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td>Logging<br>TFS - Ownership</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Assignment by TFS<br>Assignment acceptance by supplier<br>RCA by supplier<br>CA &amp; PA Definition by Supplier (assessment of options)<br>CA &amp; PA Acceptance by TFS (assessment of options)<br>Cost Impact assessment by supplier<br>CA &amp; PA Execution &amp; Evidence by Supplier<br>CA &amp; PA Evidence Acceptance by TFS<br>Approved for release</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Testing by TFS<br>Monitoring solution</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>On-hold</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Rollout<br>Closed<br>Rejected<br>Bundled<br>Duplicated</td></tr>
+          </tbody>
+        </table>
+        <p class="intro" style="margin-top:10px">A blank Issue Status cell (WDB/SDB) is also treated as <b>TBA</b> (issue logged but not yet moved past the initial state). Any status text that doesn't match this list falls back to <b>Open</b> so it stays visible rather than silently disappearing.</p>
+
+        <h4 style="font-size:0.8rem;margin:20px 0 8px;color:var(--text2)">TEM</h4>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Planner bucket values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td>New issues<br>New NRE involved Inquiry</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Accepted<br>Analysis (GT)<br>Analysis (TFS)<br>Validation Rejected / Further Work Needed<br>Solution to be validated<br>Solution proposed / To be discussed with TFS<br><span style="color:var(--text4)">— any other bucket not listed here also falls back to Open</span></td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Monitoring Issue</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>System blocking issues <span style="color:var(--text4)">(no cards in this bucket today — mapping is ready for when one lands)</span></td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Completed<br>Rejected</td></tr>
+          </tbody>
+        </table>
+        <p class="intro" style="margin-top:10px">TEM's bucket comes straight from the Planner card's bucket (via the Power Automate export flow), classified server-side the same way as WDB/SDB — not from the flow's own progress/completion flag.</p>
+        </div>
 
         <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">Issues by Priority</h3>
         <div class="m-demo">
@@ -448,7 +487,39 @@
             </div>
           </div>
         </div>
-        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">2</b> Donut of every issue's priority field. Critical / Urgent / High / Important are all folded into one "High" slice so the chart stays readable.</p>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">2</b> Donut of every issue's priority field. Critical / Urgent / High / Important are all folded into one "High" slice so the chart stays readable. Each machine's tracker uses its own raw priority text — mapping below.</p>
+
+        <div style="margin:14px 0 4px">
+        <h4 style="font-size:0.8rem;margin:0 0 8px;color:var(--text2)">TEM</h4>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Raw priority values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>High</b></span></td><td>Urgent<br>Important</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Medium</b></span></td><td>Medium</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Low</b></span></td><td>Low</td></tr>
+          </tbody>
+        </table>
+
+        <h4 style="font-size:0.8rem;margin:20px 0 8px;color:var(--text2)">WDB</h4>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Raw priority values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>High</b></span></td><td>High<br><span style="color:var(--text4)">CCB / MCBF issues are force-mapped to High at export time, regardless of their tracker priority cell</span></td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Medium</b></span></td><td>Medium</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Low</b></span></td><td>Low</td></tr>
+          </tbody>
+        </table>
+
+        <h4 style="font-size:0.8rem;margin:20px 0 8px;color:var(--text2)">SDB</h4>
+        <table>
+          <thead><tr><th style="width:110px">Bucket</th><th>Raw priority values</th></tr></thead>
+          <tbody>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>High</b></span></td><td>Critical<br>Urgent<br>High</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Medium</b></span></td><td>Medium</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Low</b></span></td><td>Low<br><span style="color:var(--text4)">A blank priority cell also counts as Low</span></td></tr>
+          </tbody>
+        </table>
+        </div>
 
         <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">Weekly Closure Rate</h3>
         <div class="m-demo">
@@ -492,39 +563,6 @@
         </ol>
       </section>
 
-      <section id="m-status" class="manual-section">
-        <h1>Status Definitions</h1>
-        <p class="intro">WDB and SDB draw from the same 5-bucket classification (confirmed with Izzat 10/07/2026), but each machine's tracker only actually uses a subset of the status text values below. TEM uses a separate, simpler system.</p>
-
-        <h3 style="font-size:0.85rem;margin:20px 0 8px;color:var(--text2)">WDB</h3>
-        <table>
-          <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
-          <tbody>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td style="color:var(--text4)">(not currently used for WDB)</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Assignment acceptance by supplier<br>CA &amp; PA Definition by Supplier (assessment of options)<br>CA &amp; PA Acceptance by TFS (assessment of options)<br>CA &amp; PA Execution &amp; Evidence by Supplier<br>CA &amp; PA Evidence Acceptance by TFS</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Testing / Monitoring</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>Blocked</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Closed<br>Bundled<br>Duplicated</td></tr>
-          </tbody>
-        </table>
-
-        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">SDB</h3>
-        <table>
-          <thead><tr><th style="width:110px">Bucket</th><th>Issue Status values</th></tr></thead>
-          <tbody>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td>Logging<br>TFS - Ownership</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Assignment by TFS<br>Assignment acceptance by supplier<br>RCA by supplier<br>CA &amp; PA Definition by Supplier (assessment of options)<br>CA &amp; PA Acceptance by TFS (assessment of options)<br>Cost Impact assessment by supplier<br>CA &amp; PA Execution &amp; Evidence by Supplier<br>CA &amp; PA Evidence Acceptance by TFS<br>Approved for release</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Testing by TFS<br>Monitoring solution</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>On-hold</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Rollout<br>Closed<br>Rejected<br>Bundled<br>Duplicated</td></tr>
-          </tbody>
-        </table>
-        <p class="intro" style="margin-top:10px">A blank Issue Status cell is also treated as <b>TBA</b> (issue logged but not yet moved past the initial state). Any status text that doesn't match this list falls back to <b>Open</b> so it stays visible rather than silently disappearing.</p>
-
-        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">TEM</h3>
-        <p class="intro">TEM's status comes straight from the Power Automate export flow, not this phase-based system — just <b>Open</b> or <b>Closed</b>, set directly by the flow's own completion tracking (bucket/progress fields in Planner). No TBA, Monitoring, or On-Hold concept for TEM today.</p>
-      </section>
-
       <section id="m-export" class="manual-section">
         <h1>Export Excel</h1>
         <p class="intro">The <b>&#8595; Export Excel</b> button (top right, next to this Manual button) downloads a 3-sheet workbook built from what's currently on screen — useful for sending a snapshot to someone without dashboard access.</p>
@@ -538,6 +576,15 @@
           <li><b class="num">3</b><b>Overdue 2 Weeks</b> — full table of 8+ day overdue issues, grouped by machine.</li>
         </ol>
         <div class="m-callout">The export reflects whatever data is loaded right now (last auto-refresh) — it is a snapshot, not a live link.</div>
+
+        <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">TEM Issue Tracker tabs (source file, not this dashboard)</h3>
+        <p class="intro">Separate from the button above: the source <code>T1000-TEM Issue Tracker.xlsx</code> file itself (the one the flow writes into) carries three extra tabs, rebuilt automatically every hour alongside this dashboard's data — no manual re-export needed.</p>
+        <ol class="m-legend">
+          <li><b class="num">1</b><b>All Issues</b> — every TEM issue in one table: Issue # (the <code>#123</code> number from the title, blank if the issue was never assigned one), CCB, Machine (best-effort, parsed from the title prefix — Planner has no real machine field), Description, Bucket, Status, Priority, PIC, Due Date, Created, Late.</li>
+          <li><b class="num">2</b><b>CCB Summary</b> — a count table (Tasks / Open / Late / Urgent per CCB) followed by an <b>Issue Detail by CCB</b> section: one collapsible block per CCB (click the <b>−</b> / <b>+</b> outline button) listing every issue under it.</li>
+          <li><b class="num">3</b><b>Open Items</b> — All Issues filtered to Status ≠ Closed.</li>
+        </ol>
+        <div class="m-callout">All three are read-only (sheet-protected) and written as plain values, not formulas — they reuse the exact same Python logic as this dashboard, so the numbers always match. PIC currently shows only one name per issue even when Planner has multiple assignees — that's a Power Automate flow limitation, not something these tabs control.</div>
       </section>
 
     </div>
@@ -568,11 +615,9 @@ function chartPri(raw) {
 function isMonitoring(status) {
   return (status||'').toLowerCase().includes('monitoring');
 }
-// WDB/SDB carry an explicit status_bucket (TBA/Open/Monitoring/On-Hold/Closed) computed
-// server-side from the real Issue Status dropdown list (confirmed w/ Izzat 10/07) --
-// replaces the old fuzzy substring matching. TEM has no status_bucket (different status
-// vocabulary, untouched) -- keep its prior 4-way classification, just renamed to fit
-// the shared 5-series chart (Not Started -> TBA).
+// All three machines now carry an explicit status_bucket (TBA/Open/Monitoring/On-Hold/
+// Closed) computed server-side: WDB/SDB from the Issue Status dropdown (10/07), TEM from
+// its Planner bucket (12/07) -- replaces the old fuzzy substring matching.
 function barStatus(item) {
   if (item.status_bucket) return item.status_bucket;
   if (item.is_closed) return 'Closed';
@@ -957,12 +1002,17 @@ function toggleManual() {
 }
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && manualOpen) toggleManual(); });
 if (location.hash === '#lighttest') { document.getElementById('theme-toggle').checked = true; toggleTheme(); }
-if (location.hash === '#manualtest') { toggleManual(); }
+if (location.hash.startsWith('#manualtest')) {
+  toggleManual();
+  const jump = location.hash.split(':')[1];
+  if (jump) setTimeout(() => { gotoSec(jump); document.getElementById(jump).scrollIntoView({block:'start'}); }, 60);
+}
 function gotoSec(id) {
   document.querySelectorAll('.toc-link').forEach(el => el.classList.toggle('active', el.dataset.sec === id));
   document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});
 }
 
+loadData();
 setInterval(()=>loadData(true), 30000);
 </script>
 </body>
