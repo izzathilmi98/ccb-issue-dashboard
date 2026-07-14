@@ -433,7 +433,7 @@
             </div>
           </div>
         </div>
-        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine, 5 buckets: <b>TBA</b>, <b>Open</b>, <b>Monitoring</b>, <b>On-Hold</b>, <b>Closed</b>. WDB and SDB map their Issue Status text into these buckets; TEM maps its Planner bucket. Exactly which source value falls into which bucket, per machine, below.</p>
+        <p class="intro"><b class="num" style="display:inline-flex;width:20px;height:20px;border-radius:50%;background:#0078d4;color:#fff;align-items:center;justify-content:center;font-size:0.68rem;">1</b> Stacked bar per machine, 5 buckets: <b>TBA</b>, <b>Open</b>, <b>Monitoring</b>, <b>On-Hold</b>, <b>Closed</b>. <b>TBA</b> means the same thing on all three machines — status is <b>Not Started</b>. WDB/SDB map their Issue Status text into the other buckets; TEM's Monitoring/On-Hold/Closed come from its Planner bucket (unambiguous signals, take priority over status). Exactly which source value falls into which bucket, per machine, below.</p>
 
         <div style="margin:14px 0 4px">
         <h4 style="font-size:0.8rem;margin:0 0 8px;color:var(--text2)">WDB</h4>
@@ -459,20 +459,20 @@
             <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Rollout<br>Closed<br>Rejected<br>Bundled<br>Duplicated</td></tr>
           </tbody>
         </table>
-        <p class="intro" style="margin-top:10px">A blank Issue Status cell (WDB/SDB) is also treated as <b>TBA</b> (issue logged but not yet moved past the initial state). Any status text that doesn't match this list falls back to <b>Open</b> so it stays visible rather than silently disappearing.</p>
+        <p class="intro" style="margin-top:10px">A blank Issue Status cell (WDB/SDB) is treated as <b>Not Started</b> — <b>TBA</b>. Any status text that doesn't match this list falls back to <b>Open</b> so it stays visible rather than silently disappearing.</p>
 
         <h4 style="font-size:0.8rem;margin:20px 0 8px;color:var(--text2)">TEM</h4>
         <table>
-          <thead><tr><th style="width:110px">Bucket</th><th>Planner bucket values</th></tr></thead>
+          <thead><tr><th style="width:110px">Bucket</th><th>Source value</th></tr></thead>
           <tbody>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td>New issues<br>New NRE involved Inquiry</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Accepted<br>Analysis (GT)<br>Analysis (TFS)<br>Validation Rejected / Further Work Needed<br>Solution to be validated<br>Solution proposed / To be discussed with TFS<br><span style="color:var(--text4)">— any other bucket not listed here also falls back to Open</span></td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Monitoring Issue</td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>System blocking issues <span style="color:var(--text4)">(no cards in this bucket today — mapping is ready for when one lands)</span></td></tr>
-            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Completed<br>Rejected</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#6c8ebf"></span><b>TBA</b></span></td><td>Status = <b>Not Started</b> (blank/unrecognized status text) — regardless of Planner bucket, unless the card is in Monitoring Issue / System blocking issues / Completed / Rejected below, which always win</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e05252"></span><b>Open</b></span></td><td>Any status other than Not Started, in any Planner bucket not listed below</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#f5c842"></span><b>Monitoring</b></span></td><td>Planner bucket: Monitoring Issue</td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#e6963c"></span><b>On-Hold</b></span></td><td>Planner bucket: System blocking issues <span style="color:var(--text4)">(no cards in this bucket today — mapping is ready for when one lands)</span></td></tr>
+            <tr><td><span class="status-row-label"><span class="status-sw" style="background:#4caf7d"></span><b>Closed</b></span></td><td>Planner bucket: Completed<br>Rejected</td></tr>
           </tbody>
         </table>
-        <p class="intro" style="margin-top:10px">TEM's bucket comes straight from the Planner card's bucket (via the Power Automate export flow), classified server-side the same way as WDB/SDB — not from the flow's own progress/completion flag.</p>
+        <p class="intro" style="margin-top:10px">TEM's Monitoring/On-Hold/Closed come straight from the Planner card's bucket (via the Power Automate export flow) — those override everything else. TBA vs Open is decided by status instead, same "Not Started" rule as WDB/SDB, so a card sitting in (e.g.) New Issues with a real status typed in still counts as Open, not TBA.</p>
         </div>
 
         <h3 style="font-size:0.85rem;margin:24px 0 8px;color:var(--text2)">Issues by Priority</h3>
@@ -652,6 +652,10 @@ function overdueCategory(item) {
   if (item.is_closed) return null;
   const d = parseDate(item.due_date);
   if (!d) return null;
+  // TEM items with no CCB and a due date in 2025 or earlier are excluded from Overdue --
+  // team is focused on clearing CCB items first; 2026+ non-CCB items still show since
+  // they're recent enough to matter (Izzat, 14/07).
+  if (item.machine_type === 'TEM' && !item.ccb && d.getFullYear() <= 2025) return null;
   if (d < oneWeekAgo) return '2w';
   if (d < today)      return '1w';
   return null;
