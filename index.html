@@ -688,8 +688,8 @@ function buildTable(items) {
       '<td class="desc">' + desc + '</td>' +
       '<td>' + dueStr + '</td>' +
       '<td>' + priBadge(r.priority) + '</td>' +
-      '<td>' + (r.pic||'-') + '</td>' +
-      '<td>' + (r.role||'-') + '</td></tr>';
+      '<td>' + (r.pic||'-').split('; ').join('<br>') + '</td>' +
+      '<td>' + (r.role||'-').split('; ').join('<br>') + '</td></tr>';
   }).join('');
   return '<table><thead><tr><th>CCB#</th><th>Description</th><th>Due Date</th><th>Priority</th><th>PIC</th><th>Role</th></tr></thead><tbody>' + rows + '</tbody></table>';
 }
