@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14 23:54:58",
+  "generated": "2026-07-15 15:10:47",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -231,7 +231,7 @@
       "id": "t_rsrpQDmuR0-5eeJzliJoHMkAJAqJ",
       "machine_type": "TEM",
       "machine": "TEM",
-      "ccb": "CCB#35",
+      "ccb": "CCB#35; CCB#20",
       "description": "MT1 (RapidUS)  : (CCB#35 & ccb#20) IMC Related Issue (Fix)",
       "status": "Not Started",
       "status_bucket": "TBA",
@@ -10753,6 +10753,38 @@
       "closed_date": ""
     },
     {
+      "id": 220,
+      "machine_type": "WDB",
+      "machine": "WDB",
+      "ccb": "",
+      "description": "Software Version miss-comunicate",
+      "status": "",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "",
+      "pic": "CY Tang",
+      "role": "GT SW",
+      "due_date": "",
+      "created_date": "",
+      "closed_date": ""
+    },
+    {
+      "id": 221,
+      "machine_type": "WDB",
+      "machine": "WDB",
+      "ccb": "",
+      "description": "Onsite-Robot Firmware Update issue",
+      "status": "",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "",
+      "pic": "CY Tang",
+      "role": "GT SW",
+      "due_date": "",
+      "created_date": "",
+      "closed_date": ""
+    },
+    {
       "id": 1,
       "machine_type": "SDB",
       "machine": "SDB",
@@ -14874,7 +14906,7 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Farhana",
+      "pic": "SR Lim",
       "role": "GT PQE",
       "due_date": "2026-07-10",
       "created_date": "2026-05-26",
