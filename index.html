@@ -561,6 +561,22 @@
           <li><b class="num">1</b><b>Overdue 1 Week</b> band — not-closed issues whose due date is 1–7 days in the past. <b>Overdue 2 Weeks</b> (below it, same layout) is 8+ days past due. A band auto-expands on load only if it has items.</li>
           <li>Inside each band, issues are grouped by machine, then sorted by priority (High first). The table columns match the source tracker: CCB#, Description, Due Date (with days-overdue count), Priority, PIC, Role.</li>
         </ol>
+
+        <h3 style="font-size:0.85rem;margin:20px 0 8px;color:var(--text2)">Automatic Teams Notification</h3>
+        <p class="intro">Overdue issues do not rely on someone checking the dashboard. A Power Automate flow (one per machine — WDB, SDB, TEM) reads the same tracker files directly and sends a <b>Microsoft Teams message</b> automatically. There are two notification types:</p>
+        <table>
+          <thead><tr><th style="width:110px">Type</th><th>When it fires</th><th>How often</th></tr></thead>
+          <tbody>
+            <tr><td><span class="badge" style="background:#e6963c33;color:#e6963c">🟡 Due Soon</span></td><td>Exactly 3 days before the due date.</td><td>Once — an early heads-up while there's still time to act.</td></tr>
+            <tr><td><span class="badge" style="background:#e0525233;color:#e05252">🔴 Overdue</span></td><td>The due date has already passed and the issue is still open.</td><td><b>Every day</b> — you'll keep getting the same overdue message daily for as long as the issue stays open and past its due date.</td></tr>
+          </tbody>
+        </table>
+        <p class="intro" style="margin-top:8px">Real example — three overdue notifications as they actually arrive in Teams:</p>
+        <div class="m-demo" style="text-align:center">
+          <img src="assets/overdue-notify-example.jpg" alt="Example Teams overdue notifications" style="max-width:100%;border-radius:8px" />
+        </div>
+        <p class="intro" style="margin-top:12px">A 🔴 Overdue message repeats daily on purpose — it will not stop on its own. Close the issue in the tracker (if it's actually done) or update its due date/status; the next day's run picks up the change automatically and the daily messages stop. A 🟡 Due Soon message is a one-time reminder, not a recurring alert.</p>
+        <p class="intro" style="color:var(--text4)"><b>Current rollout status:</b> these flows are in testing — notifications currently route to a single test recipient while the automatic PIC-matching step is finalized. Once confirmed, each machine's flow will route notifications to the actual issue PIC automatically.</p>
       </section>
 
       <section id="m-export" class="manual-section">
