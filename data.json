@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16 15:00:02",
+  "generated": "2026-07-16 17:00:02",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10534,9 +10534,9 @@
       "machine": "WDB Alpha",
       "ccb": "",
       "description": "Storage disk full",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Bundled",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
