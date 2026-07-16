@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16 12:00:04",
+  "generated": "2026-07-16 13:00:02",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13269,8 +13269,8 @@
       "machine_type": "SDB",
       "machine": "SDB",
       "ccb": "",
-      "description": "Auto door lock after closing doors.",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "description": "Auto door lock after closing doors.  (ECR #6)",
+      "status": "Approved for release",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
@@ -14502,7 +14502,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "RFID connection lost with T1000",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "Approved for release",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
