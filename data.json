@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15 15:10:47",
+  "generated": "2026-07-16 09:28:01",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16,12 +16,12 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "",
-      "role": "",
+      "pic": "Choong Ting Quan; Koay Lek Sheng; Vashigarean A/L Ratanavellu",
+      "role": "Software Engineer 2; Vision Engineer 2; Software Engineer 2",
       "due_date": "",
       "created_date": "2026-07-12",
       "closed_date": "",
-      "bucket": "New issues"
+      "bucket": "Accepted"
     },
     {
       "id": "t_-YIcHiuDOk-4Lw7e6wYNh8kAJLF1",
@@ -33,12 +33,12 @@
       "status_bucket": "TBA",
       "is_closed": false,
       "priority": "Important",
-      "pic": "",
-      "role": "",
+      "pic": "Abu Musa Bin Ahmad Mazuki",
+      "role": "Senior Mechanical Design Engineer",
       "due_date": "",
       "created_date": "2026-07-09",
       "closed_date": "",
-      "bucket": "New issues"
+      "bucket": "Accepted"
     },
     {
       "id": "t_qo2kWzfYGEWveUvLndboP8kAHxbN",
@@ -50,12 +50,12 @@
       "status_bucket": "TBA",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "",
-      "role": "",
-      "due_date": "",
+      "pic": "Fong Kean Chong; Muhammad Affan Bin Abdullah; Abu Musa Bin Ahmad Mazuki",
+      "role": "Senior Program Executive; Field Service Engineer 1; Senior Mechanical Design Engineer",
+      "due_date": "2026-07-17",
       "created_date": "2026-07-08",
       "closed_date": "",
-      "bucket": "New issues"
+      "bucket": "Accepted"
     },
     {
       "id": "t_M4RyE_472UG-Q6NEUp4PKckAIZao",
@@ -101,12 +101,12 @@
       "status_bucket": "TBA",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "",
-      "role": "",
+      "pic": "Abu Musa Bin Ahmad Mazuki",
+      "role": "Senior Mechanical Design Engineer",
       "due_date": "",
       "created_date": "2026-07-03",
       "closed_date": "",
-      "bucket": "New issues"
+      "bucket": "Accepted"
     },
     {
       "id": "t_ZuTve_O9r0aqTNaI62Fl9ckAGeaI",
@@ -135,12 +135,12 @@
       "status_bucket": "TBA",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "",
-      "role": "",
+      "pic": "Abu Musa Bin Ahmad Mazuki",
+      "role": "Senior Mechanical Design Engineer",
       "due_date": "2026-07-10",
       "created_date": "2026-07-01",
       "closed_date": "",
-      "bucket": "New issues"
+      "bucket": "Accepted"
     },
     {
       "id": "t_WJlJKAo4SUa40_Hu9nZaf8kAI5Cb",
@@ -232,7 +232,7 @@
       "machine_type": "TEM",
       "machine": "TEM",
       "ccb": "CCB#35; CCB#20",
-      "description": "MT1 (RapidUS)  : (CCB#35 & ccb#20) IMC Related Issue (Fix)",
+      "description": "MT1 (RapidUS)  : (CCB#35 & CCB#20) IMC Related Issue (Fix)",
       "status": "Not Started",
       "status_bucket": "TBA",
       "is_closed": false,
@@ -293,7 +293,7 @@
       "due_date": "",
       "created_date": "2026-06-23",
       "closed_date": "",
-      "bucket": "Accepted"
+      "bucket": "Solution to be validated"
     },
     {
       "id": "t_u7lqmNSd4EqMyZljEKvWMckAFtBS",
@@ -1251,8 +1251,8 @@
       "id": "t_JM6pJ8i3uEeQkUeDhMUX-8kAFF-j",
       "machine_type": "TEM",
       "machine": "TEM",
-      "ccb": "",
-      "description": "MP6 - (CCB #34) pipette force critical error when picking LC",
+      "ccb": "CCB#34",
+      "description": "MP6 - (CCB#34) pipette force critical error when picking LC",
       "status": "In Progress",
       "status_bucket": "Open",
       "is_closed": false,
@@ -2084,8 +2084,8 @@
       "id": "t_fj12dAcrgEiXCdTRnAW1XckAMvHo",
       "machine_type": "TEM",
       "machine": "TEM",
-      "ccb": "",
-      "description": "Beta - #92 (CCB# 30) Pusher ejector gets stuck over time",
+      "ccb": "CCB#30",
+      "description": "Beta - #92 (CCB#30) Pusher ejector gets stuck over time",
       "status": "In Progress",
       "status_bucket": "Open",
       "is_closed": false,
@@ -2645,8 +2645,8 @@
       "id": "t_sXR5485KNkqBr6zy5CDY7ckAF_ms",
       "machine_type": "TEM",
       "machine": "TEM",
-      "ccb": "",
-      "description": "All - #16 (CCB #35) HSM Issue 1: HSM place fails after IMC",
+      "ccb": "CCB#35",
+      "description": "All - #16 (CCB#35) HSM Issue 1: HSM place fails after IMC",
       "status": "Not Started",
       "status_bucket": "TBA",
       "is_closed": false,
@@ -3070,8 +3070,8 @@
       "id": "t_fLvgc_LwpUeb5wIyuhf5D8kAAGGm",
       "machine_type": "TEM",
       "machine": "TEM",
-      "ccb": "",
-      "description": "Beta - #42 (CCB #21) Health monitoring data",
+      "ccb": "CCB#21",
+      "description": "Beta - #42 (CCB#21) Health monitoring data",
       "status": "In Progress",
       "status_bucket": "Open",
       "is_closed": false,
