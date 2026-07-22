@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 15:00:03",
+  "generated": "2026-07-22 16:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -7959,7 +7959,7 @@
       "machine": "WDB",
       "ccb": "",
       "description": "Beta 3 Vacuum and CDA lines popping out of cable management on MSH",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
@@ -9607,7 +9607,7 @@
       "machine": "WDB",
       "ccb": "",
       "description": "DLCH fiducials have dark cresent on left side.",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
