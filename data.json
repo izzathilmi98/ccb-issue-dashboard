@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 15:00:02",
+  "generated": "2026-07-23 16:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10603,8 +10603,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Merih Buyukseymen",
-      "role": "TFS PQA",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "",
       "created_date": "Reliablity Test GT",
       "closed_date": ""
@@ -15403,8 +15403,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Zakwan",
-      "role": "GT Vision",
+      "pic": "KY Ooi",
+      "role": "GT Software",
       "due_date": "TBA",
       "created_date": "2026-07-20",
       "closed_date": ""
