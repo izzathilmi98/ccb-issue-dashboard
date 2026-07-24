@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 08:38:38",
+  "generated": "2026-07-24 09:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10411,8 +10411,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Annas",
-      "role": "GT Mech",
+      "pic": "Merih Buyukseymen",
+      "role": "TFS PQA",
       "due_date": "",
       "created_date": "Reliablity Test GT",
       "closed_date": ""
