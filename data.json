@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28 17:00:03",
+  "generated": "2026-07-28 17:25:52",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -7353,7 +7353,7 @@
     {
       "id": 1,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LC Darkening preventing DMC / fiducial read: \nDark banding observed on LC DMC, fiducials are obscured, preventing the DMC being read by T1000.",
       "status": "Closed",
@@ -7362,14 +7362,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "2024-11-27",
+      "closed_date": "Unknown"
     },
     {
       "id": 2,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LC triangle fiducial detection fails:\n\nFeature detection system locates the center of the triangle fiducial rather than the center of the top edge.",
       "status": "Closed",
@@ -7378,14 +7378,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "2024-11-27",
+      "closed_date": "Unknown"
     },
     {
       "id": 3,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 2",
       "ccb": "",
       "description": "GIM teach failing",
       "status": "Duplicated",
@@ -7394,14 +7394,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 4,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "50 micron LC shift",
       "status": "Closed",
@@ -7410,14 +7410,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2025-05-22",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 5,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "RFID read issues",
       "status": "Closed",
@@ -7426,14 +7426,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 6,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LCH X axis evacuation line fitting interference with cable tray",
       "status": "Closed",
@@ -7442,14 +7442,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 7,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Alpha 2, BETA 2 and BETA 3 are using different softwares",
       "status": "Closed",
@@ -7458,14 +7458,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-01-31",
+      "closed_date": "Unknown"
     },
     {
       "id": 8,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 2",
       "ccb": "",
       "description": "MSH travel to CQM first for picking and placing cartridge on CSM",
       "status": "Closed",
@@ -7474,14 +7474,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-01-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 9,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 2",
       "ccb": "",
       "description": "LC fall off after placement failure as vacuum is sealed",
       "status": "Closed",
@@ -7490,14 +7490,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-01-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 10,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "GT to provide pneumatic drawing",
       "status": "Closed",
@@ -7506,14 +7506,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-01-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 11,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Mapping use same rotation as picking inspection rotation (LCC ? as well)",
       "status": "Closed",
@@ -7522,14 +7522,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-01-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 12,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Implement LC offset limits by station and loosen limits where appropriate.  Provide summary to TFS of new limits.",
       "status": "Closed",
@@ -7538,14 +7538,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 13,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Provide fix for RFID / E84 reader comminucation dropout that is the same for all systems",
       "status": "Closed",
@@ -7554,14 +7554,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 14,
       "machine_type": "WDB",
-      "machine": "Michael Thompson- TFS",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "1. Magnet sensor on the T1000 could not be aligned with the sensor on the Acoustic Enclosure door.  At this point I have the sensor taped at the right height.  Mircea has been notified.",
       "status": "Closed",
@@ -7570,14 +7570,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-07-10",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 15,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Software backup file to save in Microscope instead of pendrive",
       "status": "Closed",
@@ -7586,14 +7586,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 16,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "No presence check of cartridge in LL before calibration",
       "status": "Closed",
@@ -7602,14 +7602,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "9/02/2024 (Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 17,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "IO namings not unique (Suggestion to Improve)",
       "status": "Closed",
@@ -7618,14 +7618,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "Done",
+      "closed_date": "Unknown"
     },
     {
       "id": 18,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LCH can't properly pick LC's when they are \"fingers facing down\".  The pick, rotate, place, repick method does not work.",
       "status": "Closed",
@@ -7634,14 +7634,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 19,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "(Greatech) T1000 & T800 tray loading stickers and engraving",
       "status": "Closed",
@@ -7650,14 +7650,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-04",
+      "closed_date": "Unknown"
     },
     {
       "id": 20,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 1",
       "ccb": "",
       "description": "Some new FLCCs from Ted Pella have tight lids that cause the MSH is exceed the force limit.",
       "status": "Closed",
@@ -7666,14 +7666,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-14",
+      "closed_date": "Unknown"
     },
     {
       "id": 21,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Rotation routine for LCs that need to be rotated in the FLCC fail frequently.",
       "status": "Closed",
@@ -7682,14 +7682,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-14",
+      "closed_date": "Unknown"
     },
     {
       "id": 22,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LC fails pick from FLCC due to dark tabs, but the LC passes map inspection.",
       "status": "Closed",
@@ -7698,14 +7698,14 @@
       "priority": "high",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-14",
+      "closed_date": "Unknown"
     },
     {
       "id": 23,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Turn pipette vacuum off when not in use.  Currently it seems to stay on all the time which is going to collect debris (Suggestion to Improve)",
       "status": "Closed",
@@ -7714,14 +7714,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-17",
+      "closed_date": "Unknown"
     },
     {
       "id": 24,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Greatech App is not sending ECS open door or light curtain calls blocked calls.",
       "status": "Closed",
@@ -7730,14 +7730,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-18",
+      "closed_date": "Unknown"
     },
     {
       "id": 25,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Swap Alpha IPC",
       "status": "Closed",
@@ -7746,14 +7746,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-03-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 26,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Alpha 2 could not initialize with cryptic error message.",
       "status": "Closed",
@@ -7762,14 +7762,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "2025-02-19",
+      "closed_date": "Unknown"
     },
     {
       "id": 27,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Recipe Setup Error on Initialization.",
       "status": "Closed",
@@ -7778,14 +7778,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-19",
+      "closed_date": "Unknown"
     },
     {
       "id": 28,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 3",
       "ccb": "",
       "description": "MSH fails to teach FLCC1",
       "status": "Closed",
@@ -7794,14 +7794,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-21",
+      "closed_date": "Unknown"
     },
     {
       "id": 29,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Unable to change Positive Limit for LCH x Axis",
       "status": "Closed",
@@ -7810,14 +7810,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-21",
+      "closed_date": "Unknown"
     },
     {
       "id": 30,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "RFID occasionally disconnected during GreatechApp software startup",
       "status": "Closed",
@@ -7826,14 +7826,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 31,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Firewall not enabled on WDB Alpha 2 and WDB BETA 3",
       "status": "Closed",
@@ -7842,14 +7842,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 32,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "FLCC map graphics missing after unloading another FLCC",
       "status": "Closed",
@@ -7858,14 +7858,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 33,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "GIM calibration different teach point on different machine",
       "status": "Closed",
@@ -7874,14 +7874,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 34,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 3",
       "ccb": "",
       "description": "Beta3 LCH loaded a LC while the CLM Cartridge Clamp (I0514) is low and CLM Cartridge Unclamp (I0515) is high.  O0408 and O0409 are low.",
       "status": "Closed",
@@ -7890,14 +7890,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 35,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 3",
       "ccb": "",
       "description": "MSH load FLCC without clamping",
       "status": "Closed",
@@ -7906,14 +7906,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 36,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 2",
       "ccb": "",
       "description": "2. T1000 would not initialize because it would not connect the MSH.  This was solved by disabling Windows firewall which was preventing communication.",
       "status": "Closed",
@@ -7922,14 +7922,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 37,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 3",
       "ccb": "",
       "description": "3.  Calibration of the GIM fails.  Error message was \"sensor distance out of range\".  It seems that the gripper was hitting one of the pins, I moved the EM and it did not hit the pin anymore but GIM cal still fail with the same error.",
       "status": "Closed",
@@ -7938,14 +7938,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 38,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 3",
       "ccb": "",
       "description": "4. FLM2 calibration fails.  Error message was \" 1) Next waypoint which to move is not in same path with previous waypoint.  2) Last Pose data is corrupted\"",
       "status": "Closed",
@@ -7954,14 +7954,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 39,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Epoxy used on the Cartridge Module Balls are transfering  residue to cartridge, causing misalignment in placing.",
       "status": "Closed",
@@ -7970,14 +7970,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "21-09-25",
+      "closed_date": "Unknown"
     },
     {
       "id": 40,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LLM Vacuum Check Valve Upgrade \n(Duplicate, Please refer to TFS/GT ID 36 for RCA)",
       "status": "Duplicated",
@@ -7986,14 +7986,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "(Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 41,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LC Shifts during pick and place. LC position out of spec in non-critical locations such as the FLCC and LCC:\n\n1. LC shifts during pick (GreaTech) - Load cell erroneous reading\n2. LC shifts during place (GreaTech)\n3. LC position out of spec in non-critical locations such as the FLCC and LCC. (LaRue)",
       "status": "Duplicated",
@@ -8002,14 +8002,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "2024-11-27",
+      "closed_date": "Unknown"
     },
     {
       "id": 42,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Electrical bonding items from safety testing to be addressed",
       "status": "Closed",
@@ -8018,14 +8018,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2024-04-12",
+      "closed_date": "Unknown"
     },
     {
       "id": 191,
       "machine_type": "WDB",
-      "machine": "Mahmoud - TFS Architect",
+      "machine": "All Machines",
       "ccb": "CCB-25-028-WDB",
       "description": "CCB-25-028-WDB\nError Recovery: LC place to DLCH retry .",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -8034,14 +8034,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "Customer Qualification Test",
+      "due_date": "2026-08-28",
+      "created_date": "2026-02-11",
       "closed_date": ""
     },
     {
       "id": 44,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Beta 3 Vacuum and CDA lines popping out of cable management on MSH",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -8050,14 +8050,14 @@
       "priority": "Low",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-05-13",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 45,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Machine status remains in “Running” after an error",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -8066,14 +8066,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-07-24",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 46,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Test & Diagnostic Tab not working",
       "status": "Closed",
@@ -8082,14 +8082,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-07-31",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 47,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Focus of LCH camera when doing pick from DLCH is not good enough to reliably pass the DMC check in darkfield",
       "status": "Duplicated",
@@ -8098,14 +8098,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "2025-07-23",
+      "closed_date": "Unknown"
     },
     {
       "id": 48,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LCH vacuum level drops below threshold causing system to error out intermittently",
       "status": "Duplicated",
@@ -8114,14 +8114,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "2025-07-23",
+      "closed_date": "Unknown"
     },
     {
       "id": 49,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW1",
       "ccb": "",
       "description": "MW1 Pipette force calibration failed but did not indicate failure and updated values anyway. Result was pipette over-force at every pick position",
       "status": "Duplicated",
@@ -8130,14 +8130,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "2025-07-28",
+      "closed_date": "Unknown"
     },
     {
       "id": 50,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "System setup is inconsistent between tools, requiring manual tuning that must be tweaked when the system is onsite.",
       "status": "Closed",
@@ -8146,14 +8146,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-03-13",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 51,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Fixed software release schedule (New Request)",
       "status": "Closed",
@@ -8162,14 +8162,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 120,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-006-WDB",
       "description": "CCB-25-006-WDB\nTop Vision Implementation",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -8178,14 +8178,14 @@
       "priority": "High",
       "pic": "Ang Jia Ze",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-28",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 53,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "BETA 3",
       "ccb": "",
       "description": "CLM Y Axis Hit Reverse Limit",
       "status": "CA & PA Acceptance by TFS\n(assessment of options)",
@@ -8194,14 +8194,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-07-24",
+      "created_date": "2025-02-21",
       "closed_date": ""
     },
     {
       "id": 186,
       "machine_type": "WDB",
-      "machine": "TFS",
+      "machine": "MW7",
       "ccb": "CCB-25-032-WDB",
       "description": "CCB-25-032-WDB\nCartridge interface damage",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -8210,14 +8210,14 @@
       "priority": "High",
       "pic": "Yee Man Chun",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-09-17",
+      "created_date": "2026-01-19",
       "closed_date": ""
     },
     {
       "id": 55,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Safety Cover for undocked  T1000-WDB (Upgrade)",
       "status": "Duplicated",
@@ -8226,14 +8226,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 56,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-007-WDB",
       "description": "CCB-25-007-WDB\nECS MapAndReadCartridge Command",
       "status": "Closed",
@@ -8242,14 +8242,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 57,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-015-WDB",
       "description": "CCB-25-015-WDB\nNew feature needed to deal with defective FLCCs",
       "status": "Closed",
@@ -8258,14 +8258,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 58,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-021-WDB",
       "description": "CCB-25-021-WDB\nSoftware release process (especially for GVS)",
       "status": "Testing  / Monitoring by TFS",
@@ -8274,14 +8274,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 59,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-011-WDB",
       "description": "CCB-25-011-WDB\nMulti Profile Function",
       "status": "Testing  / Monitoring by TFS",
@@ -8290,14 +8290,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 60,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-016-WDB",
       "description": "CCB-25-016-WDB\nHalf moon FLCC",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -8306,14 +8306,14 @@
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-04",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 61,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-022-WDB",
       "description": "CCB-25-022-WDB\nRing Light Issue - New Replacement\n>> Ring Light Issue - Process Flow Improvement on replacing new right light\n** Will starting after the new replacement design confirm. No hardware impact, is process flow for TFS.",
       "status": "Bundled",
@@ -8322,14 +8322,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "2026-08-28",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 62,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "CCB-25-003-WDB",
       "description": "CCB-25-003-WDB\nPipette Calibration Error – Over-Force at All Pick Positions​",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -8338,14 +8338,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-14",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 63,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-004-WDB",
       "description": "CCB-25-004-WDB\nLCH Camera Focus Issue – DMC Check Fails in Darkfield​",
       "status": "Closed",
@@ -8354,14 +8354,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 64,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "CCB-25-005-WDB",
       "description": "CCB-25-005-WDB\nLCH Vacuum Drop Causes Intermittent\nErrors​",
       "status": "Testing  / Monitoring by TFS",
@@ -8370,14 +8370,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 134,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "CCB-25-012-WDB",
       "description": "CCB-25-012-WDB\nT800 Tray Platform Modification for AMR (Additional request)",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -8386,14 +8386,14 @@
       "priority": "High",
       "pic": "CW Tan",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-09-18",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 66,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Safety Connector on the feedthru often has wires popping out of pins. TFS EE recommends circular lock type connector.",
       "status": "Duplicated",
@@ -8402,14 +8402,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "16-09-25",
+      "closed_date": "Unknown"
     },
     {
       "id": 67,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "N\\A (Order separately)",
       "ccb": "CCB-25-010-WDB",
       "description": "CCB-25-010-WDB\nSafety connector",
       "status": "CA & PA Acceptance by TFS\n(assessment of options)",
@@ -8418,14 +8418,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-06",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 65,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-008-WDB",
       "description": "CCB-25-008-WDB\nLC Pick from DLCH Vision Result Fail",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -8434,14 +8434,14 @@
       "priority": "High",
       "pic": "Wahida",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-09-03",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 69,
       "machine_type": "WDB",
-      "machine": "TFS",
+      "machine": "All Machines",
       "ccb": "CCB-25-019-WDB",
       "description": "CCB-25-019-WDB\nSTD retest requirement from TFS",
       "status": "Duplicated",
@@ -8450,14 +8450,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 70,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "CCB-25-023-WDB",
       "description": "CCB-25-023-WDB\nLLM \"Vacuum On Error\"",
       "status": "Testing  / Monitoring by TFS",
@@ -8466,14 +8466,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 71,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Crating Improvement - Extra 1 set of Cleanroom label and Forklift label to ship with machine in the crate",
       "status": "Closed",
@@ -8482,14 +8482,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 72,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Relabel HLM, HSM and HQM as CLM, CSM and CQM on hardware and also software (Upgrade)",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -8498,14 +8498,14 @@
       "priority": "Low",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-07-24",
+      "created_date": "3/29/2024 (Done)",
       "closed_date": ""
     },
     {
       "id": 73,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Hard to check visibly on LL calibration. (New Request)",
       "status": "Closed",
@@ -8514,14 +8514,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Not Applicable",
+      "created_date": "9/02/2024 (Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 74,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "(Greatech) MSH gripper thickness improvement (Suggestion to Improve)",
       "status": "Closed",
@@ -8530,14 +8530,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2/4/2025 (Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 75,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Bracket for interlock magnet not square, mount plate can be installed incorrectly (Suggestion to Improve)",
       "status": "Closed",
@@ -8546,14 +8546,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 76,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "A KCS certification required for the light curtains (New Request)",
       "status": "Closed",
@@ -8562,14 +8562,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "Done",
+      "closed_date": "Unknown"
     },
     {
       "id": 77,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "T800 trays do not sit freely on GIM interface.  Require force to be properly seated.  Kinematic pins need to be revised so tray is not over constrained.  (Additional Request)",
       "status": "Closed",
@@ -8578,14 +8578,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 78,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Request for set of safety labels translated to Korean (New Request)",
       "status": "Bundled",
@@ -8594,14 +8594,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 79,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Add limits around robot taught positions and reject commands if taught position is outside of those limits (cartridge read ID position wasn't taught of A2 which caused system damage when called) (New request)",
       "status": "Closed",
@@ -8610,14 +8610,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-02-17",
+      "closed_date": "Unknown"
     },
     {
       "id": 80,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "UI changes aligned with TEM team for better functionality. (New request)",
       "status": "Closed",
@@ -8626,14 +8626,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 81,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "FLCC v165 verification on HBO side. (New Request)",
       "status": "Blocked",
@@ -8642,14 +8642,14 @@
       "priority": "Medium",
       "pic": "Mahmoud Abdelhady",
       "role": "TFS Architect",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "TBA",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 82,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Counter-clockwise LC rotation sometimes out of range for AutoTEM application. Currently happening on all B3 DLCH's.\n-Possibility to have manufacturing tolerance of DLCH fiduacial that cause sometime out of range for AutoTEM application. (New request)",
       "status": "Testing  / Monitoring",
@@ -8658,14 +8658,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-05-29",
+      "created_date": "2025-02-17",
       "closed_date": ""
     },
     {
       "id": 83,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "1. DLCH height check to be implemented into sequence\n2. To Check whether height check can be done on CQM. (New request)",
       "status": "Closed",
@@ -8674,14 +8674,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 84,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "T1000 Error Handling (New request)",
       "status": "Duplicated",
@@ -8690,14 +8690,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 85,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "T800 Tray Platform require new design based on specification and input provided by end customer (Samsung)\nAll TEM, WDB and SDB affected (New Request)",
       "status": "Duplicated",
@@ -8706,14 +8706,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 86,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW6",
       "ccb": "",
       "description": "FIXIT-994: T1000 matched on adjacent LC during pick",
       "status": "Closed",
@@ -8722,14 +8722,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 87,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LCH Camera Cover is installed",
       "status": "Closed",
@@ -8738,14 +8738,14 @@
       "priority": "Medium",
       "pic": "Vincy Chong Chee Yee",
       "role": "GT PM",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-07-24",
+      "created_date": "2025-10-13",
+      "closed_date": "Unknown"
     },
     {
       "id": 88,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "WDB Pusher Down/Up recipes failing during Init.",
       "status": "Testing  / Monitoring by TFS",
@@ -8754,14 +8754,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-15",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 89,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Place LC in LCC pocket 22",
       "status": "Testing  / Monitoring by TFS",
@@ -8770,14 +8770,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-15",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 90,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "LCH Camera Cover is installed",
       "status": "Closed",
@@ -8786,14 +8786,14 @@
       "priority": "Medium",
       "pic": "Vincy Chong Chee Yee",
       "role": "GT PM",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-07-24",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 91,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "WDB mirror pusher down vision verification fail during init",
       "status": "Testing  / Monitoring by TFS",
@@ -8802,14 +8802,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-15",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 92,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Door 4 and 5 will not lock on startup.  Green wire pulled out of connector when gently moving the cable.",
       "status": "Bundled",
@@ -8818,14 +8818,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 93,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LC movement while picking from FLCC",
       "status": "Closed",
@@ -8834,14 +8834,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 94,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "\"LLM Cover Fully Opened Sensor Not Triggered\" error when placing LCC.",
       "status": "Closed",
@@ -8850,14 +8850,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-14",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 95,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LLM \"Vacuum On Error\"",
       "status": "Closed",
@@ -8866,14 +8866,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-15",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 96,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Checking Fastenal",
       "status": "Closed",
@@ -8882,14 +8882,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-10",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 97,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "CLM failed Initialization",
       "status": "Closed",
@@ -8898,14 +8898,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-11-17",
+      "created_date": "2025-09-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 98,
       "machine_type": "WDB",
-      "machine": "Jason",
+      "machine": "MW4",
       "ccb": "",
       "description": "CLM Z scan failed",
       "status": "Closed",
@@ -8914,14 +8914,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-29",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 99,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "When main air is set to 0.5 MPa the air drops to 0.35 during init and causes a Main Air Down error. Setting H_1 to 0.2  passes init but then it gets a Vacuum Tank On Fail error.  If soft start valve is open it causes the air to go down to 0.373.",
       "status": "Closed",
@@ -8930,14 +8930,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-29",
+      "created_date": "2025-09-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 100,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Vacuum on Error - LCC placement in LLM",
       "status": "Closed",
@@ -8946,14 +8946,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-16",
+      "created_date": "2025-10-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 101,
       "machine_type": "WDB",
-      "machine": "Jason",
+      "machine": "MW4",
       "ccb": "",
       "description": "LCs are being blown out of LCC pocket",
       "status": "Closed",
@@ -8962,14 +8962,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-22",
+      "created_date": "2025-10-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 102,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "LC Offset Limit on Pick from DLCH",
       "status": "Closed",
@@ -8978,14 +8978,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-31",
+      "created_date": "2025-10-13",
+      "closed_date": "Unknown"
     },
     {
       "id": 103,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Side image of clamp moving(Side Vision for DLCH )",
       "status": "Closed",
@@ -8994,14 +8994,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-10",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 104,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "USB camera not detected error",
       "status": "Closed",
@@ -9010,14 +9010,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-18",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 105,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Init failed due to Main Air Down",
       "status": "Closed",
@@ -9026,14 +9026,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-16",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 106,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Door 2 would not lock",
       "status": "Testing  / Monitoring",
@@ -9042,14 +9042,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-06-30",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 107,
       "machine_type": "WDB",
-      "machine": "Jason",
+      "machine": "MW5",
       "ccb": "",
       "description": "Pusher too close to mirror after Lower Gripper adjustment",
       "status": "Closed",
@@ -9058,14 +9058,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 108,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW6",
       "ccb": "",
       "description": "Pipette position out of spec",
       "status": "Testing  / Monitoring",
@@ -9074,14 +9074,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-05-29",
+      "created_date": "2025-10-16",
       "closed_date": ""
     },
     {
       "id": 109,
       "machine_type": "WDB",
-      "machine": "Jason",
+      "machine": "MW6",
       "ccb": "",
       "description": "Pusher too close to mirror after Lower Gripper adjustment",
       "status": "Closed",
@@ -9090,14 +9090,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-16",
+      "created_date": "2025-10-16",
+      "closed_date": "Unknown"
     },
     {
       "id": 110,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "(Greatech) Machine window copper tape covering with black tape",
       "status": "Duplicated",
@@ -9106,14 +9106,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "2025-02-04",
+      "closed_date": "Unknown"
     },
     {
       "id": 111,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Extension module leveling.  (Additional Request by TFS to add levelling to GIM due to Extension module do not have levelling feature)",
       "status": "Closed",
@@ -9122,14 +9122,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Not Applicable",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 112,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Cartridge module surface finish causes MSH laser issues during cartridge module calibration, see \"T1000-WDB CQM Cartridge Cradle Laser Sensor Calibration Error And CLM IMC Error\"",
       "status": "Closed",
@@ -9138,14 +9138,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2025-12-03",
+      "created_date": "2025-05-16",
+      "closed_date": "Unknown"
     },
     {
       "id": 113,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "LCH pipette flow gauge settings were incorrect causing intermittent pick failures\n-This issue occurred only on MW2, where the pressure switch was set to a different value than specified in the setup manual",
       "status": "Closed",
@@ -9154,14 +9154,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-01-14",
+      "created_date": "2025-07-23",
+      "closed_date": "Unknown"
     },
     {
       "id": 114,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Beta 2 Pipette feature detection incorrectly identifies edges:\n\nFeature detection system locates features on the Beta 2 pipette that are offset from the physical features. Large local contrast shifts in image. Full color image shows irregular surface finish/roughness.",
       "status": "Closed",
@@ -9170,14 +9170,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2025-09-05",
+      "created_date": "2024-11-27",
+      "closed_date": "Unknown"
     },
     {
       "id": 115,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "MSH gripper having wear and tear (interface on the cartridge and LCC pin)\n- particles\n- deformation",
       "status": "Duplicated",
@@ -9186,14 +9186,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 116,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Instruction manual to swap IPC (New Request)",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -9202,14 +9202,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-07-24",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 117,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "N\\A (Order separately)",
       "ccb": "",
       "description": "EM safety connectors break easily, need to be redesigned",
       "status": "Duplicated",
@@ -9218,14 +9218,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 118,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Black Tape peeling off on MW1 and MW2 machine",
       "status": "Testing  / Monitoring",
@@ -9234,14 +9234,14 @@
       "priority": "Low",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-05-29",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 119,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "IPC keys are missing from MP2.",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -9250,14 +9250,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-05-29",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 135,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "N\\A (Order separately)",
       "ccb": "CCB-25-017-WDB",
       "description": "CCB-25-017-WDB\nSafety Cover",
       "status": "Testing  / Monitoring",
@@ -9266,14 +9266,14 @@
       "priority": "High",
       "pic": "Vincy Chong Chee Yee",
       "role": "GT PM",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-28",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 121,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Cartridge presence check failing:\n\nCartridge fails to trigger placement sensor (inductive) on the CLM, CSM, CQM. \n\nCartridge cycling repeatedly interrupted due to Beta 2 cartridge presence check initially failing at CSM with no offset.",
       "status": "Closed",
@@ -9282,14 +9282,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2024-11-27",
+      "closed_date": "Unknown"
     },
     {
       "id": 122,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Check on collision of GIM gripper with end customer T800 trays",
       "status": "Closed",
@@ -9298,14 +9298,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-01-31",
+      "closed_date": "Unknown"
     },
     {
       "id": 123,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "HSM and HQM kinematic mounts not built to print.",
       "status": "Closed",
@@ -9314,14 +9314,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "8/15/2024 (Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 124,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "5. Loadlock calibration fails.  Error message was \" Sensor out of range.\"",
       "status": "Closed",
@@ -9330,14 +9330,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "(Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 125,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Beta 1, Beta 2, Beta 3, MW1 and MW2",
       "ccb": "",
       "description": "T1000 Protective Bumper is contacting Process Module before T1000 Docking Plate contact Process Module Docking Plate",
       "status": "Closed",
@@ -9346,14 +9346,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-02-03",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 126,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "CCB-25-009-WDB",
       "description": "CCB-25-009-WDB\nRepicking sequence",
       "status": "Closed",
@@ -9362,14 +9362,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 127,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Procedure to adjust MSH Cartridge Presence Sensor",
       "status": "Closed",
@@ -9378,14 +9378,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-01-30",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 128,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "System not bolted to crate.  Wooden supports insufficient to prevent movement (EM shifted) (Suggestion to Improve)",
       "status": "Closed",
@@ -9394,14 +9394,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "9/02/2024 (Done)",
+      "closed_date": "Unknown"
     },
     {
       "id": 129,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Cartridge repeatability / Depositing Material",
       "status": "Closed",
@@ -9410,14 +9410,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 130,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "GIM base plate upgrade on BETA 3",
       "status": "Closed",
@@ -9426,14 +9426,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "TBC",
+      "closed_date": "Unknown"
     },
     {
       "id": 131,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "",
       "description": "LLM Vacuum Improvement using Check Valve",
       "status": "Closed",
@@ -9442,14 +9442,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 132,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "CCB-25-001-WDB",
       "description": "CCB-25-001-WDB\nMSH gripper",
       "status": "Closed",
@@ -9458,14 +9458,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 133,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "CCB-25-020-WDB",
       "description": "CCB-25-020-WDB\nLCC Cover Opening Improvement Test",
       "status": "Testing  / Monitoring by TFS",
@@ -9474,14 +9474,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 68,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-018-WDB",
       "description": "CCB-25-018-WDB\nTAD Requirement",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -9490,14 +9490,14 @@
       "priority": "High",
       "pic": "Wahida",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-20",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 184,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-026-WDB",
       "description": "CCB-25-026-WDB\nVision Structure Reorganization (CCB#14 from TEM)",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -9506,14 +9506,14 @@
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-09-03",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 136,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Beta 1, Beta 2, Beta 3, MW1 and MW2",
       "ccb": "CCB-25-013-WDB",
       "description": "CCB-25-013-WDB\nBumper upgrade",
       "status": "Closed",
@@ -9522,14 +9522,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 137,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "N\\A (Order separately)",
       "ccb": "CCB-25-024-WDB",
       "description": "CCB-25-024-WDB\nSafety Label in Korea Version (Upgrade)",
       "status": "Closed",
@@ -9538,14 +9538,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 138,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "CCB-25-014-WDB",
       "description": "CCB-25-014-WDB\nCLM failed Initialization",
       "status": "Testing  / Monitoring by TFS",
@@ -9554,14 +9554,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-28",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 139,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "",
       "description": "FIXIT-876: T1000 Live imaging - every strobe flash saves images to D drive until SW crash.",
       "status": "Closed",
@@ -9570,14 +9570,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "2025-10-09",
+      "closed_date": "Unknown"
     },
     {
       "id": 140,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Pipette Overpressed Placing into LCC P24",
       "status": "Closed",
@@ -9586,14 +9586,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-07-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 141,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LCC missing/ error MSH grip fail",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -9602,14 +9602,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-24",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 142,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "CLM Cartridge presence error during transfer.",
       "status": "Closed",
@@ -9618,14 +9618,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-25",
+      "created_date": "2025-09-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 143,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Pipette Overpressed error - FLCC1 Place",
       "status": "Bundled",
@@ -9634,14 +9634,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-10-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 144,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Cycle stop due to CQM Catridge absent",
       "status": "Closed",
@@ -9650,14 +9650,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-12",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 145,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Lock nut missing from DLCH gripper base adjustment screw",
       "status": "Closed",
@@ -9666,14 +9666,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-16",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 146,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Loadcell Calibration fail",
       "status": "Closed",
@@ -9682,14 +9682,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-26",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 147,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "DLCH fiducials have dark cresent on left side.",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -9698,14 +9698,14 @@
       "priority": "High",
       "pic": "Levi  Bennet",
       "role": "TFS PM (HBO)",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-31",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 148,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW6",
       "ccb": "",
       "description": "Skin below monitor left door latch failure",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -9714,14 +9714,14 @@
       "priority": "Low",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-05-29",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 149,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW6",
       "ccb": "",
       "description": "FileZilla not on PC",
       "status": "Closed",
@@ -9730,14 +9730,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-10-16",
+      "closed_date": "Unknown"
     },
     {
       "id": 150,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW6",
       "ccb": "",
       "description": "Pipette Overpressed on FLCC P61",
       "status": "Bundled",
@@ -9746,14 +9746,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-10-16",
+      "closed_date": "Unknown"
     },
     {
       "id": 151,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Cartridge Absent Error when picking cartridge from CQM.",
       "status": "Closed",
@@ -9762,14 +9762,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-12",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 152,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Door 4 lock adjustment screw backed out causing the door not to close. To reupload the photo of affected screw",
       "status": "Closed",
@@ -9778,14 +9778,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-23",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 153,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "FLM 2 Presence Sensor 2 fail detected FLCC",
       "status": "Closed",
@@ -9794,14 +9794,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 154,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Magnet plate on door one had a nut came off screw.",
       "status": "Closed",
@@ -9810,14 +9810,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-10-28",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 155,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Pocket 3 location had the bottom circle fiducial off the mirror.",
       "status": "Closed",
@@ -9826,14 +9826,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-14",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 156,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Pipette to LC Offset Error",
       "status": "Closed",
@@ -9842,14 +9842,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 157,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Place DLCH LC Correction 2 Offset Over Limit",
       "status": "Closed",
@@ -9858,14 +9858,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-30",
+      "created_date": "2025-09-29",
+      "closed_date": "Unknown"
     },
     {
       "id": 158,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "MW 3 Robot Force Error",
       "status": "Closed",
@@ -9874,14 +9874,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-26",
+      "created_date": "2025-10-13",
+      "closed_date": "Unknown"
     },
     {
       "id": 159,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "During Internal Calibration received Cartridge Present at CQM Error.  Cartridge is not present on CQM, IO shows high",
       "status": "Closed",
@@ -9890,14 +9890,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-12",
+      "created_date": "2025-09-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 160,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Pipette Overpressed error",
       "status": "Closed",
@@ -9906,14 +9906,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2025-12-30",
+      "created_date": "2025-10-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 161,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Fail Load Cell calibration after a few tests.",
       "status": "Closed",
@@ -9922,14 +9922,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-02-27",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 162,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "GT to provide correct pipette purge pressure setting and verify all systems set properly prior to shipment",
       "status": "Closed",
@@ -9938,14 +9938,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "2026-01-23",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 163,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Failure to pick LC's from FLCC",
       "status": "Closed",
@@ -9954,14 +9954,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2024-09-29",
+      "closed_date": "Unknown"
     },
     {
       "id": 164,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LC Pick from DLCH Vision Result Fail",
       "status": "Closed",
@@ -9970,14 +9970,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-07-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 165,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "LC Pick from DLCH Vision Result Fail - Dark Tab",
       "status": "Duplicated",
@@ -9986,14 +9986,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "2025-07-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 166,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Pipette recipe is failing.",
       "status": "Closed",
@@ -10002,14 +10002,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 167,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Spring Opening Angle Under Limit Error",
       "status": "Closed",
@@ -10018,14 +10018,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-03-31",
+      "created_date": "2025-09-29",
+      "closed_date": "Unknown"
     },
     {
       "id": 168,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Machine stop cylce due to unexpected image",
       "status": "Bundled",
@@ -10034,14 +10034,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "2025-10-13",
+      "closed_date": "Unknown"
     },
     {
       "id": 169,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW3",
       "ccb": "",
       "description": "Machine stop cylce due to unexpected image",
       "status": "Closed",
@@ -10050,14 +10050,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-10-14",
+      "closed_date": "Unknown"
     },
     {
       "id": 170,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Received a \"Robot not in recovery region\" error during first Init.  The robot controller was on and hadn't gotten to the verify position screen yet.",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -10066,14 +10066,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-24",
+      "created_date": "2025-09-10",
       "closed_date": ""
     },
     {
       "id": 171,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "CAM011 Basler Camera ID: 1 not Detected during GVS startup",
       "status": "Closed",
@@ -10082,14 +10082,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-09-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 172,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "LCH Z Axis Motor Not Ready Error",
       "status": "Closed",
@@ -10098,14 +10098,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-05-29",
+      "created_date": "2025-09-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 173,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "Read LC ID FAIL",
       "status": "Bundled",
@@ -10114,14 +10114,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "2025-10-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 174,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW4",
       "ccb": "",
       "description": "FLCC Pocket Vision Failure on new style FLCC",
       "status": "Bundled",
@@ -10130,14 +10130,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "2025-10-01",
+      "closed_date": "Unknown"
     },
     {
       "id": 175,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "DLCH slot height check fail current DLCH slot is overlimit Error",
       "status": "Bundled",
@@ -10146,14 +10146,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 176,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Teach DLCH pocket positions failed",
       "status": "Bundled",
@@ -10162,14 +10162,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 177,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Cartridge ID Recipe set to Bypass",
       "status": "Closed",
@@ -10178,14 +10178,14 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 178,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Vacuum Off Fail Error, while placing LC in FLCC",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -10194,14 +10194,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-05-29",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 179,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "MSH doesn't scan DLCH's during pick routine.",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -10210,14 +10210,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-07-24",
+      "created_date": "2025-10-15",
       "closed_date": ""
     },
     {
       "id": 180,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "Pocket and Z height Calibrations fail with Vision failure.",
       "status": "Closed",
@@ -10226,14 +10226,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 181,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW6",
       "ccb": "",
       "description": "Fail to place on half-moon style FLCC",
       "status": "Bundled",
@@ -10242,14 +10242,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "Bundled",
+      "created_date": "2025-11-25",
+      "closed_date": "Unknown"
     },
     {
       "id": 182,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW5",
       "ccb": "",
       "description": "EM caster wheel has a flat spot.",
       "status": "Closed",
@@ -10258,14 +10258,14 @@
       "priority": "Low",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "HBO SAT",
-      "closed_date": ""
+      "due_date": "2026-01-29",
+      "created_date": "2025-10-15",
+      "closed_date": "Unknown"
     },
     {
       "id": 183,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-025-WDB",
       "description": "CCB-25-025-WDB\nVersion 0 Prerequisites (CCB#1 from TEM)",
       "status": "Testing  / Monitoring by TFS",
@@ -10274,14 +10274,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 185,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 1",
       "ccb": "CCB-25-027-WDB",
       "description": "CCB-25-027-WDB\nCycle Time Improvement",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -10290,14 +10290,14 @@
       "priority": "High",
       "pic": "Senneth",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-09-14",
+      "created_date": "2026-01-12",
       "closed_date": ""
     },
     {
       "id": 215,
       "machine_type": "WDB",
-      "machine": "GT ODM Team",
+      "machine": "Ur5e Robot firmware above 5.22.0",
       "ccb": "",
       "description": "Machine need to perform double inittialize after mahcine power on",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10306,14 +10306,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-07-24",
+      "created_date": "23/6/2026",
       "closed_date": ""
     },
     {
       "id": 197,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error 2600: Vision result fail",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -10322,14 +10322,14 @@
       "priority": "High",
       "pic": "Annas",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-08-21",
+      "created_date": "2026-02-03",
       "closed_date": ""
     },
     {
       "id": 187,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-034-WDB",
       "description": "CCB-25-034-WDB\nUse DLCH Fiducials when LC fiducials are not visible for recovery. (New Request)",
       "status": "Duplicated",
@@ -10338,14 +10338,14 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "",
-      "created_date": "WDB CCB",
-      "closed_date": ""
+      "due_date": "Duplicated",
+      "created_date": "",
+      "closed_date": "Unknown"
     },
     {
       "id": 188,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "CCB-25-033-WDB",
       "description": "CCB-25-033-WDB\nLC notch (cutouts) mask for mapping.  (New Request)",
       "status": "Testing  / Monitoring by TFS",
@@ -10354,14 +10354,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-07-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 201,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "ERROR CODE: 303\nPUSHER PIN DOWN TIMEOUT",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -10370,14 +10370,14 @@
       "priority": "High",
       "pic": "Annas",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-08-21",
+      "created_date": "2026-09-03",
       "closed_date": ""
     },
     {
       "id": 190,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "",
       "description": "Modifications to the WDB GIM Calibrations \n(New Request)",
       "status": "Bundled",
@@ -10386,14 +10386,14 @@
       "priority": "Medium",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "HBO Qualification Test",
-      "closed_date": ""
+      "due_date": "2026-10-02",
+      "created_date": "2026-02-10",
+      "closed_date": "Unknown"
     },
     {
       "id": 202,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "ERROR CODE: 2626\nSPRING PUSHER AND WINDOW OFFSET OVER LIMIT",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10402,14 +10402,14 @@
       "priority": "High",
       "pic": "Annas",
       "role": "Izzat-Lishi - GT Mech",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-08-06",
+      "created_date": "2026-03-26",
       "closed_date": ""
     },
     {
       "id": 192,
       "machine_type": "WDB",
-      "machine": "Mahmoud - TFS Architect",
+      "machine": "All Machines",
       "ccb": "CCB-25-029-WDB",
       "description": "CCB-25-029-WDB\nError Recovery: Initialization  optimization.",
       "status": "Bundled",
@@ -10418,14 +10418,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "Customer Qualification Test",
-      "closed_date": ""
+      "due_date": "2026-08-28",
+      "created_date": "2026-02-11",
+      "closed_date": "Unknown"
     },
     {
       "id": 193,
       "machine_type": "WDB",
-      "machine": "Mahmoud - TFS Architect",
+      "machine": "All Machines",
       "ccb": "CCB-25-030-WDB",
       "description": "CCB-25-030-WDB\nError Recovery: Categorizing issues",
       "status": "Bundled",
@@ -10434,14 +10434,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "Customer Qualification Test",
-      "closed_date": ""
+      "due_date": "2026-08-28",
+      "created_date": "2026-02-11",
+      "closed_date": "Unknown"
     },
     {
       "id": 194,
       "machine_type": "WDB",
-      "machine": "Mahmoud - TFS Architect",
+      "machine": "All Machines",
       "ccb": "CCB-25-031-WDB",
       "description": "CCB-25-031-WDB\nError Recovery: auto recovery",
       "status": "Bundled",
@@ -10450,14 +10450,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "Customer Qualification Test",
-      "closed_date": ""
+      "due_date": "2026-08-28",
+      "created_date": "2026-02-11",
+      "closed_date": "Unknown"
     },
     {
       "id": 195,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error 2625: LC and Pipette Over Pick Cartridge Offset Limit",
       "status": "Rollout",
@@ -10466,14 +10466,14 @@
       "priority": "High",
       "pic": "Vincy Chong Chee Yee",
       "role": "GT PM",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
-      "closed_date": ""
+      "due_date": "2026-08-21",
+      "created_date": "2026-02-06",
+      "closed_date": "Unknown"
     },
     {
       "id": 196,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error:2641 LC Placement offset at dlch overlimit",
       "status": "Rollout",
@@ -10482,14 +10482,14 @@
       "priority": "High",
       "pic": "Vincy Chong Chee Yee",
       "role": "GT PM",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
-      "closed_date": ""
+      "due_date": "2026-08-21",
+      "created_date": "2026-01-05",
+      "closed_date": "Unknown"
     },
     {
       "id": 204,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error 120: ROBOT PROCESS TIMEOUT+[@[Issue Title]]",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10498,14 +10498,14 @@
       "priority": "High",
       "pic": "Annas",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-08-07",
+      "created_date": "2026-04-12",
       "closed_date": ""
     },
     {
       "id": 198,
       "machine_type": "WDB",
-      "machine": "J. LaRue",
+      "machine": "All Machines",
       "ccb": "",
       "description": "Failed calibrations persist error message",
       "status": "Bundled",
@@ -10514,14 +10514,14 @@
       "priority": "Medium",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "HBO Qualification Test",
-      "closed_date": ""
+      "due_date": "2026-10-02",
+      "created_date": "2026-02-20",
+      "closed_date": "Unknown"
     },
     {
       "id": 199,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All machines",
       "ccb": "",
       "description": "Change IPC password",
       "status": "Assignment by TFS",
@@ -10530,14 +10530,14 @@
       "priority": "Low",
       "pic": "Mahmoud Abdelhady",
       "role": "TFS Architect",
-      "due_date": "",
-      "created_date": "HBO Qualification Test",
+      "due_date": "2026-08-14",
+      "created_date": "2026-02-27",
       "closed_date": ""
     },
     {
       "id": 200,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error 3006: Top vision result not received",
       "status": "Bundled",
@@ -10546,14 +10546,14 @@
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
-      "closed_date": ""
+      "due_date": "2026-07-31",
+      "created_date": "2026-03-03",
+      "closed_date": "Unknown"
     },
     {
       "id": 205,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "ERROR CODE: 195\nCARTRIDGE HEIGHT CHECK FAIL",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10562,14 +10562,14 @@
       "priority": "High",
       "pic": "Annas",
       "role": "Izzat-Lishi - GT Mech",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-08-25",
+      "created_date": "2026-04-15",
       "closed_date": ""
     },
     {
       "id": 54,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Loosen LC to Pipette Tolerance, X: 50µm, Y: 50µm, θ: 5° at when PNP at DLCH, FLCC & LCC (Additional new request)",
       "status": "CA & PA Evidence Acceptance by TFS",
@@ -10578,14 +10578,14 @@
       "priority": "Medium",
       "pic": "Yee Man Chun",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-07-24",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 203,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error 3005: Top vision no  result",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -10594,8 +10594,8 @@
       "priority": "High",
       "pic": "Mahmoud Abdelhady",
       "role": "TFS Architect",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-08-21",
+      "created_date": "2026-04-01",
       "closed_date": ""
     },
     {
@@ -10610,8 +10610,8 @@
       "priority": "High",
       "pic": "Wong Yoong Wei",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-12",
+      "created_date": "2026-06-04",
       "closed_date": ""
     },
     {
@@ -10626,14 +10626,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-09-08",
+      "created_date": "2026-06-15",
       "closed_date": ""
     },
     {
       "id": 206,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "WDB Alpha",
       "ccb": "",
       "description": "Storage disk full",
       "status": "Bundled",
@@ -10642,14 +10642,14 @@
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
-      "closed_date": ""
+      "due_date": "2026-08-14",
+      "created_date": "2026-04-29",
+      "closed_date": "Unknown"
     },
     {
       "id": 207,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All machines",
       "ccb": "",
       "description": "LC Postion offset readout",
       "status": "Testing  / Monitoring by TFS",
@@ -10658,14 +10658,14 @@
       "priority": "Medium",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "HBO Qualification Test",
+      "due_date": "2026-07-10",
+      "created_date": "2026-05-04",
       "closed_date": ""
     },
     {
       "id": 208,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "Alpha",
       "ccb": "",
       "description": "ECS TIMEOUT",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10674,14 +10674,14 @@
       "priority": "High",
       "pic": "Annas",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-07-27",
+      "created_date": "2026-05-13",
       "closed_date": ""
     },
     {
       "id": 209,
       "machine_type": "WDB",
-      "machine": "GT WDB reliability team",
+      "machine": "Alpha",
       "ccb": "",
       "description": "ERROR CODE 107: LCC PRESENT\nERROR CODE 108: LCC ABSENT",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10690,14 +10690,14 @@
       "priority": "High",
       "pic": "Mahmoud Abdelhady",
       "role": "TFS Architect",
-      "due_date": "",
-      "created_date": "Reliablity Test GT",
+      "due_date": "2026-07-28",
+      "created_date": "2026-04-29",
       "closed_date": ""
     },
     {
       "id": 210,
       "machine_type": "WDB",
-      "machine": "TFS",
+      "machine": "MW12",
       "ccb": "",
       "description": "Main Power Switch Failure",
       "status": "Closed",
@@ -10706,14 +10706,14 @@
       "priority": "High",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
-      "closed_date": ""
+      "due_date": "Closed",
+      "created_date": "2026-05-21",
+      "closed_date": "Unknown"
     },
     {
       "id": 211,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "MW10",
       "ccb": "",
       "description": "",
       "status": "Closed",
@@ -10722,14 +10722,14 @@
       "priority": "Low",
       "pic": "Jason Larue",
       "role": "TFS",
-      "due_date": "",
+      "due_date": "Closed",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 214,
       "machine_type": "WDB",
-      "machine": "TFS",
+      "machine": "MW10",
       "ccb": "",
       "description": "Mirror spacing causing DLCH Fid_new recipe failures",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10738,14 +10738,14 @@
       "priority": "High",
       "pic": "Akmal",
       "role": "GT Process",
-      "due_date": "",
-      "created_date": "HBO SAT",
+      "due_date": "2026-10-12",
+      "created_date": "2026-06-10",
       "closed_date": ""
     },
     {
       "id": 216,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "New UI",
       "ccb": "",
       "description": "ECR#17 UI Improvements (new UI)",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -10754,7 +10754,7 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
+      "due_date": "2026-08-31",
       "created_date": "",
       "closed_date": ""
     },
@@ -10770,7 +10770,7 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
+      "due_date": "2026-09-10",
       "created_date": "",
       "closed_date": ""
     },
@@ -10786,7 +10786,7 @@
       "priority": "High",
       "pic": "SW",
       "role": "GT Mech",
-      "due_date": "",
+      "due_date": "2026-09-08",
       "created_date": "",
       "closed_date": ""
     },
@@ -10802,7 +10802,7 @@
       "priority": "High",
       "pic": "SW",
       "role": "GT Mech",
-      "due_date": "",
+      "due_date": "2026-09-10",
       "created_date": "",
       "closed_date": ""
     },
@@ -10818,14 +10818,14 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
+      "due_date": "TBA",
       "created_date": "",
       "closed_date": ""
     },
     {
       "id": 43,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "CCB-25-019-WDB",
       "description": "GIM teach failing (New request)\nCCB-25-019-WDB\nSTD retest requirement from TFS",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -10834,8 +10834,8 @@
       "priority": "Low",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB CCB",
+      "due_date": "2026-08-10",
+      "created_date": "",
       "closed_date": ""
     },
     {
@@ -10850,14 +10850,14 @@
       "priority": "Low",
       "pic": "SW",
       "role": "GT Mech",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "TBA",
+      "created_date": "2026-07-23",
       "closed_date": ""
     },
     {
       "id": 52,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "Alpha 2",
       "ccb": "",
       "description": "Sequence for teaching pick LC height (New Request)",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
@@ -10866,14 +10866,14 @@
       "priority": "Medium",
       "pic": "CW Tan",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "WDB Master Open Issue",
+      "due_date": "2026-09-28",
+      "created_date": "",
       "closed_date": ""
     },
     {
       "id": 189,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "All Machines",
       "ccb": "",
       "description": "Modify WDB Loadlock Calibration preconditions",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -10882,8 +10882,8 @@
       "priority": "Medium",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
-      "created_date": "HBO Qualification Test",
+      "due_date": "2026-09-04",
+      "created_date": "2026-02-10",
       "closed_date": ""
     },
     {
