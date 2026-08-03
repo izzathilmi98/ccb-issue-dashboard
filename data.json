@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03 10:18:38",
+  "generated": "2026-08-03 11:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10731,7 +10731,7 @@
       "machine_type": "WDB",
       "machine": "WDB",
       "ccb": "CCB-26-035-WDB",
-      "description": "CCB-26-035-WDB Unique System Code",
+      "description": "CCB-26-035-WDB Unique System Code (New Request)",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
       "status_bucket": "Open",
       "is_closed": false,
@@ -10747,7 +10747,7 @@
       "machine_type": "WDB",
       "machine": "WDB",
       "ccb": "CCB-26-036-WDB",
-      "description": "CCB-26-036-WDB E84",
+      "description": "CCB-26-036-WDB E84 (New Request)",
       "status": "CA & PA Definition by Supplier\n(assessment of options)",
       "status_bucket": "Open",
       "is_closed": false,
@@ -10811,7 +10811,7 @@
       "machine_type": "WDB",
       "machine": "WDB",
       "ccb": "",
-      "description": "ECR#18 Turn off LC ID check",
+      "description": "ECR#18 Turn off LC ID check (New Request)",
       "status": "CA & PA Execution & Evidence by Supplier",
       "status_bucket": "Open",
       "is_closed": false,
