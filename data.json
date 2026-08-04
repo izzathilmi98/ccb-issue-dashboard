@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04 14:00:04",
+  "generated": "2026-08-04 15:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13868,12 +13868,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Vision fail - failed to recognise LC in LCC pocket",
-      "status": "CA & PA Evidence Acceptance by TFS",
-      "status_bucket": "Open",
+      "status": "On-hold",
+      "status_bucket": "On-Hold",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-07-10",
       "created_date": "2026-01-07",
       "closed_date": ""
