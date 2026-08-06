@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 13:00:07",
+  "generated": "2026-08-06 14:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10540,15 +10540,15 @@
       "machine": "WDB Alpha",
       "ccb": "",
       "description": "Error 3006: Top vision result not received",
-      "status": "CA & PA Execution & Evidence by Supplier",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Bundled",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "High",
       "pic": "Annas",
       "role": "GT Mech",
       "due_date": "2026-09-11",
       "created_date": "2026-03-03",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 201,
@@ -10608,8 +10608,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Annas",
-      "role": "GT Mech",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "2026-10-08",
       "created_date": "2026-04-12",
       "closed_date": ""
@@ -10780,7 +10780,7 @@
       "machine": "Ur5e Robot firmware above 5.22.0",
       "ccb": "",
       "description": "Machine need to perform double inittialize after mahcine power on",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
@@ -15392,8 +15392,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Jor Yau",
+      "role": "GT Software",
       "due_date": "2026-08-07",
       "created_date": "2026-06-12",
       "closed_date": ""
