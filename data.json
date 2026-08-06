@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 16:00:04",
+  "generated": "2026-08-06 17:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13312,8 +13312,8 @@
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "",
-      "pic": "N/A",
-      "role": "N/A",
+      "pic": "Adam Semancik",
+      "role": "TFS System Design Engineer",
       "due_date": "",
       "created_date": "2025-12-19",
       "closed_date": ""
