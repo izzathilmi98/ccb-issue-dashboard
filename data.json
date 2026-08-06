@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 17:00:04",
+  "generated": "2026-08-06 18:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11468,7 +11468,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "difference between Alpha2 and alpha3 - grounding cables next to SQM",
-      "status": "CA & PA Evidence Acceptance by TFS",
+      "status": "Approved for release",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
