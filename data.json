@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 16:00:03",
+  "generated": "2026-08-07 17:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11020,13 +11020,13 @@
       "machine": "SDB",
       "ccb": "",
       "description": "MSH cables and gripper connector replacement is needed",
-      "status": "Assignment acceptance by supplier",
+      "status": "CA & PA Execution & Evidence by Supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
       "pic": "HT Teoh",
       "role": "GT Mechanical",
-      "due_date": "2026-07-24",
+      "due_date": "2026-08-28",
       "created_date": "",
       "closed_date": ""
     },
@@ -11522,7 +11522,7 @@
       "priority": "Medium",
       "pic": "HT Teoh",
       "role": "GT Mechanical",
-      "due_date": "2026-08-03",
+      "due_date": "TBA",
       "created_date": "",
       "closed_date": ""
     },
@@ -12002,7 +12002,7 @@
       "priority": "",
       "pic": "KY Ooi",
       "role": "GT Software",
-      "due_date": "2026-06-26",
+      "due_date": "TBA",
       "created_date": "",
       "closed_date": ""
     },
@@ -13676,7 +13676,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Error Recovery: Initialization  optimization.  (Improvement)",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
