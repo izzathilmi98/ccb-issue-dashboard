@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 15:00:03",
+  "generated": "2026-08-07 16:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -12732,7 +12732,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Prepare for CCTV need",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
@@ -12812,12 +12812,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Panel modification PIO",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Urgent",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "Adam Semancik",
+      "role": "TFS System Design Engineer",
       "due_date": "2026-07-30",
       "created_date": "",
       "closed_date": ""
@@ -15042,7 +15042,7 @@
       "priority": "Medium",
       "pic": "Merih Buyukseymen",
       "role": "TFS PQA",
-      "due_date": "2026-07-10",
+      "due_date": "2026-08-15",
       "created_date": "2026-05-26",
       "closed_date": ""
     },
@@ -15216,8 +15216,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "SS Lim",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-24",
       "created_date": "2026-06-01",
       "closed_date": ""
