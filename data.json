@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 11:00:03",
+  "generated": "2026-08-07 12:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13872,8 +13872,8 @@
       "status_bucket": "On-Hold",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-07-10",
       "created_date": "2026-01-07",
       "closed_date": ""
@@ -13916,8 +13916,8 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Camera of MSH is not able to connect to the PC after system disconnected from the power supply",
-      "status": "CA & PA Evidence Acceptance by TFS",
-      "status_bucket": "Open",
+      "status": "Monitoring solution",
+      "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "High",
       "pic": "Vincy",
@@ -14316,7 +14316,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "LL calibration (all calibrations) - saving parameters upon failure",
-      "status": "Assignment by TFS",
+      "status": "CA & PA Execution & Evidence by Supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
