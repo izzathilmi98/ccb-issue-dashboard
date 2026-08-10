@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10 13:00:03",
+  "generated": "2026-08-10 14:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15392,8 +15392,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Jor Yau",
+      "role": "GT Software",
       "due_date": "2026-08-14",
       "created_date": "2026-06-12",
       "closed_date": ""
