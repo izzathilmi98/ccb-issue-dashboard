@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11 10:00:03",
+  "generated": "2026-08-11 11:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13900,12 +13900,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "LC placement offset at DLCH over limit",
-      "status": "Testing by TFS",
+      "status": "Monitoring solution",
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "High",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-07-29",
       "created_date": "2026-01-22",
       "closed_date": ""
