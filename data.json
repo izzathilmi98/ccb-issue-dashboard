@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11 17:00:03",
+  "generated": "2026-08-11 18:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15388,12 +15388,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Pocket and Pipette offset Overlimit",
-      "status": "CA & PA Acceptance by TFS\n(assessment of options)",
+      "status": "Approved for release",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Jor Yau",
-      "role": "GT Software",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-08-14",
       "created_date": "2026-06-12",
       "closed_date": ""
