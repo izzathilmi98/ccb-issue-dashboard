@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12 09:00:04",
+  "generated": "2026-08-12 10:00:43",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10848,8 +10848,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "SW",
-      "role": "GT Mech",
+      "pic": "Hui Xin",
+      "role": "GT Vision",
       "due_date": "2026-09-10",
       "created_date": "",
       "closed_date": ""
