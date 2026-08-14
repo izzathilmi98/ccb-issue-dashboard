@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14 09:00:04",
+  "generated": "2026-08-14 10:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10919,6 +10919,22 @@
       "closed_date": ""
     },
     {
+      "id": 224,
+      "machine_type": "WDB",
+      "machine": "WDB",
+      "ccb": "CCB-26-037-WDB",
+      "description": "CCB-26-037-WDB DLCH Variation In Same System",
+      "status": "Assignment acceptance by supplier",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "Nadzmi",
+      "role": "GT Vision",
+      "due_date": "",
+      "created_date": "",
+      "closed_date": ""
+    },
+    {
       "id": 1,
       "machine_type": "SDB",
       "machine": "SDB",
@@ -15040,8 +15056,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "SR Lim",
+      "role": "GT PQE",
       "due_date": "2026-08-15",
       "created_date": "2026-05-26",
       "closed_date": ""
