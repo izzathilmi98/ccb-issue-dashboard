@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17 14:00:03",
+  "generated": "2026-08-17 15:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11024,8 +11024,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Lucas",
+      "role": "GT Mechanical",
       "due_date": "2026-06-19",
       "created_date": "",
       "closed_date": ""
@@ -11116,9 +11116,9 @@
       "machine": "SDB",
       "ccb": "",
       "description": "first cycles test try failed in the first cycle - SLM wasnt able to sense inserted stub",
-      "status": "Rollout",
-      "status_bucket": "Closed",
-      "is_closed": true,
+      "status": "Testing by TFS",
+      "status_bucket": "Monitoring",
+      "is_closed": false,
       "priority": "Medium",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
