@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 12:00:03",
+  "generated": "2026-08-18 13:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15596,12 +15596,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Unable to INIT after stoping the GVS and checking the recepie.",
-      "status": "Assignment by TFS",
+      "status": "Assignment acceptance by supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "YX Tan",
+      "role": "GT Vision",
       "due_date": "",
       "created_date": "2026-08-05",
       "closed_date": ""
