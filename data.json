@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 16:00:03",
+  "generated": "2026-08-18 17:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15516,12 +15516,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "16/100 pockets issue possible solution for FM FLCC",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
-      "status_bucket": "Open",
+      "status": "Testing by TFS",
+      "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Jor Yau",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-13",
       "created_date": "2026-07-20",
       "closed_date": ""
