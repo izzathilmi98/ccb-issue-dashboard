@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20 08:54:38",
+  "generated": "2026-08-20 09:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11936,8 +11936,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Nadzmi",
-      "role": "GT Vision",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "2026-08-18",
       "created_date": "",
       "closed_date": ""
@@ -15664,8 +15664,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "",
       "created_date": "2026-08-18",
       "closed_date": ""
