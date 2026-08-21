@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21 08:37:45",
+  "generated": "2026-08-21 09:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11840,8 +11840,8 @@
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "High",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-10",
       "created_date": "",
       "closed_date": ""
@@ -12480,8 +12480,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-07-20",
       "created_date": "",
       "closed_date": ""
@@ -12720,8 +12720,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Urgent",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-28",
       "created_date": "",
       "closed_date": ""
@@ -12736,8 +12736,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Urgent",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-13",
       "created_date": "",
       "closed_date": ""
@@ -13280,8 +13280,8 @@
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "Medium",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-05-21",
       "created_date": "2025-12-10",
       "closed_date": ""
@@ -13696,8 +13696,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-07-30",
       "created_date": "2025-12-19",
       "closed_date": ""
@@ -14688,8 +14688,8 @@
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-07-29",
       "created_date": "2026-04-02",
       "closed_date": ""
@@ -15668,6 +15668,22 @@
       "role": "TFS Architect",
       "due_date": "",
       "created_date": "2026-08-18",
+      "closed_date": ""
+    },
+    {
+      "id": 298,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "LCC Mapping cannot recognise LCs which are fliped (LC ID on the bottom)",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
+      "due_date": "",
+      "created_date": "2026-08-20",
       "closed_date": ""
     }
   ]
