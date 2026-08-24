@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24 22:39:19",
+  "generated": "2026-08-24 23:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10924,15 +10924,15 @@
       "machine": "WDB",
       "ccb": "CCB-26-037-WDB",
       "description": "CCB-26-037-WDB DLCH Variation In Same System",
-      "status": "Assignment acceptance by supplier",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "Medium",
-      "pic": "Nadzmi",
-      "role": "GT Vision",
+      "pic": "Merih Buyukseymen",
+      "role": "TFS PQA",
       "due_date": "2026-08-28",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 1,
