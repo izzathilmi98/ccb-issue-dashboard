@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26 16:00:03",
+  "generated": "2026-08-26 17:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15212,7 +15212,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "LC place to DLCH - rotation check fail",
-      "status": "Approved for release",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
@@ -15515,7 +15515,7 @@
       "machine_type": "SDB",
       "machine": "SDB",
       "ccb": "",
-      "description": "9f",
+      "description": "16/100 pockets issue possible solution for FM FLCC",
       "status": "Testing by TFS",
       "status_bucket": "Monitoring",
       "is_closed": false,
