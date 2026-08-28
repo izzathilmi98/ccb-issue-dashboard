@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28 16:00:03",
+  "generated": "2026-08-28 17:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15778,6 +15778,22 @@
       "priority": "",
       "pic": "Jor Yau",
       "role": "GT Software",
+      "due_date": "",
+      "created_date": "2026-08-28",
+      "closed_date": ""
+    },
+    {
+      "id": 305,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "MSH Camera connection issue",
+      "status": "CA & PA Definition by Supplier\n(assessment of options)",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "Nadzmi",
+      "role": "GT Vision",
       "due_date": "",
       "created_date": "2026-08-28",
       "closed_date": ""
