@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04 14:00:03",
+  "generated": "2026-09-04 15:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11052,12 +11052,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "MSH cables and gripper connector replacement is needed",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-28",
       "created_date": "",
       "closed_date": ""
@@ -15376,7 +15376,7 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "SS Lim",
+      "pic": "JY Chan",
       "role": "GT Software",
       "due_date": "2026-09-09",
       "created_date": "2026-06-09",
