@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 17:00:03",
+  "generated": "2026-09-08 20:22:25",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10780,13 +10780,13 @@
       "machine": "Ur5e Robot firmware above 5.22.0",
       "ccb": "",
       "description": "Machine need to perform double inittialize after mahcine power on",
-      "status": "Approved for release",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "CY Tang",
-      "role": "GT SW",
-      "due_date": "2026-07-24",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
+      "due_date": "2026-09-30",
       "created_date": "23/6/2026",
       "closed_date": ""
     },
@@ -10914,7 +10914,7 @@
       "priority": "Medium",
       "pic": "SW",
       "role": "GT Mech",
-      "due_date": "2027-03-12",
+      "due_date": "On hold",
       "created_date": "",
       "closed_date": ""
     },
@@ -10946,7 +10946,7 @@
       "priority": "High",
       "pic": "CY Tang",
       "role": "GT SW",
-      "due_date": "",
+      "due_date": "2026-10-22",
       "created_date": "",
       "closed_date": ""
     },
@@ -12416,8 +12416,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Critical",
-      "pic": "Merih Buyukseymen",
-      "role": "TFS PQA",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-08-30",
       "created_date": "",
       "closed_date": ""
