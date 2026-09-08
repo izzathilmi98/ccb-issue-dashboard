@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 14:00:03",
+  "generated": "2026-09-08 15:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8188,15 +8188,15 @@
       "machine": "BETA 3",
       "ccb": "",
       "description": "CLM Y Axis Hit Reverse Limit",
-      "status": "CA & PA Acceptance by TFS\n(assessment of options)",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "High",
       "pic": "Vincy Chong Chee Yee",
       "role": "GT PM",
       "due_date": "2026-07-24",
       "created_date": "2025-02-21",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 54,
@@ -8210,7 +8210,7 @@
       "priority": "Medium",
       "pic": "SW",
       "role": "GT Mech",
-      "due_date": "2026-08-28",
+      "due_date": "2026-09-30",
       "created_date": "",
       "closed_date": ""
     },
@@ -8306,7 +8306,7 @@
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "2026-08-18",
+      "due_date": "2026-10-07",
       "created_date": "",
       "closed_date": ""
     },
@@ -8336,8 +8336,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Vincy Chong Chee Yee",
-      "role": "GT PM",
+      "pic": "Jason Larue",
+      "role": "TFS",
       "due_date": "2026-08-14",
       "created_date": "",
       "closed_date": ""
@@ -8386,7 +8386,7 @@
       "priority": "High",
       "pic": "Senneth",
       "role": "GT SW",
-      "due_date": "2026-09-03",
+      "due_date": "2026-11-24",
       "created_date": "",
       "closed_date": ""
     },
@@ -10825,7 +10825,7 @@
     {
       "id": 218,
       "machine_type": "WDB",
-      "machine": "WDB",
+      "machine": "New Request",
       "ccb": "",
       "description": "ECR#19 Future: Panel modification PIO",
       "status": "CA & PA Execution & Evidence by Supplier",
@@ -10835,7 +10835,7 @@
       "pic": "SW",
       "role": "GT Mech",
       "due_date": "2026-09-08",
-      "created_date": "",
+      "created_date": "2026-06-15",
       "closed_date": ""
     },
     {
