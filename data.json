@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 13:00:03",
+  "generated": "2026-09-08 14:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8032,9 +8032,9 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "CY Tang",
+      "pic": "Senneth",
       "role": "GT SW",
-      "due_date": "2026-08-21",
+      "due_date": "2026-12-30",
       "created_date": "",
       "closed_date": ""
     },
