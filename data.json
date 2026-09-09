@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 17:00:03",
+  "generated": "2026-09-09 18:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15372,12 +15372,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Incorrect error message: Undefined Error for Error code 206 Station Mainseq",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "JY Chan",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-09-09",
       "created_date": "2026-06-09",
       "closed_date": ""
@@ -15388,12 +15388,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Incorrect error message: Interlock T axis Minimum SW limit",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Jor Yau",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-09-09",
       "created_date": "2026-06-09",
       "closed_date": ""
