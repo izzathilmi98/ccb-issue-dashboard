@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 16:00:03",
+  "generated": "2026-09-09 17:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -12043,8 +12043,8 @@
       "machine_type": "SDB",
       "machine": "SDB",
       "ccb": "",
-      "description": "**",
-      "status": "Rollout",
+      "description": "Cooling solution improvement in PC cabinet",
+      "status": "Closed",
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "Medium",
@@ -13088,8 +13088,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "N/A",
-      "role": "N/A",
+      "pic": "JY Chan",
+      "role": "GT Software",
       "due_date": "2026-08-24",
       "created_date": "",
       "closed_date": ""
@@ -14560,8 +14560,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Lucas",
-      "role": "GT Mechanical",
+      "pic": "JF Tsong",
+      "role": "GT Electrical",
       "due_date": "2026-08-29",
       "created_date": "2026-03-23",
       "closed_date": ""
