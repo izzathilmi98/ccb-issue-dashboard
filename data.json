@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 14:00:03",
+  "generated": "2026-09-09 15:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -12508,12 +12508,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Clamp As Fiducial Angle Limit",
-      "status": "CA & PA Definition by Supplier\n(assessment of options)",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Nadzmi",
-      "role": "GT Vision",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-26",
       "created_date": "",
       "closed_date": ""
