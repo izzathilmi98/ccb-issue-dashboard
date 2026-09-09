@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 19:00:04",
+  "generated": "2026-09-09 20:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -12768,8 +12768,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "2026-07-31",
       "created_date": "",
       "closed_date": ""
@@ -15676,12 +15676,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Slot maping, MaterialSetting.Config file transfer cross all tools does not work",
-      "status": "Testing by TFS",
-      "status_bucket": "Monitoring",
+      "status": "RCA by supplier",
+      "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Nadzmi",
+      "role": "GT Vision",
       "due_date": "",
       "created_date": "2026-08-18",
       "closed_date": ""
