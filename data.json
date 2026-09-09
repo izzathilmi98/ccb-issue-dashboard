@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 20:00:03",
+  "generated": "2026-09-09 21:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10620,15 +10620,15 @@
       "machine": "WDB Alpha",
       "ccb": "",
       "description": "ERROR CODE: 195\nCARTRIDGE HEIGHT CHECK FAIL",
-      "status": "CA & PA Evidence Acceptance by TFS",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Rollout",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Vincy Chong Chee Yee",
+      "role": "GT PM",
       "due_date": "2026-08-25",
       "created_date": "2026-04-15",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 206,
@@ -10988,15 +10988,15 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Packaging  is too big 2,52x2,17x2,36 m",
-      "status": "Testing by TFS",
-      "status_bucket": "Monitoring",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "Urgent",
-      "pic": "David Tlustos",
-      "role": "TFS OE",
+      "pic": "N/A",
+      "role": "N/A",
       "due_date": "2026-03-06",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "2025-12-12"
     },
     {
       "id": 4,
