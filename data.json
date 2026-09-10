@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10 16:00:04",
+  "generated": "2026-09-10 17:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -9260,12 +9260,12 @@
       "machine": "All Machines",
       "ccb": "CCB-25-006-WDB",
       "description": "CCB-25-006-WDB\nTop Vision Implementation",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Ang Jia Ze",
-      "role": "GT Mech",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "2026-11-13",
       "created_date": "",
       "closed_date": ""
@@ -10316,12 +10316,12 @@
       "machine": "MW7",
       "ccb": "CCB-25-032-WDB",
       "description": "CCB-25-032-WDB\nCartridge interface damage",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "SW",
-      "role": "GT Mech",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "2026-10-20",
       "created_date": "2026-01-19",
       "closed_date": ""
