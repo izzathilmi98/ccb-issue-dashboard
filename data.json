@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11 15:00:05",
+  "generated": "2026-09-11 16:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10976,8 +10976,8 @@
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "High",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-08-07",
       "created_date": "",
       "closed_date": ""
@@ -11152,8 +11152,8 @@
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-05-22",
       "created_date": "",
       "closed_date": ""
@@ -11632,8 +11632,8 @@
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Roland Heuvelmans",
-      "role": "TFS PM",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-03-06",
       "created_date": "",
       "closed_date": ""
