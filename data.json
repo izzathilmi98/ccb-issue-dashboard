@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 02:02:18",
+  "generated": "2026-09-14 06:01:37",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11760,8 +11760,8 @@
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "High",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Zakwan",
+      "role": "GT Vision",
       "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
@@ -12032,8 +12032,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "TBA",
       "created_date": "",
       "closed_date": ""
@@ -12188,15 +12188,15 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Init after PC restart issue",
-      "status": "Monitoring solution",
-      "status_bucket": "Monitoring",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "N/A",
+      "role": "N/A",
       "due_date": "2026-03-06",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "2026-03-12"
     },
     {
       "id": 79,
@@ -15858,6 +15858,22 @@
       "priority": "",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
+      "due_date": "",
+      "created_date": "2026-09-13",
+      "closed_date": ""
+    },
+    {
+      "id": 309,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "Material setting (slot mapping positions) does't work",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "Mahmoud Abdelhady",
+      "role": "TFS Architect",
       "due_date": "",
       "created_date": "2026-09-13",
       "closed_date": ""
