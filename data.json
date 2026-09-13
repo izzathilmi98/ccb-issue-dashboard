@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13 23:00:05",
+  "generated": "2026-09-14 00:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11212,12 +11212,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Production shuttle interface with gripper wearing MSH",
-      "status": "Rollout",
+      "status": "Closed",
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "N/A",
+      "role": "N/A",
       "due_date": "2026-06-12",
       "created_date": "",
       "closed_date": ""
@@ -11244,15 +11244,15 @@
       "machine": "SDB",
       "ccb": "",
       "description": "load cell alignment was needed - force above limit ... adding more details",
-      "status": "Monitoring solution",
-      "status_bucket": "Monitoring",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "N/A",
+      "role": "N/A",
       "due_date": "2026-05-01",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "2026-04-29"
     },
     {
       "id": 20,
