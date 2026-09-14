@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 18:00:05",
+  "generated": "2026-09-14 21:50:36",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10732,12 +10732,12 @@
       "machine": "WDB",
       "ccb": "CCB-26-035-WDB",
       "description": "CCB-26-035-WDB Unique System Code (New Request)",
-      "status": "CA & PA Evidence Acceptance by TFS",
+      "status": "CA & PA Execution & Evidence by Supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Nadzmi",
+      "role": "GT Vision",
       "due_date": "2026-10-15",
       "created_date": "2026-06-04",
       "closed_date": ""
@@ -10992,8 +10992,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Lucas",
+      "role": "GT Mechanical",
       "due_date": "2026-08-07",
       "created_date": "",
       "closed_date": ""
@@ -11168,8 +11168,8 @@
       "status_bucket": "Monitoring",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-05-22",
       "created_date": "",
       "closed_date": ""
@@ -15628,12 +15628,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Unable to INIT after stoping the GVS and checking the recepie.",
-      "status": "Testing by TFS",
-      "status_bucket": "Monitoring",
+      "status": "RCA by supplier",
+      "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Nadzmi",
+      "role": "GT Vision",
       "due_date": "",
       "created_date": "2026-08-05",
       "closed_date": ""
@@ -15892,6 +15892,22 @@
       "role": "TFS Architect",
       "due_date": "",
       "created_date": "2026-09-13",
+      "closed_date": ""
+    },
+    {
+      "id": 310,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "Robot not ready",
+      "status": "",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
+      "due_date": "",
+      "created_date": "2026-09-14",
       "closed_date": ""
     }
   ]
