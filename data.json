@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 12:00:05",
+  "generated": "2026-09-14 13:00:06",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10947,6 +10947,22 @@
       "pic": "CY Tang",
       "role": "GT SW",
       "due_date": "2026-10-22",
+      "created_date": "",
+      "closed_date": ""
+    },
+    {
+      "id": 226,
+      "machine_type": "WDB",
+      "machine": "WDB",
+      "ccb": "",
+      "description": "Reset cycle time",
+      "status": "CA & PA Execution & Evidence by Supplier",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "CY Tang",
+      "role": "GT SW",
+      "due_date": "",
       "created_date": "",
       "closed_date": ""
     },
