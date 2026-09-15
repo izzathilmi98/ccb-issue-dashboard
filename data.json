@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15 11:00:05",
+  "generated": "2026-09-15 12:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -10962,6 +10962,22 @@
       "priority": "",
       "pic": "CY Tang",
       "role": "GT SW",
+      "due_date": "",
+      "created_date": "",
+      "closed_date": ""
+    },
+    {
+      "id": 227,
+      "machine_type": "WDB",
+      "machine": "WDB",
+      "ccb": "",
+      "description": "NRE : WDB Dummy load lock redesign",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "Michael Thompson",
+      "role": "TFS",
       "due_date": "",
       "created_date": "",
       "closed_date": ""
