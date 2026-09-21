@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21 21:00:04",
+  "generated": "2026-09-21 22:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16060,12 +16060,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "E84 handoff - TP3 sensor logic",
-      "status": "Logging",
-      "status_bucket": "TBA",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "",
       "created_date": "2026-09-17",
       "closed_date": ""
@@ -16196,6 +16196,22 @@
       "role": "TFS System Design Engineer",
       "due_date": "",
       "created_date": "2026-09-20",
+      "closed_date": ""
+    },
+    {
+      "id": 328,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "LC pick from FLCC - vision error",
+      "status": "Logging",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "",
+      "pic": "Adam Semancik",
+      "role": "TFS System Design Engineer",
+      "due_date": "",
+      "created_date": "",
       "closed_date": ""
     }
   ]
