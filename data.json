@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23 09:00:04",
+  "generated": "2026-09-23 10:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16112,8 +16112,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "Jor Yau",
+      "role": "GT Software",
       "due_date": "",
       "created_date": "2026-09-20",
       "closed_date": ""
@@ -16128,8 +16128,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "Lucas",
+      "role": "GT Mechanical",
       "due_date": "",
       "created_date": "2026-09-20",
       "closed_date": ""
@@ -16144,8 +16144,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Vincy",
-      "role": "GT PM",
+      "pic": "Lucas",
+      "role": "GT Mechanical",
       "due_date": "",
       "created_date": "2026-09-20",
       "closed_date": ""
@@ -16160,8 +16160,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "LL Kok",
-      "role": "GT Mechanical",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "",
       "created_date": "2026-09-20",
       "closed_date": ""
