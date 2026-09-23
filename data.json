@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23 22:00:03",
+  "generated": "2026-09-23 23:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8304,8 +8304,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Roland Heuvelmans",
+      "role": "TFS PM",
       "due_date": "2026-10-07",
       "created_date": "",
       "closed_date": ""
@@ -9264,8 +9264,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Roland Heuvelmans",
+      "role": "TFS PM",
       "due_date": "2026-11-13",
       "created_date": "",
       "closed_date": ""
@@ -10288,8 +10288,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Michael Thompson",
+      "role": "TFS",
       "due_date": "2026-10-21",
       "created_date": "",
       "closed_date": ""
@@ -10320,8 +10320,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Michael Thompson",
+      "role": "TFS",
       "due_date": "2026-10-20",
       "created_date": "2026-01-19",
       "closed_date": ""
@@ -10592,8 +10592,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Vincy Chong Chee Yee",
+      "role": "GT PM",
       "due_date": "2026-09-30",
       "created_date": "2026-04-01",
       "closed_date": ""
@@ -10736,8 +10736,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Michael Thompson",
+      "role": "TFS",
       "due_date": "2026-10-15",
       "created_date": "2026-06-04",
       "closed_date": ""
@@ -10784,8 +10784,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Michael Thompson",
+      "role": "TFS",
       "due_date": "2026-09-30",
       "created_date": "23/6/2026",
       "closed_date": ""
@@ -10832,8 +10832,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Michael Thompson",
+      "role": "TFS",
       "due_date": "2026-09-22",
       "created_date": "2026-06-15",
       "closed_date": ""
@@ -15584,8 +15584,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Roland Heuvelmans",
+      "role": "TFS PM",
       "due_date": "TBA",
       "created_date": "2026-07-23",
       "closed_date": ""
@@ -15728,8 +15728,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-10-02",
       "created_date": "2026-08-20",
       "closed_date": ""
