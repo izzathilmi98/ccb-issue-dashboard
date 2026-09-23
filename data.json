@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23 20:10:52",
+  "generated": "2026-09-23 21:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15184,8 +15184,8 @@
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "Critical",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-08-14",
       "created_date": "2026-06-01",
       "closed_date": ""
@@ -16236,6 +16236,38 @@
       "machine": "SDB",
       "ccb": "",
       "description": "FLCC load - HF/FM FLCC detection error",
+      "status": "Logging",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
+      "due_date": "",
+      "created_date": "2026-09-23",
+      "closed_date": ""
+    },
+    {
+      "id": 331,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "Pick rotated LC from DLCH slot 1 and 2",
+      "status": "Logging",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
+      "due_date": "",
+      "created_date": "2026-09-23",
+      "closed_date": ""
+    },
+    {
+      "id": 332,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "First init after GPS restart always fails because MSH unable to reconect",
       "status": "Assignment by TFS",
       "status_bucket": "Open",
       "is_closed": false,
@@ -16243,7 +16275,7 @@
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
       "due_date": "",
-      "created_date": "",
+      "created_date": "2026-09-23",
       "closed_date": ""
     }
   ]
