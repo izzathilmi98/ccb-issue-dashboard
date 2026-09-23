@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23 17:38:22",
+  "generated": "2026-09-23 20:10:52",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13584,8 +13584,8 @@
       "status_bucket": "Closed",
       "is_closed": true,
       "priority": "Medium",
-      "pic": "David Pozdisek",
-      "role": "TFS System Engineer",
+      "pic": "Jor Yau",
+      "role": "GT Software",
       "due_date": "2026-07-10",
       "created_date": "2025-12-19",
       "closed_date": ""
@@ -16219,15 +16219,31 @@
       "machine_type": "SDB",
       "machine": "SDB",
       "ccb": "",
-      "description": "LC placement accuracy - X,Y, rotation range - UI configurable in settings (togeather with retry count which is already implemented)",
-      "status": "Logging",
-      "status_bucket": "TBA",
+      "description": "LC placement accuracy - X,Y, angle - UI configurable in settings (togeather with retry count which is already implemented)",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "",
       "created_date": "2026-09-23",
+      "closed_date": ""
+    },
+    {
+      "id": 330,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "FLCC load - HF/FM FLCC detection error",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
+      "due_date": "",
+      "created_date": "",
       "closed_date": ""
     }
   ]
