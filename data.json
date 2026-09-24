@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24 16:00:03",
+  "generated": "2026-09-24 17:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8288,8 +8288,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Vincy Chong Chee Yee",
-      "role": "GT PM",
+      "pic": "Zakwan",
+      "role": "GT Vision",
       "due_date": "2026-07-10",
       "created_date": "",
       "closed_date": ""
@@ -8332,15 +8332,15 @@
       "machine": "MW3",
       "ccb": "CCB-25-003-WDB",
       "description": "CCB-25-003-WDB\nPipette Calibration Error – Over-Force at All Pick Positions​",
-      "status": "CA & PA Evidence Acceptance by TFS",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "High",
-      "pic": "Vincy Chong Chee Yee",
-      "role": "GT PM",
+      "pic": "CY Tang",
+      "role": "GT SW",
       "due_date": "2026-08-14",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 63,
@@ -10592,8 +10592,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Vincy Chong Chee Yee",
-      "role": "GT PM",
+      "pic": "Merih Buyukseymen",
+      "role": "TFS PQA",
       "due_date": "2026-09-30",
       "created_date": "2026-04-01",
       "closed_date": ""
@@ -10672,8 +10672,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Vincy Chong Chee Yee",
-      "role": "GT PM",
+      "pic": "Azreen",
+      "role": "GT Mech",
       "due_date": "2026-09-30",
       "created_date": "2026-05-13",
       "closed_date": ""
@@ -14384,8 +14384,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "WJ Ang",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-10-02",
       "created_date": "2026-02-19",
       "closed_date": ""
