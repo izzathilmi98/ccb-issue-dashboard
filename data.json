@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25 16:00:04",
+  "generated": "2026-09-25 17:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15504,8 +15504,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "LL Kok",
-      "role": "GT Mechanical",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-11-27",
       "created_date": "2026-06-26",
       "closed_date": ""
@@ -16144,8 +16144,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Lucas",
-      "role": "GT Mechanical",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "",
       "created_date": "2026-09-20",
       "closed_date": ""
