@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28 08:00:04",
+  "generated": "2026-09-28 09:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8434,7 +8434,7 @@
       "priority": "Medium",
       "pic": "JW",
       "role": "GT SW",
-      "due_date": "2026-11-13",
+      "due_date": "2026-11-27",
       "created_date": "",
       "closed_date": ""
     },
