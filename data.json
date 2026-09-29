@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29 10:00:04",
+  "generated": "2026-09-29 11:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8514,7 +8514,7 @@
       "priority": "High",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "Not Applicable",
+      "due_date": "Closed",
       "created_date": "9/02/2024 (Done)",
       "closed_date": "Unknown"
     },
@@ -8642,7 +8642,7 @@
       "priority": "Medium",
       "pic": "Mahmoud Abdelhady",
       "role": "TFS Architect",
-      "due_date": "TBA",
+      "due_date": "On-hold",
       "created_date": "",
       "closed_date": ""
     },
@@ -9122,7 +9122,7 @@
       "priority": "Medium",
       "pic": "N/A",
       "role": "N/A",
-      "due_date": "Not Applicable",
+      "due_date": "Closed",
       "created_date": "",
       "closed_date": "Unknown"
     },
@@ -10780,7 +10780,7 @@
       "machine": "Ur5e Robot firmware above 5.22.0",
       "ccb": "",
       "description": "Machine need to perform double inittialize after mahcine power on",
-      "status": "CA & PA Evidence Acceptance by TFS",
+      "status": "Testing  / Monitoring by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
@@ -10914,7 +10914,7 @@
       "priority": "Medium",
       "pic": "SW",
       "role": "GT Mech",
-      "due_date": "On hold",
+      "due_date": "On-hold",
       "created_date": "",
       "closed_date": ""
     },
@@ -10978,7 +10978,7 @@
       "priority": "",
       "pic": "Michael Thompson",
       "role": "TFS",
-      "due_date": "",
+      "due_date": "TBA",
       "created_date": "",
       "closed_date": ""
     },
