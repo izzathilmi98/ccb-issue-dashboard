@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30 22:00:03",
+  "generated": "2026-09-30 23:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8060,15 +8060,15 @@
       "machine": "Alpha 2",
       "ccb": "",
       "description": "Machine status remains in “Running” after an error",
-      "status": "CA & PA Evidence Acceptance by TFS",
-      "status_bucket": "Open",
-      "is_closed": false,
+      "status": "Closed",
+      "status_bucket": "Closed",
+      "is_closed": true,
       "priority": "Medium",
-      "pic": "Jason Larue",
-      "role": "TFS",
+      "pic": "N/A",
+      "role": "N/A",
       "due_date": "2026-07-24",
       "created_date": "",
-      "closed_date": ""
+      "closed_date": "Unknown"
     },
     {
       "id": 46,
@@ -8464,8 +8464,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "High",
-      "pic": "Jason Larue",
-      "role": "TFS",
+      "pic": "Vincy Chong Chee Yee",
+      "role": "GT PM",
       "due_date": "2026-07-10",
       "created_date": "",
       "closed_date": ""
@@ -8496,8 +8496,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Low",
-      "pic": "Jason Larue",
-      "role": "TFS",
+      "pic": "CY Tang",
+      "role": "GT SW",
       "due_date": "2026-07-24",
       "created_date": "2024-03-29",
       "closed_date": ""
