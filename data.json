@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02 15:00:04",
+  "generated": "2026-10-02 16:00:05",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -13660,15 +13660,15 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Data saving period of minimum 30 days",
-      "status": "Closed",
-      "status_bucket": "Closed",
-      "is_closed": true,
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
+      "is_closed": false,
       "priority": "High",
-      "pic": "N/A",
-      "role": "N/A",
+      "pic": "Vincy",
+      "role": "GT PM",
       "due_date": "2026-05-07",
       "created_date": "2025-12-19",
-      "closed_date": "2026-05-07"
+      "closed_date": ""
     },
     {
       "id": 169,
@@ -16034,7 +16034,7 @@
       "priority": "Urgent",
       "pic": "Adam Semancik",
       "role": "TFS System Design Engineer",
-      "due_date": "",
+      "due_date": "2026-10-01",
       "created_date": "2026-09-16",
       "closed_date": ""
     },
@@ -16066,7 +16066,7 @@
       "priority": "Critical",
       "pic": "JF Tsong",
       "role": "GT Electrical",
-      "due_date": "",
+      "due_date": "2026-10-30",
       "created_date": "2026-09-17",
       "closed_date": ""
     },
@@ -16082,7 +16082,7 @@
       "priority": "High",
       "pic": "LL Kok",
       "role": "GT Mechanical",
-      "due_date": "",
+      "due_date": "TBA",
       "created_date": "2026-09-20",
       "closed_date": ""
     },
@@ -16098,7 +16098,7 @@
       "priority": "Medium",
       "pic": "Jor Yau",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-30",
       "created_date": "2026-09-20",
       "closed_date": ""
     },
@@ -16114,7 +16114,7 @@
       "priority": "Medium",
       "pic": "Lucas",
       "role": "GT Mechanical",
-      "due_date": "",
+      "due_date": "2027-02-23",
       "created_date": "2026-09-20",
       "closed_date": ""
     },
@@ -16130,7 +16130,7 @@
       "priority": "Low",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
-      "due_date": "",
+      "due_date": "TBA",
       "created_date": "2026-09-20",
       "closed_date": ""
     },
@@ -16178,7 +16178,7 @@
       "priority": "Medium",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "",
+      "due_date": "2026-10-05",
       "created_date": "2026-09-20",
       "closed_date": ""
     },
@@ -16194,7 +16194,7 @@
       "priority": "High",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "",
+      "due_date": "2026-10-05",
       "created_date": "2026-09-21",
       "closed_date": ""
     },
