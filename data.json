@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02 16:00:05",
+  "generated": "2026-10-02 17:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16236,7 +16236,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Pick rotated LC from DLCH slot 1 and 2",
-      "status": "Assignment by TFS",
+      "status": "Assignment acceptance by supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
@@ -16252,7 +16252,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "First init after GPS restart always fails because MSH unable to reconect",
-      "status": "Assignment by TFS",
+      "status": "Assignment acceptance by supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
@@ -16316,7 +16316,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Slot maping - after rearagement of positions, slot mapping does not show maps correctly.",
-      "status": "Assignment by TFS",
+      "status": "Assignment acceptance by supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Critical",
