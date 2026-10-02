@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02 14:00:04",
+  "generated": "2026-10-02 15:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -12050,7 +12050,7 @@
       "priority": "Medium",
       "pic": "Lucas",
       "role": "GT Mechanical",
-      "due_date": "2026-10-07",
+      "due_date": "2026-10-30",
       "created_date": "",
       "closed_date": ""
     },
@@ -13122,7 +13122,7 @@
       "priority": "Medium",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "TBA",
+      "due_date": "2026-10-30",
       "created_date": "",
       "closed_date": ""
     },
@@ -14466,7 +14466,7 @@
       "priority": "Medium",
       "pic": "Mahmoud Abdelhady",
       "role": "TFS Architect",
-      "due_date": "2026-10-23",
+      "due_date": "2026-01-30",
       "created_date": "2026-02-20",
       "closed_date": ""
     },
@@ -14562,7 +14562,7 @@
       "priority": "Low",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
-      "due_date": "TBA",
+      "due_date": "2026-09-21",
       "created_date": "2026-03-11",
       "closed_date": ""
     },
@@ -15090,7 +15090,7 @@
       "priority": "Medium",
       "pic": "Merih Buyukseymen",
       "role": "TFS PQA",
-      "due_date": "2026-10-08",
+      "due_date": "2026-10-30",
       "created_date": "2026-05-26",
       "closed_date": ""
     },
@@ -15484,7 +15484,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Samsung Request - Keyboard and Mouse Table",
-      "status": "CA & PA Execution & Evidence by Supplier",
+      "status": "Approved for release",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
@@ -15586,7 +15586,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
-      "due_date": "TBA",
+      "due_date": "2026-10-30",
       "created_date": "2026-07-23",
       "closed_date": ""
     },
@@ -15666,7 +15666,7 @@
       "priority": "Low",
       "pic": "JF Tsong",
       "role": "GT Electrical",
-      "due_date": "TBA",
+      "due_date": "2026-10-30",
       "created_date": "2026-08-06",
       "closed_date": ""
     },
@@ -15714,7 +15714,7 @@
       "priority": "",
       "pic": "Nadzmi",
       "role": "GT Vision",
-      "due_date": "2026-10-02",
+      "due_date": "2026-10-16",
       "created_date": "2026-08-20",
       "closed_date": ""
     },
@@ -15906,7 +15906,7 @@
       "priority": "High",
       "pic": "Jor Yau",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-30",
       "created_date": "2026-09-14",
       "closed_date": ""
     },
@@ -15938,7 +15938,7 @@
       "priority": "Medium",
       "pic": "JY Chan",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-30",
       "created_date": "2026-09-15",
       "closed_date": ""
     },
@@ -15970,7 +15970,7 @@
       "priority": "Medium",
       "pic": "JY Chan",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-30",
       "created_date": "2026-09-15",
       "closed_date": ""
     },
@@ -15986,7 +15986,7 @@
       "priority": "Urgent",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
-      "due_date": "",
+      "due_date": "2026-10-30",
       "created_date": "2026-09-16",
       "closed_date": ""
     },
@@ -16018,7 +16018,7 @@
       "priority": "Low",
       "pic": "Lucas",
       "role": "GT Mechanical",
-      "due_date": "",
+      "due_date": "2026-11-13",
       "created_date": "2026-09-16",
       "closed_date": ""
     },
