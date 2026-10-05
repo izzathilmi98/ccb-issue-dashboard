@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05 09:00:04",
+  "generated": "2026-10-05 10:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16204,12 +16204,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "LC placement accuracy - X,Y, angle - UI configurable in settings (togeather with retry count which is already implemented)",
-      "status": "Assignment by TFS",
+      "status": "CA & PA Acceptance by TFS\n(assessment of options)",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Allysha",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "",
       "created_date": "2026-09-23",
       "closed_date": ""
