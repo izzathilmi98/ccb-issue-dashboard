@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05 16:00:04",
+  "generated": "2026-10-05 17:01:53",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16240,7 +16240,7 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "",
-      "pic": "Jor Yau",
+      "pic": "JY Chan",
       "role": "GT Software",
       "due_date": "",
       "created_date": "2026-09-23",
