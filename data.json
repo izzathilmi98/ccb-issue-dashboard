@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06 14:00:04",
+  "generated": "2026-10-06 15:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16092,12 +16092,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "SSM shuttle with 3\" waffer fail",
-      "status": "Assignment acceptance by supplier",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Jor Yau",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "2026-10-30",
       "created_date": "2026-09-20",
       "closed_date": ""
