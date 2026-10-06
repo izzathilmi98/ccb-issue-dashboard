@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06 11:00:04",
+  "generated": "2026-10-06 12:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -11586,7 +11586,7 @@
       "priority": "Medium",
       "pic": "Muaz",
       "role": "GT Mechnical (TEM)",
-      "due_date": "2026-12-04",
+      "due_date": "2026-12-31",
       "created_date": "",
       "closed_date": ""
     },
@@ -15474,7 +15474,7 @@
       "priority": "",
       "pic": "WJ Ang",
       "role": "GT Software",
-      "due_date": "2026-12-18",
+      "due_date": "2026-12-31",
       "created_date": "",
       "closed_date": ""
     },
@@ -16210,7 +16210,7 @@
       "priority": "Medium",
       "pic": "David Pozdisek",
       "role": "TFS System Engineer",
-      "due_date": "2026-10-22",
+      "due_date": "2026-10-26",
       "created_date": "2026-09-23",
       "closed_date": ""
     },
@@ -16242,7 +16242,7 @@
       "priority": "",
       "pic": "JY Chan",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-26",
       "created_date": "2026-09-23",
       "closed_date": ""
     },
@@ -16258,7 +16258,7 @@
       "priority": "Medium",
       "pic": "JY Chan",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-26",
       "created_date": "2026-09-23",
       "closed_date": ""
     },
@@ -16322,7 +16322,7 @@
       "priority": "Critical",
       "pic": "Allysha",
       "role": "GT Software",
-      "due_date": "2026-10-23",
+      "due_date": "2026-10-26",
       "created_date": "2026-09-29",
       "closed_date": ""
     },
@@ -16338,7 +16338,7 @@
       "priority": "High",
       "pic": "WJ Ang",
       "role": "GT Software",
-      "due_date": "",
+      "due_date": "2026-10-28",
       "created_date": "2026-09-29",
       "closed_date": ""
     },
