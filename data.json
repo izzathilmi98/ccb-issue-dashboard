@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07 14:00:04",
+  "generated": "2026-10-07 15:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -15980,7 +15980,7 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Set LIght State respond issue",
-      "status": "CA & PA Evidence Acceptance by TFS",
+      "status": "Approved for release",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Urgent",
@@ -16496,6 +16496,22 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
+      "pic": "Vincy",
+      "role": "GT PM",
+      "due_date": "",
+      "created_date": "2026-10-07",
+      "closed_date": ""
+    },
+    {
+      "id": 348,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "T1000 - Beta 1: Cycle time above 4:53",
+      "status": "Assignment by TFS",
+      "status_bucket": "Open",
+      "is_closed": false,
+      "priority": "Urgent",
       "pic": "Vincy",
       "role": "GT PM",
       "due_date": "",
