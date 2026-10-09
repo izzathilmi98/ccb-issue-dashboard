@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09 16:00:04",
+  "generated": "2026-10-09 17:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16208,8 +16208,8 @@
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Adam Semancik",
-      "role": "TFS System Design Engineer",
+      "pic": "Allysha",
+      "role": "GT Software",
       "due_date": "2026-10-26",
       "created_date": "2026-09-23",
       "closed_date": ""
@@ -16612,6 +16612,22 @@
       "role": "GT PM",
       "due_date": "",
       "created_date": "2026-10-08",
+      "closed_date": ""
+    },
+    {
+      "id": 355,
+      "machine_type": "SDB",
+      "machine": "SDB",
+      "ccb": "",
+      "description": "UR Robot Teach Pendant EOL",
+      "status": "Logging",
+      "status_bucket": "TBA",
+      "is_closed": false,
+      "priority": "Low",
+      "pic": "Lucas",
+      "role": "GT Mechanical",
+      "due_date": "",
+      "created_date": "2026-10-09",
       "closed_date": ""
     }
   ]
