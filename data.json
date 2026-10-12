@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12 11:00:04",
+  "generated": "2026-10-12 12:00:04",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -16588,12 +16588,12 @@
       "machine": "SDB",
       "ccb": "",
       "description": "Tray RFID reading ongoing blocking error",
-      "status": "Assignment by TFS",
+      "status": "CA & PA Evidence Acceptance by TFS",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Critical",
-      "pic": "Arif",
-      "role": "GT Software",
+      "pic": "David Pozdisek",
+      "role": "TFS System Engineer",
       "due_date": "",
       "created_date": "2026-10-08",
       "closed_date": ""
