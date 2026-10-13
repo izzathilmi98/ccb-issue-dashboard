@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13 09:00:04",
+  "generated": "2026-10-13 10:00:03",
   "assumptions": {
     "ww1_2026": "Mon 5 Jan 2026 - confirm with boss",
     "ccb_mcbf_priority": "WDB CCB/MCBF mapped to High - confirm with boss",
@@ -8204,12 +8204,12 @@
       "machine": "Alpha 2",
       "ccb": "",
       "description": "Loosen LC to Pipette Tolerance, X: 50µm, Y: 50µm, θ: 5° at when PNP at DLCH, FLCC & LCC (Additional new request)",
-      "status": "CA & PA Evidence Acceptance by TFS",
+      "status": "CA & PA Execution & Evidence by Supplier",
       "status_bucket": "Open",
       "is_closed": false,
       "priority": "Medium",
-      "pic": "Mahmoud Abdelhady",
-      "role": "TFS Architect",
+      "pic": "SW",
+      "role": "GT Mech",
       "due_date": "2026-12-18",
       "created_date": "",
       "closed_date": ""
